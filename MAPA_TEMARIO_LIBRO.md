@@ -54,6 +54,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - ¿Qué no cubre el seguro obligatorio? — pp.39-40
     - ¿Qué consecuencias tiene no asegurar el vehículo? — p.40
   - Personas responsables — pp.40-41
+- Notas: ✅ listo (`guia/tema02/documentacion.html`). Tablas de permisos (p.29-30) e ITV (p.35-36) transcritas desde la imagen: el texto extraído las mezcla.
 - Relacionado con: ANEXO (permiso por puntos), T15 (ITV y mantenimiento)
 
 ## T3 · Tema 3. El estado del conductor

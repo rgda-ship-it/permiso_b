@@ -21,7 +21,8 @@ for f in sorted(GUIA.glob("tema*/*.html")) + sorted(GUIA.glob("anexo/*.html")):
         i = next(k for k, (c, _) in enumerate(ops) if c)
         pos["abc"[i]] += 1
         largos = [len(re.sub("<[^>]+>", "", t)) for _, t in ops]
-        larga += largos[i] == max(largos)
+        # solo cuenta si es estrictamente la más larga (un empate no delata la respuesta)
+        larga += largos[i] > max(l for k, l in enumerate(largos) if k != i)
     n = len(qs)
     if n and max(pos.values()) > n / 2:
         avisos.append("una letra acumula más de la mitad")

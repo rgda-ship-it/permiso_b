@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T2": "✅ listo (`guia/tema02/documentacion.html`). Tablas de permisos (p.29-30) e ITV (p.35-36) "
+          "transcritas desde la imagen: el texto extraído las mezcla.",
     "T1": "✅ listo (`guia/tema01/definiciones.html`). El libro nombra sin definir el trolebús (p.9) y "
           "la bicicleta de pedales con motor (p.21, 23): marcados ⚠️ en la guía, sin rellenar. "
           "Tabla M/N/O (p.25) y p.23 comprobadas en imagen.",
