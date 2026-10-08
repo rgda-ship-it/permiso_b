@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T17": "✅ listo (`guia/tema17/conduccion-preventiva-y-eficiente.html`). Distintivos (p.463) leídos "
+           "en imagen. Aire acondicionado: 23-24 °C (p.460) frente a 20-23 °C en T14 (p.363): señalado.",
     "T16": "✅ listo (`guia/tema16/accidentes-de-trafico.html`). Tablas p.390, 408, 410, 425 y 427 "
            "leídas en imagen (p.390: «perder el control en una curva» es del estado de la carretera).",
     "T15": "✅ listo (`guia/tema15/mecanica-y-mantenimiento.html`). Tabla p.373 y lista p.380 "

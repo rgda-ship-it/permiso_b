@@ -374,6 +374,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Técnicas para conducir de forma eficiente — pp.452-455
     - ¿Qué hace que se consuma más combustible? — pp.455-463
     - Distintivos ambientales — pp.463-466
+- Notas: ✅ listo (`guia/tema17/conduccion-preventiva-y-eficiente.html`). Distintivos (p.463) leídos en imagen. Aire acondicionado: 23-24 °C (p.460) frente a 20-23 °C en T14 (p.363): señalado.
 - Relacionado con: T10 (distancias), T15 (mantenimiento)
 
 ## ANEXO · Anexo puntos. El permiso de conducir por puntos
