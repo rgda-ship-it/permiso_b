@@ -17,10 +17,10 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T11 | Tema 11. Maniobras | 267-300 | listo | tablas p.270, 277, 292 en imagen |
 | T12 | Tema 12. Normas de preferencia para circular | 301-318 | listo | |
 | T13 | Tema 13. Transportar personas y cargas | 319-340 | listo | tablas p.328, 330 en imagen |
-| T14 | Tema 14. Conducir de forma segura | 341-364 | pendiente | |
+| T14 | Tema 14. Conducir de forma segura | 341-364 | listo | tabla p.345 en imagen |
 | T15 | Tema 15. Mecánica y mantenimiento del vehículo | 365-387 | pendiente | |
 | T16 | Tema 16. Accidentes de tráfico | 388-436 | pendiente | |
 | T17 | Tema 17. Conducción preventiva y eficiente | 437-466 | pendiente | |
 | ANEXO | Anexo puntos. El permiso de conducir por puntos | 467-474 | pendiente | |
 
-**Resumen:** 13 de 18 temas listos.
+**Resumen:** 14 de 18 temas listos.

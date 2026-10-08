@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T14": "✅ listo (`guia/tema14/conducir-de-forma-segura.html`). Tabla de derrapes p.345 leída en "
+           "imagen (el texto extraído movía «acelerar de forma suave» a otra fila).",
     "T13": "✅ listo (`guia/tema13/transportar-personas-y-cargas.html`). Tablas p.328 y 330 leídas en "
            "imagen. Color de la señal de peligro: naranja en p.293 (T11), amarilla en p.339 (señalado).",
     "T12": "✅ listo (`guia/tema12/normas-de-preferencia.html`). Sin tablas de varias columnas.",

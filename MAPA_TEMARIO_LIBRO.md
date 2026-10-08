@@ -312,6 +312,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Conducir con nubes de polvo o de humo — p.361
     - Conducir con mucho viento — pp.361-363
     - Conducir con calor — pp.363-364
+- Notas: ✅ listo (`guia/tema14/conducir-de-forma-segura.html`). Tabla de derrapes p.345 leída en imagen (el texto extraído movía «acelerar de forma suave» a otra fila).
 - Relacionado con: T3 (estado del conductor), T7 (luces), T10 (velocidad y distancias)
 
 ## T15 · Tema 15. Mecánica y mantenimiento del vehículo
