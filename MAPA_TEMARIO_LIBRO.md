@@ -253,6 +253,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - ¿Dónde puedes parar y estacionar? — pp.294-297
     - Paradas y estacionamientos peligrosos — pp.297-299
     - ¿Dónde está prohibido parar y estacionar? — pp.299-300
+- Notas: ✅ listo (`guia/tema11/maniobras.html`). Tablas p.270, 277 y 292 leídas en imagen (p.292: el texto extraído desplazaba «sal por la primera salida» a otra fila).
 - Relacionado con: T7 (luz indicadora de dirección), T9 (uso de los carriles)
 
 ## T12 · Tema 12. Normas de preferencia para circular

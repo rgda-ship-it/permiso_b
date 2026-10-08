@@ -1,10 +1,12 @@
 """Mide patrones que delatan la respuesta en el examen tipo de cada tema (Fase 4).
 
-Uso:  python scripts/medir_patrones.py   → una línea por tema publicado en guia/
+Uso:  python scripts/medir_patrones.py [--detalle]   → una línea por tema publicado en guia/
+      --detalle lista las preguntas en las que la correcta es la opción más larga.
 Avisa si la correcta cae demasiado en la misma letra o si es la opción más larga
 con demasiada frecuencia (con 3 opciones, el azar da un 33 %).
 """
 import re
+import sys
 from pathlib import Path
 
 GUIA = Path(__file__).resolve().parent.parent / "guia"
@@ -22,7 +24,10 @@ for f in sorted(GUIA.glob("tema*/*.html")) + sorted(GUIA.glob("anexo/*.html")):
         pos["abc"[i]] += 1
         largos = [len(re.sub("<[^>]+>", "", t)) for _, t in ops]
         # solo cuenta si es estrictamente la más larga (un empate no delata la respuesta)
-        larga += largos[i] > max(l for k, l in enumerate(largos) if k != i)
+        es_larga = largos[i] > max(l for k, l in enumerate(largos) if k != i)
+        larga += es_larga
+        if es_larga and "--detalle" in sys.argv:
+            print(f"   · {f.parent.name} q{qs.index(q) + 1}: {[re.sub('<[^>]+>', '', t) for _, t in ops]}")
     n = len(qs)
     if n and max(pos.values()) > n / 2:
         avisos.append("una letra acumula más de la mitad")

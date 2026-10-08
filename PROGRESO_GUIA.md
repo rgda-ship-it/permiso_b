@@ -14,7 +14,7 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T8 | Tema 8. Señales de circulación | 154-211 | listo | 7 tablas leídas en imagen (p.157-164); señales en tablas por código |
 | T9 | Tema 9. La vía | 212-242 | listo | tablas p.220, 226, 229, 234 en imagen |
 | T10 | Tema 10. Velocidad y distancias | 243-266 | listo | tablas p.244, 252-258 en imagen; frase confusa p.262 señalada |
-| T11 | Tema 11. Maniobras | 267-300 | pendiente | |
+| T11 | Tema 11. Maniobras | 267-300 | listo | tablas p.270, 277, 292 en imagen |
 | T12 | Tema 12. Normas de preferencia para circular | 301-318 | pendiente | |
 | T13 | Tema 13. Transportar personas y cargas | 319-340 | pendiente | |
 | T14 | Tema 14. Conducir de forma segura | 341-364 | pendiente | |
@@ -23,4 +23,4 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T17 | Tema 17. Conducción preventiva y eficiente | 437-466 | pendiente | |
 | ANEXO | Anexo puntos. El permiso de conducir por puntos | 467-474 | pendiente | |
 
-**Resumen:** 10 de 18 temas listos.
+**Resumen:** 11 de 18 temas listos.
