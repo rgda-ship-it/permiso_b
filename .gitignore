@@ -1,0 +1,6 @@
+libro_img/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+notas_*.md
