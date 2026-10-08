@@ -200,10 +200,20 @@ def markdown():
         dudosas = [p for p in range(ini + 1, fin + 1) if pagina_dudosa(p)]
         if dudosas:
             md.append(f"- Leer como imagen (`scripts/rasterizar.py`): {', '.join(map(str, dudosas))}")
+        if tid in NOTAS:
+            md.append(f"- Notas: {NOTAS[tid]}")
         if tid in RELACIONES:
             md.append(f"- Relacionado con: {RELACIONES[tid]}")
         md.append("")
     return "\n".join(md)
+
+
+# Notas que se añaden al generar cada tema (Fase 4)
+NOTAS = {
+    "T3": "✅ listo (`guia/tema03/estado-del-conductor.html`). Tablas leídas en imagen: p.59 (drogas) "
+          "y p.64 (enfermedades); el texto de pdftotext las mezcla. p.69 tiene una errata en el libro "
+          "(«Ditracciones»). Contenido de los «Ver vídeo» no disponible.",
+}
 
 
 # Relaciones entre temas, orientativas, deducidas de los títulos de los apartados (afinar al generar cada tema)

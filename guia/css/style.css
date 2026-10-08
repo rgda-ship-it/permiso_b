@@ -242,6 +242,11 @@ li { margin-bottom: .35em; }
 .toc ol { list-style: none; margin: 8px 0 0; padding: 0; }
 .toc li { margin: 0; }
 .toc li.h3 { padding-left: 18px; font-size: .95rem; }
+.toc li.h4 { padding-left: 36px; font-size: .9rem; }
+.fase > h4 {
+  font-size: 1.2rem; margin: 1.6em 0 .5em;
+  padding-left: 10px; border-left: 4px solid var(--tema-color);
+}
 .toc a { display: block; padding: 4px 8px; border-radius: 6px; text-decoration: none; color: var(--text-soft); }
 .toc a.activo { color: var(--text); background: var(--primary-soft); font-weight: 600; }
 

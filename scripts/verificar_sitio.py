@@ -92,7 +92,8 @@ def main():
         page.goto((GUIA / "index.html").as_uri())
         page.wait_for_selector("#indice-temario li")
         comprobar(page.locator("#indice-temario li").count() == 18, "portada: 18 temas en el índice")
-        comprobar("0 de 18" in page.locator("#progreso").inner_text(), "portada: progreso «0 de 18»")
+        listos = (GUIA / "js" / "temario-nav.js").read_text(encoding="utf-8").count('estado: "listo"')
+        comprobar(f"{listos} de 18" in page.locator("#progreso").inner_text(), f"portada: progreso «{listos} de 18»")
         comprobar(page.locator("#sidebar-index").count() == 0 and page.locator("#btn-indice").count() == 0,
                   "portada: sin panel lateral ni ☰ (el índice ya está en el centro)")
 

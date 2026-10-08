@@ -12,7 +12,7 @@
   var TEMARIO = [
     { id: "T1", numero: 1, titulo: "Tema 1. Definiciones", archivo: "tema01/definiciones.html", estado: "pendiente" },
     { id: "T2", numero: 2, titulo: "Tema 2. Documentación", archivo: "tema02/documentacion.html", estado: "pendiente" },
-    { id: "T3", numero: 3, titulo: "Tema 3. El estado del conductor", archivo: "tema03/estado-del-conductor.html", estado: "pendiente" },
+    { id: "T3", numero: 3, titulo: "Tema 3. El estado del conductor", archivo: "tema03/estado-del-conductor.html", estado: "listo" },
     { id: "T4", numero: 4, titulo: "Tema 4. Obligaciones de conductores y peatones", archivo: "tema04/obligaciones-conductores-peatones.html", estado: "pendiente" },
     { id: "T5", numero: 5, titulo: "Tema 5. Dispositivos de seguridad en el vehículo", archivo: "tema05/dispositivos-de-seguridad.html", estado: "pendiente" },
     { id: "T6", numero: 6, titulo: "Tema 6. Elementos del vehículo y normas para usarlos", archivo: "tema06/elementos-del-vehiculo.html", estado: "pendiente" },
@@ -92,6 +92,7 @@
     var html = "";
     if (ant) html += '<a class="anterior" href="' + raiz + ant.archivo + '"><small>← Anterior</small>' + esc(ant.titulo) + "</a>";
     if (sig) html += '<a class="siguiente" href="' + raiz + sig.archivo + '"><small>Siguiente →</small>' + esc(sig.titulo) + "</a>";
+    if (!ant && !sig) html = '<a class="anterior" href="' + raiz + 'index.html"><small>← Volver</small>Índice de temas</a>';
     nav.setAttribute("aria-label", "Tema anterior y siguiente");
     nav.className = "page-nav";
     nav.innerHTML = html;
@@ -106,7 +107,8 @@
     var cont = document.getElementById("toc");
     if (!cont) return;
     var main = document.getElementById("contenido") || document.body;
-    var hs = Array.prototype.slice.call(main.querySelectorAll("h2, h3"));
+    // h2 y h3, y los h4 de subapartado (hijos directos de una .fase; no los de las tarjetas)
+    var hs = Array.prototype.slice.call(main.querySelectorAll("h2, h3, .fase > h4"));
     if (hs.length < 2) { cont.remove(); return; }
     var usados = {};
     var html = '<details open><summary>En esta página</summary><ol>';

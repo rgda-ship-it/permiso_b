@@ -73,6 +73,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Fumar en el vehículo — p.70
     - Uso del teléfono móvil — pp.70-72
     - Navegadores GPS — pp.72-73
+- Notas: ✅ listo (`guia/tema03/estado-del-conductor.html`). Tablas leídas en imagen: p.59 (drogas) y p.64 (enfermedades); el texto de pdftotext las mezcla. p.69 tiene una errata en el libro («Ditracciones»). Contenido de los «Ver vídeo» no disponible.
 - Relacionado con: T14 (fatiga y somnolencia al conducir de noche), T16 (factores de riesgo)
 
 ## T4 · Tema 4. Obligaciones de conductores y peatones
