@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T15": "✅ listo (`guia/tema15/mecanica-y-mantenimiento.html`). Tabla p.373 y lista p.380 "
+           "(síntoma → causa) leídas en imagen.",
     "T14": "✅ listo (`guia/tema14/conducir-de-forma-segura.html`). Tabla de derrapes p.345 leída en "
            "imagen (el texto extraído movía «acelerar de forma suave» a otra fila).",
     "T13": "✅ listo (`guia/tema13/transportar-personas-y-cargas.html`). Tablas p.328 y 330 leídas en "

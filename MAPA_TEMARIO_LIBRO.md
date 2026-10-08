@@ -330,6 +330,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Sistema de suspensión — pp.382-385
     - Sistema de frenado — pp.385-386
   - Revisión de ruedas y neumáticos — pp.386-387
+- Notas: ✅ listo (`guia/tema15/mecanica-y-mantenimiento.html`). Tabla p.373 y lista p.380 (síntoma → causa) leídas en imagen.
 - Relacionado con: T5 (frenos y ruedas), T17 (comprobaciones antes del viaje)
 
 ## T16 · Tema 16. Accidentes de tráfico
