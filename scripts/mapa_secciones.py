@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T9": "✅ listo (`guia/tema09/la-via.html`). Tablas p.220, 226, 229 y 234 leídas en imagen "
+          "(p.226: el texto extraído desordenaba los colores del estado de la vía).",
     "T8": "✅ listo (`guia/tema08/senales-de-circulacion.html`). Tablas p.157, 158, 159, 161, 162, 163 y "
           "164 leídas en imagen: el texto extraído emparejaba mal varias filas (p.157 Stop+ceda → Stop; "
           "p.158 «aunque baje los brazos» va con brazos horizontales; p.162 amarillo intermitente → ceder "

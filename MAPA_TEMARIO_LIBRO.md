@@ -200,6 +200,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - El arcén — pp.238-240
   - Circular por autopistas y autovías — pp.240-242
     - Emergencias en la autopista y autovía — pp.241-242
+- Notas: ✅ listo (`guia/tema09/la-via.html`). Tablas p.220, 226, 229 y 234 leídas en imagen (p.226: el texto extraído desordenaba los colores del estado de la vía).
 - Relacionado con: T8 (líneas y marcas), T11 (maniobras en carriles), T12 (túneles)
 
 ## T10 · Tema 10. Velocidad y distancias
