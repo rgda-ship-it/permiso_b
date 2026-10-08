@@ -27,7 +27,7 @@
     { id: "T15", numero: 15, titulo: "Tema 15. Mecánica y mantenimiento del vehículo", archivo: "tema15/mecanica-y-mantenimiento.html", estado: "listo" },
     { id: "T16", numero: 16, titulo: "Tema 16. Accidentes de tráfico", archivo: "tema16/accidentes-de-trafico.html", estado: "listo" },
     { id: "T17", numero: 17, titulo: "Tema 17. Conducción preventiva y eficiente", archivo: "tema17/conduccion-preventiva-y-eficiente.html", estado: "listo" },
-    { id: "ANEXO", numero: 18, titulo: "Anexo puntos. El permiso de conducir por puntos", archivo: "anexo/permiso-por-puntos.html", estado: "pendiente" }
+    { id: "ANEXO", numero: 18, titulo: "Anexo puntos. El permiso de conducir por puntos", archivo: "anexo/permiso-por-puntos.html", estado: "listo" }
   ];
   window.TEMARIO = TEMARIO;
 

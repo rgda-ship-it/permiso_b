@@ -386,5 +386,6 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
   - Perder puntos — pp.469-470
   - ¿Qué faltas quitan puntos del permiso de conducir? — pp.470-474
 - Leer como imagen (`scripts/rasterizar.py`): 470
+- Notas: ✅ listo (`guia/anexo/permiso-por-puntos.html`). Texto de una columna; páginas revisadas en imagen.
 - Relacionado con: T2 (permiso de conducir por puntos)
 

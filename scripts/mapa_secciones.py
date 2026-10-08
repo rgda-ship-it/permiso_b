@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "ANEXO": "✅ listo (`guia/anexo/permiso-por-puntos.html`). Texto de una columna; páginas revisadas "
+             "en imagen.",
     "T17": "✅ listo (`guia/tema17/conduccion-preventiva-y-eficiente.html`). Distintivos (p.463) leídos "
            "en imagen. Aire acondicionado: 23-24 °C (p.460) frente a 20-23 °C en T14 (p.363): señalado.",
     "T16": "✅ listo (`guia/tema16/accidentes-de-trafico.html`). Tablas p.390, 408, 410, 425 y 427 "
