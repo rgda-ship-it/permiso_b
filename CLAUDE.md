@@ -66,6 +66,9 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 - La cabecera de cada página lleva el título del tema («Tema 10. Velocidad y distancias»),
   a veces precedida de un icono («STOP», «!»).
 - Cada página de `libro_texto/` empieza con `--- PÁGINA PDF N · LIBRO p.N ---`.
+- **Tablas: leerlas SIEMPRE en imagen** (`scripts/rasterizar.py`). En las tablas de dos o más
+  columnas, `pdftotext` puede emparejar mal las filas aunque el texto parezca limpio
+  (detectado en p.100, 157, 158 y 162). Las tablas de los temas 1-8 ya están revisadas.
 - **`grep` con tildes:** Git Bash trabaja por bytes, así que `m.vil` no encuentra «móvil»
   (la «ó» ocupa 2 bytes). Busca la palabra con la tilde escrita o usa Python. El texto está bien.
 - Páginas sin numerar: 1-4 (portada, créditos, índice general, página en blanco) y 475-476 (contraportada).
