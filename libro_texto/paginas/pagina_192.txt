@@ -1,0 +1,22 @@
+--- PÁGINA PDF 192 · LIBRO p.192 ---
+                           Tema 8. Señales de circulación
+
+             S-101 Lugar en el que hay ambulancias
+             para atender y trasladar a heridos
+             en accidentes de circulación.
+
+             S-102 Lugar donde se pueden pasar
+             las revisiones del vehículo.
+
+             S-103 Hay un taller de reparación
+             de vehículos.
+
+             S-104 Hay un teléfono.
+
+             S-105 Lugar donde puedes echar
+             combustible al vehículo.
+
+             S-106 Lugar donde puedes reparar
+             el vehículo y echar combustible.
+
+192

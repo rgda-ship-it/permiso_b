@@ -1,0 +1,37 @@
+--- PÁGINA PDF 198 · LIBRO p.198 ---
+                           Tema 8. Señales de circulación
+
+           Señales que indican dónde estás
+
+             S-500 Entrada a un pueblo o ciudad.
+
+             S-510 Salida de un pueblo o ciudad.
+
+             S-574 Indica el kilómetro donde te
+             encuentras en una autopista o autovía,
+             y los verás cada 10 kilómetros.
+             Es decir, desde el principio de la autopista
+             o autovía va marcando el kilómetro 10,
+             el kilómetro 20, el kilómetro 30,
+             hasta el final.
+             S-574a Indica el kilómetro
+             donde te encuentras en una carretera,
+             y los verás cada 10 kilómetros,
+             igual que en la autopista y autovía.
+             S-574b Indica el kilómetro donde
+             te encuentras en una autopista de pago,
+             y los verás cada 10 kilómetros,
+             igual que el resto.
+
+             S-575 Indica el kilómetro donde
+             te encuentras en una carretera autonómica,
+             y también los verás cada 10 kilómetros.
+             El color corresponde
+             al nivel de importancia de la carretera.
+
+           Paneles complementarios
+
+             S-800 Indica la distancia que hay
+             desde la señal a algún peligro o advertencia.
+
+198

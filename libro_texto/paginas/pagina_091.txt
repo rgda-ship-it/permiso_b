@@ -1,0 +1,29 @@
+--- PÁGINA PDF 91 · LIBRO p.91 ---
+   Tema 5. Dispositivos de seguridad en el vehículo
+
+Activación automática de alumbrado
+Sistema que mide la luz que hay en el exterior
+y enciende o apaga las luces de forma automática
+para que se vea mejor el vehículo.
+
+Luces adaptativas
+Sistema que ajusta la intensidad de las luces
+y el lugar donde alumbran dependiendo
+de las necesidades de cada momento.
+Lo hace teniendo en cuenta:
+la distancia a la que está el vehículo que viene
+por el carril contrario,
+el tipo de carretera por el que conduces
+y la velocidad a la que va tu vehículo.
+Las luces adaptativas se dividen en dos tipos de luces:
+
+ 1.  Luces angulares.
+     Se encienden cuando giras el volante
+     para marcar el lado hacia el que va a girar
+     tu vehículo.
+     Esta luz te ayuda a ver mejor en las curvas.
+     En las rotondas permite a los demás conductores
+     saber por dónde vas a girar.
+
+ Rotonda. Plaza circular que es un cruce entre calles.
+                                                                                       91

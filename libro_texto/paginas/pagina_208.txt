@@ -1,0 +1,20 @@
+--- PÁGINA PDF 208 · LIBRO p.208 ---
+                           Tema 8. Señales de circulación
+
+  BUS Marca de comienzo de carril reservado
+
+           Indica dónde comienza el carril reservado
+           para algunos vehículos.
+
+           Marca de vía ciclista o senda ciclable
+           Indica que ese carril está reservado
+           para que circulen bicicletas.
+
+           Líneas en forma de cebra
+           Prohíbe a los vehículos circular por esa zona.
+           Solo pueden circular en ese espacio los vehículos
+           que tienen la obligación de circular por el arcén.
+
+                    STOP
+
+208

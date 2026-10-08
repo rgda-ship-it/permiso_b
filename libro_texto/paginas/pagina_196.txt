@@ -1,0 +1,40 @@
+--- PÁGINA PDF 196 · LIBRO p.196 ---
+                           Tema 8. Señales de circulación
+
+           Señales de orientación
+
+             S-200 Indica todas las salidas que hay
+             en la próxima rotonda.
+             Las salidas pintadas de azul quieren decir
+             que llevan a una autopista o autovía.
+
+             S-222a Indica la dirección de una carretera
+             y la de las salidas que llevan a una autopista
+             o autovía.
+
+             S-232 Indica dónde está la entrada
+             a la autopista y a qué distancia.
+
+             S-235a Indica cuál es la próxima salida
+             dentro de una autopista o autovía
+             y a qué distancia está.
+
+             S-300 Indica los nombres de pueblos
+             y ciudades que hay en una carretera
+             y a qué distancia está ese pueblo o ciudad.
+
+             S-301 Indica los nombres de pueblos
+             y ciudades que hay en una autopista o autovía
+             y a qué distancia está ese pueblo o ciudad.
+
+             S-322 Indica en qué dirección hay una vía
+             ciclista o senda ciclable y la distancia
+             a la que está.
+
+             S-360 Indica cuál es el número
+             de la carretera, el lugar hacia el que va esa
+             carretera y el nombre del pueblo o ciudad
+             que hay en la siguiente salida
+             hacia otra carretera.
+
+196

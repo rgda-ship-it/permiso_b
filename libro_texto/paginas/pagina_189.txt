@@ -1,0 +1,32 @@
+--- PÁGINA PDF 189 · LIBRO p.189 ---
+              Tema 8. Señales de circulación
+
+S-26 a Hay una salida de autopista, autovía
+o cualquier otro tipo de carretera a 300 metros.
+S-26 b Hay una salida de autopista, autovía
+o cualquier otro tipo de carretera a, 200 metros.
+S-26 c Hay una salida de autopista, autovía
+o cualquier otro tipo de carretera a 100 metros.
+
+S-27 Hay un puesto de auxilio en la carretera
+para pedir ayuda en caso de accidente o avería.
+
+S-28 Zona con preferencia para los peatones.
+No se puede conducir más rápido
+de 20 kilómetros por hora.
+
+S-30 Zona por la que pueden andar peatones.
+No puedes conducir más rápido
+de 30 kilómetros por hora.
+
+S-31 Fin de la zona con preferencia
+para peatones.
+Puedes circular a más de 30 kilómetros
+por hora.
+
+S-32 Telepeaje.
+Los vehículos pueden pagar el peaje a través
+de telepeaje siempre que el vehículo tenga
+instalados los medios técnicos necesarios.
+
+                                                                                    189

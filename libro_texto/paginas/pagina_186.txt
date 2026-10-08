@@ -1,0 +1,31 @@
+--- PÁGINA PDF 186 · LIBRO p.186 ---
+                           Tema 8. Señales de circulación
+
+             S-11 Calzada de único sentido.
+             Indican el sentido en el que deben circular
+             los vehículos en esa carretera.
+             También prohíben cambiar de sentido
+             (dar media vuelta).
+             Las flechas indican el número de carriles
+
+             S-12 Tramo de calzada de sentido único.
+             Indica que en ese tramo de calle o carretera
+             debes circular en el sentido
+             hacia el que apunta la flecha.
+             Está prohibido hacerlo en el otro sentido.
+
+             S-13 Paso de peatones.
+
+             S-15a Calzada sin salida.
+             Los vehículos solo pueden salir de esa calzada
+             por el mismo lugar por el que han entrado.
+
+             S-16 Zona para frenar de emergencia.
+             Indica una zona en la que los vehículos
+             pueden salirse y pararse
+             cuando le fallan los frenos.
+
+             S-17 Lugar en el que pueden aparcar
+             los vehículos.
+
+186

@@ -1,0 +1,32 @@
+--- PÁGINA PDF 104 · LIBRO p.104 ---
+Tema 5. Dispositivos de seguridad en el vehículo
+
+Otros elementos de seguridad activa
+
+  Control      Control    Limitadores  Regulador  Regulador
+de tracción  electrónico        de          de         de
+
+                   de      velocidad   velocidad  velocidad
+             estabilidad                          adaptativo
+
+Control de tracción
+
+Sistema de seguridad que identifica
+si una rueda está girando más rápido que las demás
+y la frena para que no patine.
+
+Este sistema ayuda a conservar la estabilidad
+del vehículo en las curvas,
+al subir una cuesta o cuando hay lluvia.
+
+           Control electrónico de estabilidad
+           Sistema de seguridad que ayuda al vehículo
+           a seguir en el camino que marca el volante
+           y a no desviarse cuando no gira
+           todo lo que le pide el conductor o gira demasiado.
+           Este sistema te ayuda a mantener el control
+           del vehículo en situaciones de peligro.
+           Por ejemplo, al esquivar un obstáculo
+           o al tomar una curva.
+
+104

@@ -1,0 +1,539 @@
+--- PÁGINA PDF 365 · LIBRO p.365 ---
+ Tema 15. Mecánica y mantenimiento del vehículo
+
+Índice
+
+Sistemas del vehículo
+ ■ Sistema de alimentación
+ ■ Sistema eléctrico
+ ■ Sistema de lubricación
+ ■ Sistema de refrigeración
+ ■ Sistema de transmisión
+ ■ Sistema de dirección
+ ■ Sistema de suspensión
+ ■ Sistema de frenado
+Revisión de ruedas y neumáticos
+
+                                                                                   365
+
+--- PÁGINA PDF 366 · LIBRO p.366 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+
+         Sistemas del vehículo
+
+           ¿Qué son?
+           Todos los mecanismos y elementos del vehículo
+           que hacen que funcione y sea seguro.
+           Los vehículos tienen ocho sistemas principales:
+             ■ Sistema de alimentación
+             ■ Sistema eléctrico
+             ■ Sistema de lubricación
+             ■ Sistema de refrigeración
+             ■ Sistema de transmisión
+             ■ Sistema de dirección
+             ■ Sistema de suspensión
+             ■ Sistema de frenado
+           Sistema de alimentación
+           ¿Cuál es su función?
+           Llevar el aire y el combustible al motor
+           para que el vehículo pueda funcionar.
+
+366
+
+--- PÁGINA PDF 367 · LIBRO p.367 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+
+El aire puede llevar suciedad de la calle.
+Por eso, el sistema tiene un filtro
+que se encarga de limpiar ese aire
+para que llegue en buen estado al motor.
+Debes limpiar este filtro de vez en cuando
+porque, cuando está sucio,
+el combustible pasa peor por él.
+Esto hace que gastes más combustible
+que cuando está limpio.
+Además, cuando el filtro está muy sucio o roto,
+puede salir humo negro del combustible
+por el tubo de escape.
+
+ Tubo de escape. Tubo que tienen los automóviles
+ en la parte de atrás para expulsar los gases
+ que se crean en el motor.
+
+Debes revisar el filtro más veces
+en verano que en invierno
+y cuando conduces por caminos con mucho polvo.
+
+                                                                                     367
+
+--- PÁGINA PDF 368 · LIBRO p.368 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+
+Sistema eléctrico
+¿Cuál es su función?
+Dar energía al coche para que se encienda,
+el motor pueda arrancar y funcionen
+otros elementos como las luces o el claxon.
+
+Este sistema tiene varias partes:
+
+Batería                 Circuito de  Circuito de  Circuito de
+                        encendido       carga     iluminación
+
+Batería
+Proporciona la energía necesaria
+para arrancar el motor.
+
+También lleva energía al resto del vehículo
+cuando es necesario.
+
+Hay que mantener la batería limpia, seca
+y bien encajada en su lugar.
+
+             Ver vídeo
+368
+
+--- PÁGINA PDF 369 · LIBRO p.369 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+
+Circuito de encendido
+Se encarga de que se encienda la chispa
+de electricidad necesaria
+para que el aire y el combustible
+se conviertan en energía
+y el vehículo empiece a funcionar.
+Esta chispa de electricidad se enciende
+en una pieza del motor que se llama bujía.
+
+Para mantener en buen estado el circuito
+de encendido hay que revisar el estado
+de las bujías y cambiarlas cuando sea necesario.
+También hay que comprobar que el motor
+está en buen estado.
+
+Circuito de carga
+Se encarga de llevar la corriente eléctrica
+a la batería y a todos los sistemas que lo necesitan
+mientras el motor del vehículo está en marcha.
+
+ Ver vídeo
+
+La pieza que permite que el vehículo
+produzca electricidad y la guarde en la batería
+se llama alternador.
+El alternador se mueve por medio de una correa.
+
+                                                                                     369
+
+--- PÁGINA PDF 370 · LIBRO p.370 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+
+           Hay que comprobar de vez en cuando
+           que esta correa está en buen estado
+           y cambiarla cuando es necesario.
+           Circuito de iluminación
+           Está formado por todos los elementos
+           que permiten que se puedan encender
+           las luces del vehículo.
+
+             Ver vídeo
+           Es importante revisar el sistema
+           de alumbrado.
+           Hay que cambiar las lámparas que dan luz
+           cuando alumbren menos.
+
+370
+
+--- PÁGINA PDF 371 · LIBRO p.371 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+Sistema de lubricación
+¿Cuál es su función?
+Repartir el aceite a todas las parte
+del motor del vehículo para crear una capa
+que cubra las piezas del motor para protegerlas
+y evitar que se rocen unas con otras.
+Los aceites que se usan para los vehículos
+son sustancias especiales que evitan
+que las piezas del vehículo se desgasten más.
+Los instrumentos que controlan el aceite
+en el sistema de lubricación son:
+ ■ Varilla indicadora.
+
+   Indica cuánto aceite hay en el motor.
+
+                                                                                      371
+
+--- PÁGINA PDF 372 · LIBRO p.372 ---
+Tema 15. Mecánica y mantenimiento del vehículo
+
+■ Manómetro o testigo luminoso.
+  Controla la presión del aceite en el motor.
+  El aceite debe tener la presión adecuada
+  para repartirse bien por todo el motor
+  y cubrir todas sus piezas.
+
+Manómetro  Testigo luminoso
+
+ Ver vídeo
+
+Cuando el testigo luminoso se enciende
+quiere decir que hay poco aceite
+o que no tiene la presión que necesita.
+
+En ese caso debes parar el vehículo
+y no continuar hasta conocer
+cuál es el problema y arreglarlo.
+
+           Para comprobar el nivel de aceite
+           debes mirar la varilla indicadora
+           cuando el motor esté parado y frío.
+           El nivel de aceite debe estar
+           entre las marcas de mínimo y máximo.
+372
+
+--- PÁGINA PDF 373 · LIBRO p.373 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+Clases de aceites
+
+Dependiendo de  Dependiendo
+dónde proceden  de su espesor
+
+Dependiendo de dónde proceden
+
+Tipo de aceite ¿Cómo se consigue?
+
+Mineral         Del petróleo.
+                En la actualidad se usa muy poco.
+
+Sintético       Se hace en un laboratorio
+Semisintético   mezclando sustancias
+                del petróleo y de otras materias.
+
+                Mezcla de aceites minerales
+                y sintéticos.
+
+                                                   373
+
+--- PÁGINA PDF 374 · LIBRO p.374 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+
+           ¿Por qué se usan más los aceites sintéticos?
+           Porque tienen las siguientes ventajas:
+             ■ Resisten mejor el frio y el calor.
+             ■ Permiten que el vehículo arranque mejor
+
+               cuando hace mucho frio.
+             ■ Protegen mejor al motor porque
+
+               son más espesos y menos líquidos
+               que los aceites minerales.
+             ■ Se necesita menos cantidad de aceite.
+             ■ Dura más tiempo.
+               Por lo tanto, hay que cambiar
+               menos veces el aceite del vehículo.
+           Dependiendo de su espesor
+           El aceite es más liquido cuando se calienta
+           y más espeso cuando está frío.
+           Por eso, es mejor usar un aceite
+           más líquido cuando la temperatura es baja.
+           Así circulará mejor por el motor
+           al arrancar el vehículo,
+           aunque haga mucho frío.
+
+374
+
+--- PÁGINA PDF 375 · LIBRO p.375 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+En cambio, cuando el motor está caliente
+es mejor usar un aceite más espeso.
+Si queda demasiado líquido no cubrirá bien
+las piezas del motor.
+
+Para evitar estos problemas
+hay unos aceites que se adaptan bien al frío y al calor.
+Se llaman aceites multigrado
+y llevan esta etiqueta.
+
+            10W/40
+
+10W indica que este aceite se reparte bien
+por el motor, aunque haya poca temperatura.
+40 indica que puede soportar temperaturas
+muy altas sin estropearse.
+
+                                                                                     375
+
+--- PÁGINA PDF 376 · LIBRO p.376 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+
+           Para rellenar el vehículo de aceite
+           hay que levantar la tapa del motor
+           y echar el aceite por el tapón que hay en ese lugar.
+           Cada cierto tiempo es necesario cambiar el aceite
+           y el filtro.
+
+             Para cambiarlo, el vehículo debe estar recto
+             y el motor debe estar parado y caliente.
+
+           Hay que evitar que el aceita caiga al suelo
+           porque es muy contaminante.
+           Si cae aceite mientras rellenas el vehículo,
+           debes recogerlo.
+           Cuando salga un humo blanco azulado
+           a través del tubo de escape quiere decir
+           que el vehículo lleva demasiado aceite.
+
+           Sistema de refrigeración
+           ¿Cuál es su función?
+           Conseguir que el motor se mantenga
+           a buena temperatura para seguir funcionando
+           y evitar que sus piezas se desgasten
+           y se rompan por exceso de calor.
+           Sin este sistema, el motor se calentaría
+           muy rápido al funcionar y se estropearía.
+
+376
+
+--- PÁGINA PDF 377 · LIBRO p.377 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+
+Un líquido llamado líquido refrigerante
+pasa por las piezas del motor y absorbe el calor
+para que se mantenga fresco.
+Después este líquido va a una pieza llamada radiador.
+Allí se enfría de nuevo y vuelve al motor
+impulsado por una bomba de agua.
+Hay que controlar que las correas
+que dan impulso a la bomba de agua
+están en buen estado
+y que todo el circuito de refrigeración funciona bien.
+
+ Ver vídeo
+
+También hay que comprobar
+que el vehículo tiene suficiente líquido refrigerante.
+Debe mantenerse entre las marcas de mínimo
+y máximo cuando el motor está frío.
+Puede salir humo blanco del tubo de escape.
+Ese humo es vapor de agua.
+Es algo normal al arrancar,
+sobre todo cuando hace frío.
+
+                                                                                     377
+
+--- PÁGINA PDF 378 · LIBRO p.378 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+           Sin embargo, puede indicar que hay
+           alguna pieza rota o una avería
+           si el humo blanco sale cuando el vehículo
+           lleva un rato en funcionamiento
+           y el vehículo está caliente.
+
+           Al principio del invierno es importante
+           comprobar que el líquido refrigerante
+           está en buen estado y no se va a congelar.
+           Si el vehículo está en un lugar muy frío
+           durante el invierno, el líquido se puede congelar
+           y romper el motor o el sistema de refrigeración.
+
+378
+
+--- PÁGINA PDF 379 · LIBRO p.379 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+Sistema de transmisión
+¿Cuál es su función?
+Llevar la fuerza del motor a las ruedas
+para que el vehículo se pueda mover.
+El motor de un vehículo puede dar impulso
+a unas ruedas o a otras.
+Dependiendo de las ruedas a las que llega el impulso,
+el vehículo puede ser:
+
+                   ¿A qué ruedas
+                   llega el impulso
+                   del motor?
+ De tracción A las de delante.
+
+ De propulsión A las de atrás.
+ De tracción total A todas las ruedas.
+
+La primera velocidad es la que manda más fuerza
+a las ruedas, pero es la más lenta.
+
+                                                                                     379
+
+--- PÁGINA PDF 380 · LIBRO p.380 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+
+           Sistema de dirección
+           ¿Cuál es su función?
+           Transmitir el movimiento del volante
+           a las ruedas de delante para que el conductor
+           pueda girar el vehículo sin problema.
+           Síntomas de que el sistema de dirección
+           está fallando:
+             ■ Cuesta mucho esfuerzo mover el volante.
+             ■ Puede ser que los neumáticos tengan poca
+
+               presión y haya que inflarlos más.
+             ■ El volante está demasiado flojo.
+             ■ El vehículo se desvía hacia un lado
+
+               cuando sueltas el volante
+               en un terreno recto.
+             ■ Puede que unos neumáticos estén
+               más inflados que otros.
+             ■ Los neumáticos se desgastan muy pronto.
+             ■ El volante vibra mientras conduces.
+               Puede que las ruedas no estén
+               bien equilibradas.
+
+380
+
+--- PÁGINA PDF 381 · LIBRO p.381 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+Dirección asistida
+Sistema que ayuda a que el conductor
+tenga que hacer menos fuerza
+para girar el volante y controlar el vehículo.
+También hay un tipo de dirección asistida
+que se llama progresiva.
+La dirección asistida progresiva ayuda a girar
+muy fácil el volante cuando el vehículo va despacio
+y hace que cueste un poco más
+cuando el vehículo circula a más velocidad.
+Así será más fácil controlar el vehículo.
+
+                                                                                     381
+
+--- PÁGINA PDF 382 · LIBRO p.382 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+
+         Sistema de suspensión
+
+           ¿Cuál es su función?
+           Mantener el contacto entre los neumáticos
+           y la carretera en todo momento.
+           Gracias a este sistema, el vehículo
+           no pierde su estabilidad y permite
+           que los pasajeros viajen más cómodos.
+           Sin el sistema de suspensión el conductor
+           tendría más dificultad para salvar los pequeños
+           obstáculos de la carretera
+           y conducir sin sobresaltos.
+
+382
+
+--- PÁGINA PDF 383 · LIBRO p.383 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+¿Qué pasa cuando falla el sistema de suspensión?
+ ■ El vehículo se inclina hacia adelante
+
+   o se levanta mucho la parte de atrás
+   al frenar.
+ ■ El vehículo se balancea hacia los lados
+   o se inclina mucho al tomar una curva.
+ ■ Se notan demasiado los baches
+   o el viento.
+ ■ Los neumáticos se desgastan muy rápido.
+ ■ Las luces del vehículo se mueven
+   hacia arriba y hacia abajo
+   cuando están encendidas.
+
+                                                                                     383
+
+--- PÁGINA PDF 384 · LIBRO p.384 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+           ¿Qué consecuencias tiene un sistema de suspensión
+           en malas condiciones?
+             ■ El vehículo pierde estabilidad.
+
+               En especial en las curvas
+               y cuando hay viento.
+
+             ■ Hay más riesgo de hacer aquaplaning.
+             ■ El vehículo necesita más espacio
+
+               para frenar.
+               Sobre todo cuando el suelo está mojado.
+             ■ El sistema para que no se bloqueen
+               los frenos funciona peor.
+             ■ Se desgastan y se rompen
+               con más facilidad
+               otros elementos del vehículo.
+             ■ Las luces se mueven hacia arriba
+               y hacia abajo y pueden deslumbrar
+               a otros conductores.
+             ■ El conductor puede sentir cansancio
+               con más facilidad.
+
+384
+
+--- PÁGINA PDF 385 · LIBRO p.385 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+
+Sistema de frenado
+
+¿Cuál es su función?
+Reducir la velocidad o parar el vehículo
+y evitar que se vuelva a poner en movimiento
+cuando no tenga que hacerlo.
+Al pisar el pedal de freno se transmite
+una fuerza a las ruedas del vehículo
+para que se paren y dejen de funcionar.
+Esta fuerza pasa a través de un líquido
+que se llama líquido de frenos
+y llega a los elementos que frenan las ruedas,
+que son las pastillas o las zapatas.
+Las pastillas y las zapatas se rozan
+con otros elementos de las ruedas
+y consigue que se detengan.
+
+¿Qué debes comprobar?
+ ■ Que hay líquido de frenos
+
+   en el depósito del vehículo.
+   Y que está entre los valores mínimo
+   y máximo y que se encuentra en buen estado.
+
+                                                                                     385
+
+--- PÁGINA PDF 386 · LIBRO p.386 ---
+               Tema 15. Mecánica y mantenimiento del vehículo
+
+             ■ Que las pastillas o las zapatas no están
+               desgastadas y están bien sujetas.
+
+             ■ Que los neumáticos están bien inflados,
+               con la presión que necesitan.
+
+             Ver vídeo
+
+         Revisión de ruedas y neumáticos
+
+           Para conservar en buen estado
+           las ruedas y neumáticos del vehículo, debes:
+             ■ Comprobar que los neumáticos
+
+               están bien inflados,
+               al menos una vez al mes.
+               En especial si vas a hacer un viaje largo,
+               o a cargar mucho el vehículo.
+
+386
+
+--- PÁGINA PDF 387 · LIBRO p.387 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+   Esta comprobación la debes hacer
+   antes de empezar a conducir.
+
+ Ver vídeo
+ ■ Mirar el dibujo del neumático
+
+   para asegurar que no está muy desgastado.
+
+Siempre debes llevar una rueda de repuesto
+en el vehículo y otros sistemas.
+Esta rueda irá un poco más inflada que las demás.
+
+                                                                                     387

@@ -1,0 +1,16 @@
+--- PÁGINA PDF 12 · LIBRO p.12 ---
+                                  Tema 1. Definiciones
+           Motocicletas con sidecar
+           Son motocicletas de tres ruedas
+           que tienen un asiento al lado
+           para que se siente otra persona.
+           Deben cumplir las mismas características
+           de cilindrada y velocidad
+           que las motocicletas de dos ruedas.
+
+           Vehículo de tres ruedas
+           Vehículo de tres ruedas simétricas que debe cumplir
+           las mismas características de cilindrada y velocidad
+           que las motocicletas de dos ruedas y los sidecares.
+
+12

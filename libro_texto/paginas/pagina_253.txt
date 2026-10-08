@@ -1,0 +1,45 @@
+--- PÁGINA PDF 253 · LIBRO p.253 ---
+                   Tema 10. Velocidad y distancias
+
+        Tipo de vehículo
+         ■ Camiones.
+         ■ Tractocamiones.
+         ■ Furgonetas.
+         ■ Autocaravanas que pueden llevar cargas
+
+           mayores de 3.500 kilos.
+         ■ Vehículos articulados.
+         ■ Vehículos con remolque.
+
+         Autopista            Carreteras  Caminos
+         y autovía            120 11200 10900 9800 8700 7500 50
+
+100 90   Velocidad Velocidad  Velocidad Velocidad Velocidad Velocidad
+
+        8m0áxim7a0 mí5n0ima   máx4im5a 445012m0í4n30im01a00320m59áx0im225a080m26í0n0im7a060 50
+
+41020 31000 25910202081000607900 580045 740450455403054033503032052521552015 60
+
+4045 3540 303405252450152030 6025 20 4560 40 35 30 25 15
+
+                Tipo de vehículo
+  45 40 3■54V5eh3íc40u0los23d55e tr1e35s0rued2a5s qu1e5no son motocicletas.
+
+                  ■ Cuadriciclos pesados.
+
+                  ■ Vehículos especiales que pueden alcanzar
+                    60 kilómetros por hora en una zona llana.
+
+        Autopista             Carreteras  Caminos
+        y autovía             112200 11000 9900 8800 7700 5500
+
+100 90   Velocidad Velocidad Velocidad Velocidad Velocidad Velocidad
+
+        8m0áxim7a0 mí5n0ima má4x45im5a 440012m0í3n30im01a00225m59áx0im220a080m66í0n0im7a0 50
+
+0 4090 3081020257100020590060 80 740455 54040045335540330030225525115520 60
+
+0 4030 35245530240025603015 25 20 60 45 40 35 30 25 15
+
+0 35 3405 2450 1355 30 25 15
+                                                                                                           253

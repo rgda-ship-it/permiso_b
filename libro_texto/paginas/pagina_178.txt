@@ -1,0 +1,36 @@
+--- PÁGINA PDF 178 · LIBRO p.178 ---
+                           Tema 8. Señales de circulación
+
+             R-304 Prohibido cambiar el sentido
+             de la marcha.
+             No se puede dar la media vuelta e ir
+             hacia el otro lado.
+
+             R-305 Prohibido adelantar a otros vehículos.
+             Solo puedes adelantar a motocicletas
+             de dos ruedas si no invades el carril contrario.
+             Tienes que obedecer esta señal hasta
+             que aparezca otra que indique
+             que sí puedes adelantar en esa zona.
+
+             R-306 Prohibido adelantar para los camiones
+             que puedan llevar cargas de más de 3.500 kilos.
+             Solo pueden adelantar a motocicletas
+             de dos ruedas si no invaden el carril contrario.
+
+             R-307 Prohibido parar y aparcar en ese lugar.
+
+             R-308 Prohibido aparcar en ese lado
+             de la calzada.
+             Puedes parar, pero no aparcar.
+
+             R-308a Prohibido aparcar en ese lado
+             de la calzada los días impares del mes.
+             Puedes parar, pero no aparcar.
+
+             R-308b Prohibido aparcar en ese lado
+             de la calzada los días pares del mes.
+             Por ejemplo, los días 2, 4, 6…
+             Puedes parar, pero no aparcar.
+
+178

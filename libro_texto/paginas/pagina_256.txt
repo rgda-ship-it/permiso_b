@@ -1,0 +1,44 @@
+--- PÁGINA PDF 256 · LIBRO p.256 ---
+               Tema 10. Velocidad y distancias
+
+       Límite de velocidad máxima
+       dentro de pueblos y ciudades
+       Tipo de vehículo
+
+        ■ Todos los vehículos en general
+
+       Calles
+
+       sin bordillos,  Calles             Calles
+
+       donde la calzada con un solo carril con varios carriles
+
+       y la acera están para cada sentido en cada sentido
+
+00 90  80 a 7la0mis51m02a0alt1u0ra0 90 80 70 50
+
+40 30 25 20 6401520 41000 3900 2850 2070 6050
+
+40 35 30 25 145545 4040 3530 3025 2520 1560
+
+                   Tipo de vehículo
+                     ■ Vehícul4o5s qu4e0tran3s5port3a0n me2r5canc1í5as peligrosas.
+                     ■ Vehículos especiales que no pueden alcanzar
+
+                       una velocidad de más de 60 kilómetros por hora.
+
+       Calles
+
+       sin bordillos,  Calles             Calles
+
+       donde la calzada con un solo carril con varios carriles
+
+       y la acera están para cada sentido en cada sentido
+
+00 90 80 a 7la0mis51m02a0alt1u0ra0 90 80 71020 51000 90 80 70 50
+
+40 30 25 20 6405 40 30 25 2405 6040 30 25 20 60
+
+40 35 30 25 1455 40 35 30 2455 1450 35 30 25 15
+
+256

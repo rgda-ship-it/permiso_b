@@ -1,0 +1,20 @@
+--- PÁGINA PDF 337 · LIBRO p.337 ---
+         Tema 13. Transportar personas y cargas
+Placa de límite de velocidad
+Indica que el vehículo que la lleva no puede circular
+a más kilómetros por hora
+del número que indica la placa.
+Se coloca en la parte de atrás del vehículo.
+
+Placa de vehículo lento
+Indica que el vehículo que la lleva
+no puede circular más rápido
+de 40 kilómetros por hora.
+Se coloca en la parte de atrás del vehículo.
+Placa de vehículo largo
+Indica que el vehículo que la lleva
+mide más de 12 metros de largo.
+Esta placa se coloca en la parte de atrás del vehículo.
+Es rectangular, de color amarillo y con los bordes rojos.
+
+                                                                                     337

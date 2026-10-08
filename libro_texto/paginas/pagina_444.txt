@@ -1,0 +1,18 @@
+--- PÁGINA PDF 444 · LIBRO p.444 ---
+                   Tema 17. Conducción preventiva y eficiente
+           Detector de ángulos muertos (BSM)
+           Hay un sistema que se encarga de avisarte
+           cuando hay otro vehículo en la zona de ángulo muerto
+           que avanza hacia tu vehículo.
+           En esos casos se enciende una luz
+           que está colocada en el espejo retrovisor.
+           Algunos detectores de ángulos muertos
+           se encienden siempre que otro vehículo
+           está en la zona de ángulo muerto.
+           Otros detectores solo se encienden si activas
+           la luz intermitente para cambiar de carril
+           y hay otro vehículo en el ángulo muerto.
+
+             Ver vídeo
+
+444
