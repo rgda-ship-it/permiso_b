@@ -226,6 +226,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Separación lateral — p.264
     - Distancia de seguridad — pp.264-266
 - Leer como imagen (`scripts/rasterizar.py`): 252, 253, 254, 255, 256, 257
+- Notas: ✅ listo (`guia/tema10/velocidad-y-distancias.html`). Tablas de velocidad p.252-257 y esquema p.244 leídos en imagen. p.262: frase confusa del libro («menos distancia de reacción» a más velocidad) señalada con aviso y sin preguntas de examen.
 - Relacionado con: T3 (tiempo de reacción), T14 (curvas y clima), T17 (controlar el espacio)
 
 ## T11 · Tema 11. Maniobras

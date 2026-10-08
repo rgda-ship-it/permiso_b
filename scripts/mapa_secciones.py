@@ -210,6 +210,9 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T10": "✅ listo (`guia/tema10/velocidad-y-distancias.html`). Tablas de velocidad p.252-257 y "
+           "esquema p.244 leídos en imagen. p.262: frase confusa del libro («menos distancia de "
+           "reacción» a más velocidad) señalada con aviso y sin preguntas de examen.",
     "T9": "✅ listo (`guia/tema09/la-via.html`). Tablas p.220, 226, 229 y 234 leídas en imagen "
           "(p.226: el texto extraído desordenaba los colores del estado de la vía).",
     "T8": "✅ listo (`guia/tema08/senales-de-circulacion.html`). Tablas p.157, 158, 159, 161, 162, 163 y "
