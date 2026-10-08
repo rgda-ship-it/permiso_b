@@ -132,6 +132,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Reglas para conducir turismos, furgonetas y camiones — pp.130-132
     - Reglas para conducir motocicletas — pp.132-134
   - Sistemas que ayudan a conducir con seguridad — pp.134-138
+- Notas: ✅ listo (`guia/tema06/elementos-del-vehiculo.html`). Texto limpio.
 - Relacionado con: T5 (seguridad activa), T17 (preparar el viaje)
 
 ## T7 · Tema 7. Sistema de luces de los vehículos
