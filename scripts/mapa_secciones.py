@@ -210,6 +210,10 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T8": "✅ listo (`guia/tema08/senales-de-circulacion.html`). Tablas p.157, 158, 159, 161, 162, 163 y "
+          "164 leídas en imagen: el texto extraído emparejaba mal varias filas (p.157 Stop+ceda → Stop; "
+          "p.158 «aunque baje los brazos» va con brazos horizontales; p.162 amarillo intermitente → ceder "
+          "el paso). Las señales no se dibujan: el texto del libro no describe formas ni colores.",
     "T7": "✅ listo (`guia/tema07/sistema-de-luces.html`). Las «luces de circulación diurna» aparecen en "
           "el esquema de p.141 pero el libro no las explica: no se desarrollan.",
     "T6": "✅ listo (`guia/tema06/elementos-del-vehiculo.html`). Texto limpio.",

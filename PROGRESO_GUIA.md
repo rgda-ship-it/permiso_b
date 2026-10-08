@@ -11,7 +11,7 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T5 | Tema 5. Dispositivos de seguridad en el vehículo | 86-119 | listo | tablas p.96 y p.100 en imagen; AES/AEB incoherente en el libro |
 | T6 | Tema 6. Elementos del vehículo y normas para usarlos | 120-138 | listo | |
 | T7 | Tema 7. Sistema de luces de los vehículos | 139-153 | listo | luz de circulación diurna sin explicar en el libro |
-| T8 | Tema 8. Señales de circulación | 154-211 | pendiente | muchas señales en imagen: rasterizar |
+| T8 | Tema 8. Señales de circulación | 154-211 | listo | 7 tablas leídas en imagen (p.157-164); señales en tablas por código |
 | T9 | Tema 9. La vía | 212-242 | pendiente | |
 | T10 | Tema 10. Velocidad y distancias | 243-266 | pendiente | tablas de velocidad en imagen (p. 251-256) |
 | T11 | Tema 11. Maniobras | 267-300 | pendiente | |
@@ -23,4 +23,4 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T17 | Tema 17. Conducción preventiva y eficiente | 437-466 | pendiente | |
 | ANEXO | Anexo puntos. El permiso de conducir por puntos | 467-474 | pendiente | |
 
-**Resumen:** 7 de 18 temas listos.
+**Resumen:** 8 de 18 temas listos.

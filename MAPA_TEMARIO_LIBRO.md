@@ -176,6 +176,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Líneas y marcas blancas — pp.200-209
     - Líneas y marcas de colores — pp.209-211
 - Leer como imagen (`scripts/rasterizar.py`): 211
+- Notas: ✅ listo (`guia/tema08/senales-de-circulacion.html`). Tablas p.157, 158, 159, 161, 162, 163 y 164 leídas en imagen: el texto extraído emparejaba mal varias filas (p.157 Stop+ceda → Stop; p.158 «aunque baje los brazos» va con brazos horizontales; p.162 amarillo intermitente → ceder el paso). Las señales no se dibujan: el texto del libro no describe formas ni colores.
 - Relacionado con: T9 (colores y carriles), T10 (señales de velocidad), T12 (señales de preferencia)
 
 ## T9 · Tema 9. La vía

@@ -17,7 +17,7 @@
     { id: "T5", numero: 5, titulo: "Tema 5. Dispositivos de seguridad en el vehículo", archivo: "tema05/dispositivos-de-seguridad.html", estado: "listo" },
     { id: "T6", numero: 6, titulo: "Tema 6. Elementos del vehículo y normas para usarlos", archivo: "tema06/elementos-del-vehiculo.html", estado: "listo" },
     { id: "T7", numero: 7, titulo: "Tema 7. Sistema de luces de los vehículos", archivo: "tema07/sistema-de-luces.html", estado: "listo" },
-    { id: "T8", numero: 8, titulo: "Tema 8. Señales de circulación", archivo: "tema08/senales-de-circulacion.html", estado: "pendiente" },
+    { id: "T8", numero: 8, titulo: "Tema 8. Señales de circulación", archivo: "tema08/senales-de-circulacion.html", estado: "listo" },
     { id: "T9", numero: 9, titulo: "Tema 9. La vía", archivo: "tema09/la-via.html", estado: "pendiente" },
     { id: "T10", numero: 10, titulo: "Tema 10. Velocidad y distancias", archivo: "tema10/velocidad-y-distancias.html", estado: "pendiente" },
     { id: "T11", numero: 11, titulo: "Tema 11. Maniobras", archivo: "tema11/maniobras.html", estado: "pendiente" },
