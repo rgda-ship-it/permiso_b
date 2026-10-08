@@ -352,6 +352,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Conocer el estado de los heridos — pp.428-436
     - Trasladar a los heridos — p.436
 - Leer como imagen (`scripts/rasterizar.py`): 404
+- Notas: ✅ listo (`guia/tema16/accidentes-de-trafico.html`). Tablas p.390, 408, 410, 425 y 427 leídas en imagen (p.390: «perder el control en una curva» es del estado de la carretera).
 - Relacionado con: T3 (factores del conductor), T5 (seguridad pasiva), T9 (emergencias en autopista)
 
 ## T17 · Tema 17. Conducción preventiva y eficiente

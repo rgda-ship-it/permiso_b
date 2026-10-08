@@ -19,8 +19,8 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T13 | Tema 13. Transportar personas y cargas | 319-340 | listo | tablas p.328, 330 en imagen |
 | T14 | Tema 14. Conducir de forma segura | 341-364 | listo | tabla p.345 en imagen |
 | T15 | Tema 15. Mecánica y mantenimiento del vehículo | 365-387 | listo | p.373 y 380 en imagen |
-| T16 | Tema 16. Accidentes de tráfico | 388-436 | pendiente | |
+| T16 | Tema 16. Accidentes de tráfico | 388-436 | listo | tablas p.390, 408, 410, 425, 427 en imagen |
 | T17 | Tema 17. Conducción preventiva y eficiente | 437-466 | pendiente | |
 | ANEXO | Anexo puntos. El permiso de conducir por puntos | 467-474 | pendiente | |
 
-**Resumen:** 15 de 18 temas listos.
+**Resumen:** 16 de 18 temas listos.
