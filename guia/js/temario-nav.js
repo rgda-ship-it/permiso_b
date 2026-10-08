@@ -21,7 +21,7 @@
     { id: "T9", numero: 9, titulo: "Tema 9. La vía", archivo: "tema09/la-via.html", estado: "listo" },
     { id: "T10", numero: 10, titulo: "Tema 10. Velocidad y distancias", archivo: "tema10/velocidad-y-distancias.html", estado: "listo" },
     { id: "T11", numero: 11, titulo: "Tema 11. Maniobras", archivo: "tema11/maniobras.html", estado: "listo" },
-    { id: "T12", numero: 12, titulo: "Tema 12. Normas de preferencia para circular", archivo: "tema12/normas-de-preferencia.html", estado: "pendiente" },
+    { id: "T12", numero: 12, titulo: "Tema 12. Normas de preferencia para circular", archivo: "tema12/normas-de-preferencia.html", estado: "listo" },
     { id: "T13", numero: 13, titulo: "Tema 13. Transportar personas y cargas", archivo: "tema13/transportar-personas-y-cargas.html", estado: "pendiente" },
     { id: "T14", numero: 14, titulo: "Tema 14. Conducir de forma segura", archivo: "tema14/conducir-de-forma-segura.html", estado: "pendiente" },
     { id: "T15", numero: 15, titulo: "Tema 15. Mecánica y mantenimiento del vehículo", archivo: "tema15/mecanica-y-mantenimiento.html", estado: "pendiente" },

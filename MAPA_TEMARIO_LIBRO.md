@@ -274,6 +274,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
   - Cruzar túneles y pasos inferiores — pp.316-318
     - Normas para parar el vehículo dentro de un túnel — pp.316-317
     - Emergencias dentro de un túnel — pp.317-318
+- Notas: ✅ listo (`guia/tema12/normas-de-preferencia.html`). Sin tablas de varias columnas.
 - Relacionado con: T8 (señales de preferencia), T11 (incorporaciones)
 
 ## T13 · Tema 13. Transportar personas y cargas

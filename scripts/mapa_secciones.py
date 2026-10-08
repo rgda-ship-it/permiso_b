@@ -210,6 +210,7 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T12": "✅ listo (`guia/tema12/normas-de-preferencia.html`). Sin tablas de varias columnas.",
     "T11": "✅ listo (`guia/tema11/maniobras.html`). Tablas p.270, 277 y 292 leídas en imagen "
            "(p.292: el texto extraído desplazaba «sal por la primera salida» a otra fila).",
     "T10": "✅ listo (`guia/tema10/velocidad-y-distancias.html`). Tablas de velocidad p.252-257 y "
