@@ -26,6 +26,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Titular del vehículo — pp.24-25
     - Conductor habitual — p.25
   - Categorías de los vehículos dependiendo de su uso — p.25
+- Notas: ✅ listo (`guia/tema01/definiciones.html`). El libro nombra sin definir el trolebús (p.9) y la bicicleta de pedales con motor (p.21, 23): marcados ⚠️ en la guía, sin rellenar. Tabla M/N/O (p.25) y p.23 comprobadas en imagen.
 - Relacionado con: T2 (tipos de permiso según el vehículo), T13 (medidas y cargas)
 
 ## T2 · Tema 2. Documentación

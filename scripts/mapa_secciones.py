@@ -210,6 +210,9 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T1": "✅ listo (`guia/tema01/definiciones.html`). El libro nombra sin definir el trolebús (p.9) y "
+          "la bicicleta de pedales con motor (p.21, 23): marcados ⚠️ en la guía, sin rellenar. "
+          "Tabla M/N/O (p.25) y p.23 comprobadas en imagen.",
     "T3": "✅ listo (`guia/tema03/estado-del-conductor.html`). Tablas leídas en imagen: p.59 (drogas) "
           "y p.64 (enfermedades); el texto de pdftotext las mezcla. p.69 tiene una errata en el libro "
           "(«Ditracciones»). Contenido de los «Ver vídeo» no disponible.",

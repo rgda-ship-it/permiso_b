@@ -10,7 +10,7 @@
   "use strict";
 
   var TEMARIO = [
-    { id: "T1", numero: 1, titulo: "Tema 1. Definiciones", archivo: "tema01/definiciones.html", estado: "pendiente" },
+    { id: "T1", numero: 1, titulo: "Tema 1. Definiciones", archivo: "tema01/definiciones.html", estado: "listo" },
     { id: "T2", numero: 2, titulo: "Tema 2. Documentación", archivo: "tema02/documentacion.html", estado: "pendiente" },
     { id: "T3", numero: 3, titulo: "Tema 3. El estado del conductor", archivo: "tema03/estado-del-conductor.html", estado: "listo" },
     { id: "T4", numero: 4, titulo: "Tema 4. Obligaciones de conductores y peatones", archivo: "tema04/obligaciones-conductores-peatones.html", estado: "pendiente" },

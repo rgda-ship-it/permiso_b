@@ -243,6 +243,7 @@ li { margin-bottom: .35em; }
 .toc li { margin: 0; }
 .toc li.h3 { padding-left: 18px; font-size: .95rem; }
 .toc li.h4 { padding-left: 36px; font-size: .9rem; }
+.fase > h3 { font-size: 1.4rem; margin-top: 2em; }
 .fase > h4 {
   font-size: 1.2rem; margin: 1.6em 0 .5em;
   padding-left: 10px; border-left: 4px solid var(--tema-color);
@@ -424,3 +425,13 @@ summary { cursor: pointer; }
   .ref { background: none; padding: 0; }
   a { color: inherit; text-decoration: none; }
 }
+
+/* Clasificación en columnas (se apilan en móvil) */
+.clasif { display: grid; gap: 12px; margin: 0 0 20px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.clasif > div {
+  background: var(--surface); border: 1px solid var(--border); border-top: 5px solid var(--tema-color);
+  border-radius: var(--radius); padding: 12px 14px;
+}
+.clasif h5 { margin: 0 0 6px; font-size: 1rem; }
+.clasif ul { margin: 0; padding-left: 1.1em; font-size: 1rem; }
+.clasif li { margin-bottom: .15em; }
