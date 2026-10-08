@@ -26,7 +26,7 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 
 - [x] Fase 0 — estructura, CLAUDE.md, PROGRESO_GUIA.md
 - [x] Fase 1 — PDF a texto
-- [ ] Fase 2 — `MAPA_TEMARIO_LIBRO.md`
+- [x] Fase 2 — `MAPA_TEMARIO_LIBRO.md` (regenerar: `python scripts/mapa_secciones.py --md`)
 - [ ] Fase 3 — esqueleto del sitio
 - [ ] Fase 4 — temas (piloto primero)
 - [ ] Fases 5-8 — fichas, Guía esencial, Juegos, Examen
@@ -42,7 +42,11 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 6. Todo lo publicado es estático y se abre con doble clic (`file://`). Python solo para generar, en local.
 7. Los títulos de los temas coinciden exactamente con `Temario.txt`.
 8. No hay exámenes anteriores: el estilo de examen se toma del formato habitual DGT
-   (3 opciones a/b/c) **solo como formato**, nunca como contenido.
+   **solo como formato**, nunca como contenido.
+9. **Preguntas de examen con 3 opciones (a/b/c), no 4**, para coincidir con el examen
+   oficial. Esto sustituye a las «4 opciones» del método en la Fase 4 de cada tema,
+   en `preguntas_estilo_examen.json` y en el simulador.
+10. **`Libro.pdf` solo en local**: está en `.gitignore` y no se sube nunca al repo.
 
 ### Particularidades de este libro (Lectura Fácil)
 
@@ -62,6 +66,8 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 - La cabecera de cada página lleva el título del tema («Tema 10. Velocidad y distancias»),
   a veces precedida de un icono («STOP», «!»).
 - Cada página de `libro_texto/` empieza con `--- PÁGINA PDF N · LIBRO p.N ---`.
+- **`grep` con tildes:** Git Bash trabaja por bytes, así que `m.vil` no encuentra «móvil»
+  (la «ó» ocupa 2 bytes). Busca la palabra con la tilde escrita o usa Python. El texto está bien.
 - Páginas sin numerar: 1-4 (portada, créditos, índice general, página en blanco) y 475-476 (contraportada).
 
 ## Rangos por tema (páginas del libro = PDF)
@@ -97,11 +103,14 @@ libro_texto/paginas/pagina_NNN.txt · por_capitulo/*.txt · libro_completo.txt �
 libro_img/            ← páginas rasterizadas bajo demanda (no se versiona)
 scripts/extraer_texto.py   ← regenera libro_texto/ (requiere pdftotext)
 scripts/rasterizar.py N…   ← PNG de páginas concretas (requiere PyMuPDF)
+scripts/mapa_secciones.py  ← apartados de cada tema → páginas; --md regenera el mapa
 guia/                 ← el sitio (estructura en la sección 0 del método)
 ```
 
-Estructura del temario: no hay bloques, solo 17 temas + anexo. Convención para el sitio:
-**un bloque por tema** (`guia/temaNN/`), y el anexo en `guia/anexo/`. Identificadores: `T1`…`T17`, `ANEXO`.
+Estructura del temario (decidido): no hay bloques, solo 17 temas + anexo.
+**Una carpeta por tema** (`guia/tema01/` … `guia/tema17/`) y el anexo en `guia/anexo/`.
+Donde el método dice «bloqueN» se usa `temaNN` (p. ej. `resumen/tema03.md`,
+`scripts/esencial/tema03.json`). Identificadores: `T1`…`T17`, `ANEXO`.
 
 ## Git
 
