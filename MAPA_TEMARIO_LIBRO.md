@@ -92,6 +92,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Obligaciones generales — pp.81-84
     - Vehículos de movilidad personal — pp.84-85
   - Animales en carretera — p.85
+- Notas: ✅ listo (`guia/tema04/obligaciones-conductores-peatones.html`). Texto limpio; la tabla de p.78 (conducción defensiva / zona de inseguridad) se entiende sin imagen.
 - Relacionado con: T9 (por dónde circulan peatones y vehículos), T12 (preferencia de peatones y animales)
 
 ## T5 · Tema 5. Dispositivos de seguridad en el vehículo

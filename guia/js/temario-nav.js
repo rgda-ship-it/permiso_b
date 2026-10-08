@@ -13,7 +13,7 @@
     { id: "T1", numero: 1, titulo: "Tema 1. Definiciones", archivo: "tema01/definiciones.html", estado: "listo" },
     { id: "T2", numero: 2, titulo: "Tema 2. Documentación", archivo: "tema02/documentacion.html", estado: "listo" },
     { id: "T3", numero: 3, titulo: "Tema 3. El estado del conductor", archivo: "tema03/estado-del-conductor.html", estado: "listo" },
-    { id: "T4", numero: 4, titulo: "Tema 4. Obligaciones de conductores y peatones", archivo: "tema04/obligaciones-conductores-peatones.html", estado: "pendiente" },
+    { id: "T4", numero: 4, titulo: "Tema 4. Obligaciones de conductores y peatones", archivo: "tema04/obligaciones-conductores-peatones.html", estado: "listo" },
     { id: "T5", numero: 5, titulo: "Tema 5. Dispositivos de seguridad en el vehículo", archivo: "tema05/dispositivos-de-seguridad.html", estado: "pendiente" },
     { id: "T6", numero: 6, titulo: "Tema 6. Elementos del vehículo y normas para usarlos", archivo: "tema06/elementos-del-vehiculo.html", estado: "pendiente" },
     { id: "T7", numero: 7, titulo: "Tema 7. Sistema de luces de los vehículos", archivo: "tema07/sistema-de-luces.html", estado: "pendiente" },

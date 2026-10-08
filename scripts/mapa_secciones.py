@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T4": "✅ listo (`guia/tema04/obligaciones-conductores-peatones.html`). Texto limpio; la tabla "
+          "de p.78 (conducción defensiva / zona de inseguridad) se entiende sin imagen.",
     "T2": "✅ listo (`guia/tema02/documentacion.html`). Tablas de permisos (p.29-30) e ITV (p.35-36) "
           "transcritas desde la imagen: el texto extraído las mezcla.",
     "T1": "✅ listo (`guia/tema01/definiciones.html`). El libro nombra sin definir el trolebús (p.9) y "
