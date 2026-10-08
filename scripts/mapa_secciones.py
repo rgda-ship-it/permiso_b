@@ -210,6 +210,10 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T5": "✅ listo (`guia/tema05/dispositivos-de-seguridad.html`). Tablas p.96 (fallo de frenos) y p.100 "
+          "(presión) leídas en imagen: en p.100 el texto extraído ponía «la rueda se reviente» en la "
+          "columna equivocada (va con presión BAJA). El libro llama al frenado autónomo «AES» (p.93) y "
+          "«AEB» (p.94): señalado en la guía.",
     "T4": "✅ listo (`guia/tema04/obligaciones-conductores-peatones.html`). Texto limpio; la tabla "
           "de p.78 (conducción defensiva / zona de inseguridad) se entiende sin imagen.",
     "T2": "✅ listo (`guia/tema02/documentacion.html`). Tablas de permisos (p.29-30) e ITV (p.35-36) "

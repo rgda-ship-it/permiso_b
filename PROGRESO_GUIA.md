@@ -8,7 +8,7 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T2 | Tema 2. Documentación | 26-41 | listo | tablas p.29-30 y 35-36 en imagen |
 | T3 | Tema 3. El estado del conductor | 42-73 | listo | piloto · 128 refs · 14 autoevaluación · 7 no confundir · 18 examen (a/b/c 6-6-6) · tablas p.59 y p.64 en imagen |
 | T4 | Tema 4. Obligaciones de conductores y peatones | 74-85 | listo | |
-| T5 | Tema 5. Dispositivos de seguridad en el vehículo | 86-119 | pendiente | |
+| T5 | Tema 5. Dispositivos de seguridad en el vehículo | 86-119 | listo | tablas p.96 y p.100 en imagen; AES/AEB incoherente en el libro |
 | T6 | Tema 6. Elementos del vehículo y normas para usarlos | 120-138 | pendiente | |
 | T7 | Tema 7. Sistema de luces de los vehículos | 139-153 | pendiente | |
 | T8 | Tema 8. Señales de circulación | 154-211 | pendiente | muchas señales en imagen: rasterizar |
@@ -23,4 +23,4 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | T17 | Tema 17. Conducción preventiva y eficiente | 437-466 | pendiente | |
 | ANEXO | Anexo puntos. El permiso de conducir por puntos | 467-474 | pendiente | |
 
-**Resumen:** 4 de 18 temas listos.
+**Resumen:** 5 de 18 temas listos.

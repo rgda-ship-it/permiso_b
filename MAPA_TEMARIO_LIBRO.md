@@ -112,6 +112,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Los airbags — pp.114-116
     - El reposacabezas — pp.116-117
     - El casco — pp.117-119
+- Notas: ✅ listo (`guia/tema05/dispositivos-de-seguridad.html`). Tablas p.96 (fallo de frenos) y p.100 (presión) leídas en imagen: en p.100 el texto extraído ponía «la rueda se reviente» en la columna equivocada (va con presión BAJA). El libro llama al frenado autónomo «AES» (p.93) y «AEB» (p.94): señalado en la guía.
 - Relacionado con: T7 (sistemas de alumbrado), T15 (frenos, ruedas y neumáticos)
 
 ## T6 · Tema 6. Elementos del vehículo y normas para usarlos
