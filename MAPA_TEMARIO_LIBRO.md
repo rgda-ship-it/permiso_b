@@ -155,6 +155,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Tercera luz de freno — pp.151-152
     - Luz de marcha atrás — p.152
   - Señales acústicas — pp.152-153
+- Notas: ✅ listo (`guia/tema07/sistema-de-luces.html`). Las «luces de circulación diurna» aparecen en el esquema de p.141 pero el libro no las explica: no se desarrollan.
 - Relacionado con: T5 (sistemas de alumbrado), T14 (conducir de noche y con niebla)
 
 ## T8 · Tema 8. Señales de circulación

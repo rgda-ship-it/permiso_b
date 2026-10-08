@@ -210,6 +210,8 @@ def markdown():
 
 # Notas que se añaden al generar cada tema (Fase 4)
 NOTAS = {
+    "T7": "✅ listo (`guia/tema07/sistema-de-luces.html`). Las «luces de circulación diurna» aparecen en "
+          "el esquema de p.141 pero el libro no las explica: no se desarrollan.",
     "T6": "✅ listo (`guia/tema06/elementos-del-vehiculo.html`). Texto limpio.",
     "T5": "✅ listo (`guia/tema05/dispositivos-de-seguridad.html`). Tablas p.96 (fallo de frenos) y p.100 "
           "(presión) leídas en imagen: en p.100 el texto extraído ponía «la rueda se reviente» en la "
