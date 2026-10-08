@@ -27,7 +27,7 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 - [x] Fase 0 — estructura, CLAUDE.md, PROGRESO_GUIA.md
 - [x] Fase 1 — PDF a texto
 - [x] Fase 2 — `MAPA_TEMARIO_LIBRO.md` (regenerar: `python scripts/mapa_secciones.py --md`)
-- [ ] Fase 3 — esqueleto del sitio
+- [x] Fase 3 — esqueleto del sitio (verificar: `python scripts/verificar_sitio.py`)
 - [ ] Fase 4 — temas (piloto primero)
 - [ ] Fases 5-8 — fichas, Guía esencial, Juegos, Examen
 - [ ] Fase 9 — verificación y cierre
@@ -94,6 +94,20 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 | Anexo puntos. El permiso de conducir por puntos | 467-474 | anexo_… |
 
 Cada tema empieza con una página «Índice» propia (la primera de su rango): úsala para el Mapa del punto.
+
+## Sitio (Fase 3)
+
+- **Tipografía: solo DM Sans** (también en el texto), a 18 px. La norma de Lectura Fácil pide
+  letra sin serifa; por eso no se usa la Source Serif 4 del método.
+- **Color de cada tema = color de su cabecera en el libro** (`--tema-color` en `style.css`
+  y `COLORES` en `temario-nav.js`). Solo como franja o marca, nunca como color de texto.
+- Portada sin panel lateral (el índice ya está en el centro). Panel lateral solo en los temas.
+- Nuevo tema: copiar `scripts/plantillas/tema.html` a la ruta `archivo` de `temario-nav.js`,
+  sustituir las `{LLAVES}` y poner `estado: "listo"`.
+- Referencias: `<span class="ref" data-tooltip="Manual Permiso B (DGT, LF), p. XX: …">p.XX</span>`.
+- Examen tipo: `.quiz-question` con 3 `<button>` en `.opciones` (las letras a/b/c las pone `main.js`).
+- ②, ③ y ④ son páginas «en construcción» hasta las Fases 6-8.
+- Playwright (Python) y Chromium instalados; capturas en `capturas/` (no se versiona).
 
 ## Rutas
 
