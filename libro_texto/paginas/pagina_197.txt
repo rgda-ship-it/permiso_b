@@ -1,0 +1,37 @@
+--- PÁGINA PDF 197 · LIBRO p.197 ---
+               Tema 8. Señales de circulación
+
+ S-368 Indica el número de la autopista
+ o autovía, hacia donde van y el nombre
+ del pueblo o ciudad que hay
+ en la siguiente salida hacia otra carretera.
+
+Señales para clasificar las carreteras
+
+ S-400 Carretera europea.
+ Nombre que se le da a esa carretera
+ en Europa.
+
+ S-410 Autopista o autovía.
+ S-410a Autopista de pago.
+
+ S-420 Carretera nacional,
+ del Estado español.
+
+ S-430 Carretera más importante
+ de una Comunidad Autónoma.
+ Se llaman carreteras autonómicas
+ de primer nivel.
+
+ S-440 Carreteras que unen pueblos dentro
+ de una Comunidad Autónoma o sirven
+ para llegar a las carreteras de primer nivel.
+ Se llaman carreteras autonómicas
+ de segundo nivel.
+
+ C-241 Carreteras que unen pueblos
+ pequeños.
+ Se llaman carreteras autonómicas
+ de tercer nivel.
+
+                                                                                     197

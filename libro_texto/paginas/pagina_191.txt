@@ -1,0 +1,31 @@
+--- PÁGINA PDF 191 · LIBRO p.191 ---
+               Tema 8. Señales de circulación
+
+ S-53c Carretera que pasa de tener dos carriles
+ a tener tres carriles.
+ También indica la velocidad máxima
+ a la que se puede circular por cada uno de ellos.
+
+ S-60a. En una carretera de dos carriles
+ indica que el carril de la izquierda se va a
+ desviar hacia la izquierda.
+ S-60b. En una carretera de dos carriles
+ indica que el carril de la derecha
+ se va a desviar hacia la derecha.
+
+ S-61a. En una carretera de tres carriles
+ indica que el carril de la izquierda
+ se va a desviar hacia la izquierda.
+ S-61b. En una carretera de tres carriles
+ indica que el carril de la derecha
+ se va a desviar hacia la derecha.
+
+ S-64 Carril bici o vía ciclista en la carretera.
+ Por ese carril solo podrán circular ciclos.
+
+Señales que informan de servicios
+
+ S-100 Puesto de socorro donde se puede
+ hacer una cura de urgencia.
+
+                                                                                     191

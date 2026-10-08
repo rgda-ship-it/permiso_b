@@ -1,0 +1,38 @@
+--- PÁGINA PDF 177 · LIBRO p.177 ---
+               Tema 8. Señales de circulación
+
+ R-203 Prohibido el paso de vehículos
+ que son más largos que la medida
+ que indica la señal.
+
+ R-204 Prohibido el paso de vehículos
+ que son más anchos que la medida
+ que indica la señal.
+
+ R-205 Prohibido el paso de vehículos
+ que son más altos que la medida
+ que indica la señal.
+
+Otras señales de prohibición o limitación
+
+ R-300 Separación mínima con el vehículo
+ de delante.
+ Obligación de mantener con el vehículo
+ de delante los metros de distancia
+ que marca la señal.
+
+ R-301 Velocidad máxima permitida.
+ Está prohibido circular a más velocidad,
+ en kilómetros por hora,
+ que la que pone en la señal.
+ Esto vale hasta que veas otra señal
+ de fin de limitación de velocidad,
+ fin de prohibiciones u otra señal
+ de velocidad máxima.
+
+ R-302 Prohibido girar a la derecha.
+
+ R-303 Prohibido girar a la izquierda
+ y cambiar de sentido.
+
+                                                                                     177

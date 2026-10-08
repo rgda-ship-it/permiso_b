@@ -1,0 +1,36 @@
+--- PÁGINA PDF 174 · LIBRO p.174 ---
+                           Tema 8. Señales de circulación
+
+           Señales que prohíben la entrada
+
+             R-100 Circulación prohibida.
+             Prohíbe circular a todos los vehículos,
+             en cualquier sentido.
+
+             R-101 Entrada prohibida.
+             Prohíbe la entrada a todo tipo de vehículos.
+             Puede que circulen vehículos
+             en el sentido contrario al que tú estás
+             porque esta prohibición solo sea en un sentido.
+
+             R-102 Entrada prohibida para vehículos
+             a motor.
+             Sí que pueden entrar ciclomotores.
+
+             R-103 Entrada prohibida para vehículos
+             a motor.
+             Sí que pueden entrar motocicletas
+             de dos ruedas, sin sidecar.
+
+             R-104 Prohibida la entrada de motocicletas.
+
+             R-105 Prohibida la entrada a ciclomotores
+             y a vehículos para personas
+             con movilidad reducida.
+
+             R-106 Prohibida la entrada a vehículos
+             que transportan mercancías,
+             aunque no lleven mucha carga.
+             Por ejemplo, furgonetas y camiones.
+
+174

@@ -1,0 +1,26 @@
+--- PÁGINA PDF 368 · LIBRO p.368 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+
+Sistema eléctrico
+¿Cuál es su función?
+Dar energía al coche para que se encienda,
+el motor pueda arrancar y funcionen
+otros elementos como las luces o el claxon.
+
+Este sistema tiene varias partes:
+
+Batería                 Circuito de  Circuito de  Circuito de
+                        encendido       carga     iluminación
+
+Batería
+Proporciona la energía necesaria
+para arrancar el motor.
+
+También lleva energía al resto del vehículo
+cuando es necesario.
+
+Hay que mantener la batería limpia, seca
+y bien encajada en su lugar.
+
+             Ver vídeo
+368

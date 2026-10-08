@@ -1,0 +1,31 @@
+--- PÁGINA PDF 369 · LIBRO p.369 ---
+   Tema 15. Mecánica y mantenimiento del vehículo
+
+Circuito de encendido
+Se encarga de que se encienda la chispa
+de electricidad necesaria
+para que el aire y el combustible
+se conviertan en energía
+y el vehículo empiece a funcionar.
+Esta chispa de electricidad se enciende
+en una pieza del motor que se llama bujía.
+
+Para mantener en buen estado el circuito
+de encendido hay que revisar el estado
+de las bujías y cambiarlas cuando sea necesario.
+También hay que comprobar que el motor
+está en buen estado.
+
+Circuito de carga
+Se encarga de llevar la corriente eléctrica
+a la batería y a todos los sistemas que lo necesitan
+mientras el motor del vehículo está en marcha.
+
+ Ver vídeo
+
+La pieza que permite que el vehículo
+produzca electricidad y la guarde en la batería
+se llama alternador.
+El alternador se mueve por medio de una correa.
+
+                                                                                     369

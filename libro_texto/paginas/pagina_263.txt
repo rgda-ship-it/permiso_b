@@ -1,0 +1,18 @@
+--- PÁGINA PDF 263 · LIBRO p.263 ---
+               Tema 10. Velocidad y distancias
+
+Distancia de detención
+Espacio que recorres con el vehículo
+desde que detectas un obstáculo
+hasta que paras el vehículo por completo.
+Por ejemplo, tiempo que pasa
+desde que ves un semáforo en rojo
+hasta que paras el vehículo por completo.
+La distancia de detención es la suma
+de la distancia de reacción y la de frenado.
+
+                             Distancia de detención
+
+                                 Distancia de reacción Distancia de frenado
+
+                                                                                     263

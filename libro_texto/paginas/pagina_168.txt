@@ -1,0 +1,32 @@
+--- PÁGINA PDF 168 · LIBRO p.168 ---
+                           Tema 8. Señales de circulación
+
+             P-11 Paso a nivel sin barreras
+             En ese mismo lugar.
+             P-11a Paso a nivel sin barreras
+             donde hay más de una vía de tren.
+             En ese mismo lugar.
+
+             P-12 Aeropuerto
+             Peligro por los ruidos imprevistos
+             que pueden provocar los aviones.
+
+             P-13a Curva peligrosa hacia la derecha.
+             P-13b Curva peligrosa hacia la izquierda.
+
+             P-14a Varias curvas peligrosas cerca.
+             La primera va hacia la derecha.
+             P-14b Varias curvas peligrosas cerca.
+             La primera va hacia la izquierda.
+
+             P-15 Perfil irregular.
+             Hay resaltos, badenes o la vía está
+             en mal estado.
+             Los resaltos son partes de la vía inclinadas
+             hacia arriba que sobresalen para obligar a
+             los vehículos a reducir la velocidad.
+             Los badenes también son partes de la vía,
+             son baches o zanjas en la vía.
+             P-15a Hay resaltos en la vía.
+             P-15b Hay badenes en la vía.
+168

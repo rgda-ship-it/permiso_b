@@ -1,0 +1,32 @@
+--- PÁGINA PDF 176 · LIBRO p.176 ---
+                           Tema 8. Señales de circulación
+
+             R-115 Prohibida la entrada de carros
+             llevados por personas.
+
+             R-116 Prohibida la entrada a peatones.
+
+             R-117 Prohibida la entrada de animales
+             montados por personas.
+
+           Señales que limitan el paso
+             R-200 Obligación de parar el vehículo
+             en el lugar donde esté colocada
+             para cumplir con las señales que haya
+             en cada caso.
+             Por ejemplo, un puesto de peaje en
+             la autopista o un puesto de policía.
+
+             R-201 Prohibido el paso de vehículos
+             que llevan una carga que pesa más que
+             el número de toneladas que indica la señal.
+
+             R-202 Prohibido el paso de vehículos
+             que llevan un peso en el eje de sus ruedas
+             mayor al número de toneladas
+             que indica la señal.
+             En este caso, no pueden pasar vehículos
+             que lleven un peso en eje
+             mayor a 2,4 toneladas.
+
+176

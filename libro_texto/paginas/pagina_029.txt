@@ -1,0 +1,30 @@
+--- PÁGINA PDF 29 · LIBRO p.29 ---
+             Tema 2. Documentación
+
+    Tipo de           Vehículos         Edad mínima
+   permiso                             para conducir
+AM             que puedes conducir     15 años
+             Ciclomotores
+A1           de dos o tres ruedas      16 años
+             y cuadriciclos ligeros.
+A2                                     18 años
+A            Vehículos                 20 años
+             para personas
+             con movilidad reducida.
+             Motocicletas con una
+             cilindrada máxima
+             de 125 centímetros
+             cúbicos y una potencia
+             máxima de 11 kilovatios.
+
+             Triciclos de motor con
+             una potencia máxima
+             de 15 kilovatios.
+             Motocicletas con una
+             potencia máxima
+             de 35 kilovatios.
+             Motocicletas y triciclos
+             con cualquier tipo
+             de motor y de potencia.
+
+                                                      29

@@ -1,0 +1,26 @@
+--- PÁGINA PDF 185 · LIBRO p.185 ---
+              Tema 8. Señales de circulación
+
+S-4 Fin de una carretera reservada
+para automóviles.
+
+S-5 Comienza un túnel.
+
+S-6 Fin del túnel.
+
+S-7 Velocidad máxima aconsejada.
+Aconseja la velocidad máxima
+a la que debes ir siempre en esa carretera.
+S-8 Fin de velocidad máxima aconsejada.
+Se acaba el tramo de carretera
+en el que se aconseja conducir a esa velocidad
+o más despacio.
+S-9 Velocidades aconsejadas.
+Recomienda conducir entre esas
+dos velocidades que aparecen en la señal.
+
+S-10 Fin de velocidades aconsejadas.
+Indica el lugar desde donde no se aconseja
+seguir conduciendo a esas velocidades.
+
+                                                                                    185

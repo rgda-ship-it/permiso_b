@@ -1,0 +1,51 @@
+--- PÁGINA PDF 257 · LIBRO p.257 ---
+               Tema 10. Velocidad y distancias
+
+       Tipo de vehículo
+        ■ Ciclomotores de dos o tres ruedas.
+        ■ Cuadriciclos ligeros.
+        ■ Vehículos para personas con poca movilidad.
+        ■ Ciclos.
+
+       Calles
+
+       sin bordillos,  Calles  Calles
+
+       donde la calzada con un solo carril con varios carriles
+
+       y la acera están para cada sentido en cada sentido
+
+00 90 80 a 7la0mis51m02a0alt1u0ra0 90 80 70 51020 100 90 80 70 50
+
+40 30 25 20 6405 40 30 25 20 6405 40 30 25 20 60
+
+40 35 30 25 1455 40 35 30 25 1455 40 35 30 25 15
+
+                   Tipo de vehículo
+
+                     ■ Vehículos de movilidad personal.
+                     ■ Vehículos especiales con remolque
+
+                       o semirremolque.
+                     ■ Vehículos sin luces de freno.
+
+       Calles
+
+       sin bordillos,  Calles  Calles
+
+       donde la calzada con un solo carril con varios carriles
+
+       y la acera están para cada sentido en cada sentido
+
+00 90  80 a 7l1a02m0 is5m100a0altu9r0a 81020 71000 5900 80 70 50
+
+40 30 25 2405 6400 30 2455 2400 6030 25 20 60
+
+40 35 30 2455 1450 35 3405 2450 1355 30 25 15
+
+                     La velocidad máxima para todos los vehículos
+                     en autopistas y autovías que están dentro de un
+                     pueblo o ciudad es de 80 kilómetros por hora,
+                     si no está señalizada de otra manera.
+
+                                                                                                           257

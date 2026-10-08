@@ -1,0 +1,29 @@
+--- PÁGINA PDF 184 · LIBRO p.184 ---
+                           Tema 8. Señales de circulación
+
+             R-504 Fin de zona de aparcamiento limitado.
+             Los vehículos pueden aparcar en ese lugar.
+
+             R-505 Fin de vía reservada para bicicletas.
+
+             R-506 Fin de velocidad mínima.
+             Puedes conducir más despacio
+             de lo que indica la señal.
+
+           Señales que dan información de interés
+           Dan información de interés a conductores
+           y a peatones.
+           Se llaman señales de indicación.
+           Hay distintos tipos de señales de indicación.
+           Señales de indicaciones generales
+
+             S-1 Lugar donde comienza una autopista.
+             S-1a Lugar donde comienza una autovía.
+
+             S-2 Lugar donde termina una autopista.
+             S-2a Lugar donde termina una autovía.
+
+             S-3 Comienzo de una carretera reservada
+             para que circulen automóviles.
+
+184

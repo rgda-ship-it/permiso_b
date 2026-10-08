@@ -1,0 +1,33 @@
+--- PÁGINA PDF 93 · LIBRO p.93 ---
+   Tema 5. Dispositivos de seguridad en el vehículo
+
+Los frenos
+Los frenos se encargan de reducir
+la velocidad del vehículo hasta pararlo del todo.
+Los frenos de un vehículo no suelen fallar.
+Pero en ocasiones sí que ocurre
+y esto puede causar un accidente grave.
+
+ Ver vídeo
+
+¿Qué sistemas de seguridad hay en los frenos?
+
+Freno    Sistema       Frenado     Aviso de
+motor  antibloqueo  autónomo de  frenado de
+                    emergencia   emergencia
+        de frenos
+           (ABS)         (AES)       (EBD)
+
+Freno motor
+
+Sistema que sirve para reducir la velocidad
+a la que circula un vehículo sin usar el freno de las ruedas.
+Funciona cuando dejas de acelerar
+y, así, es el motor el que retiene el vehículo.
+Si se circula en marchas cortas (1ª o 2ª)
+el motor frena más el vehículo.
+
+Se recomienda usar el freno motor
+al bajar cuestas largas.
+
+                                                               93

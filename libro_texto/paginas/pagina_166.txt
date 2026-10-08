@@ -1,0 +1,40 @@
+--- PÁGINA PDF 166 · LIBRO p.166 ---
+                           Tema 8. Señales de circulación
+
+           Señales que avisan de peligro
+           El nombre de estas señales empieza por una P de peligro.
+
+             P-1. Preferencia para pasar.
+             Los vehículos que van por esa vía
+             tienen preferencia para pasar antes
+             que los vehículos que vienen
+             de las carreteras o calles de los lados.
+
+             P-1a Preferencia para pasar antes
+             que los vehículos que vienen por la vía
+             de la derecha.
+
+             P-1b Preferencia para pasar antes
+             que los vehículos que vienen por la vía
+             de la izquierda.
+
+             P-1c Preferencia para pasar antes
+             que los vehículos que quieren entrar a esa vía
+             por la derecha.
+
+             P-1d Preferencia para pasar antes
+             que los vehículos que quieren entrar a esa vía
+             por la izquierda.
+
+             P-2 Cruce.
+             Tienen preferencia para pasar los vehículos
+             que vienen por la derecha.
+
+             P-3 Semáforos.
+             Cerca hay un cruce con semáforos
+             para regular el tráfico.
+             Tienes que conducir con cuidado
+             porque puede haber vehículos
+             en fila parados en el semáforo.
+
+166

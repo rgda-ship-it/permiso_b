@@ -1,0 +1,29 @@
+--- PÁGINA PDF 94 · LIBRO p.94 ---
+               Tema 5. Dispositivos de seguridad en el vehículo
+
+           Sistema antibloqueo de frenos (ABS)
+           Dispositivo que evita que las ruedas
+           se bloqueen al frenar.
+           Este sistema es muy importante
+           porque te ayuda a mantener el control del vehículo
+           y a frenar en menos espacio.
+           Cuanto más peso hay en el vehículo
+           más difícil es que se bloqueen las ruedas al frenar.
+           Por ejemplo, será más difícil que se bloquee la rueda
+           de tu motocicleta cuando lleves a un pasajero contigo.
+
+           Frenado autónomo de emergencia (AEB)
+           Sistema que calcula, a través de un radar,
+           la distancia que hay y debe haber entre tu vehículo
+           y el que tienes delante.
+           En caso de que haya muy poca distancia entre los vehículos,
+           este sistema de frenado te avisará
+           por medio de una voz y un sonido.
+           Si no haces caso a estas señales
+           y hay peligro de accidente
+           el sistema hará un frenado de emergencia.
+
+                                                          Ver vídeo
+
+             Radar. Sistema que puede detectar dónde está un objeto,
+94 por ejemplo otro coche, y a qué velocidad va.
