@@ -292,6 +292,7 @@ solo se ven en la imagen. Ante cualquier tabla o señal dudosa, rasterizar.
     - Señalar la carga que sobresale — pp.333-335
     - Operaciones de carga y descarga — p.335
   - Placas y señales de los vehículos — pp.335-340
+- Notas: ✅ listo (`guia/tema13/transportar-personas-y-cargas.html`). Tablas p.328 y 330 leídas en imagen. Color de la señal de peligro: naranja en p.293 (T11), amarilla en p.339 (señalado).
 - Relacionado con: T1 (tipos de vehículos), T7 (señalizar la carga)
 
 ## T14 · Tema 14. Conducir de forma segura
