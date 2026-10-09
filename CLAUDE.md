@@ -29,7 +29,9 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 - [x] Fase 2 — `MAPA_TEMARIO_LIBRO.md` (regenerar: `python scripts/mapa_secciones.py --md`)
 - [x] Fase 3 — esqueleto del sitio (verificar: `python scripts/verificar_sitio.py`)
 - [x] Fase 4 — temas: 18/18 listos (patrones: `python scripts/medir_patrones.py --detalle`)
-- [ ] Fases 5-8 — fichas, Guía esencial, Juegos, Examen
+- [x] Fase 5 — fichas `guia/resumen/temaNN.md` (18, 342 unidades clave).
+      Regenerar extractos: `python scripts/extraer_resumen.py`; verificar: `python scripts/verificar_fichas.py`
+- [ ] Fases 6-8 — Guía esencial, Juegos, Examen
 - [ ] Fase 9 — verificación y cierre
 
 ## Reglas (resumen; detalle en el método, sección 2)
