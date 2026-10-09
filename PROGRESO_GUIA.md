@@ -24,3 +24,7 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 | ANEXO | Anexo puntos. El permiso de conducir por puntos | 467-474 | listo | |
 
 **Resumen:** 18 de 18 temas listos. Fase 4 completa.
+
+## Fase 5 — Fichas de resumen
+
+18 fichas en `guia/resumen/` con el esquema fijo. **342 unidades clave** (mapa + cifras + no confundir). Verificadas con `scripts/verificar_fichas.py`: esquema, números presentes en la guía y páginas dentro del rango.
