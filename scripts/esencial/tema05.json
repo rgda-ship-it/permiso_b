@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Seguridad activa", "d": "Sirve para evitar accidentes; el conductor tiene que usarla (frenos, ruedas, luces).", "p": "88", "v": ["El conductor tiene que usarla"]},
+  {"t": "Seguridad pasiva", "d": "Hace que haya menos daños en un accidente; funciona sola (cinturón, airbag, reposacabezas).", "p": "89", "v": ["Funciona de forma automática"]},
+  {"t": "ABS", "d": "Evita que las ruedas se bloqueen al frenar.", "p": "94", "v": ["Evita que las ruedas se bloqueen al frenar."]},
+  {"t": "Freno motor", "d": "Reduce la velocidad sin usar el freno de las ruedas; frena más en marchas cortas. Recomendado en cuestas largas.", "p": "93", "v": ["sin usar el freno de las ruedas"]},
+  {"t": "Banda de rodamiento", "d": "Parte del neumático que toca la carretera; ranuras de al menos 1,6 mm en turismos.", "p": "98", "v": ["La parte del neumático que toca la carretera se llama banda de rodamiento."]},
+  {"t": "Efecto submarino", "d": "En un accidente el cuerpo se desliza por debajo del cinturón (asiento muy inclinado y cinturón mal puesto).", "p": "114", "v": ["por debajo del cinturón"]},
+  {"t": "Reposacabezas", "d": "Protege cuello y cervicales; a la altura de la cabeza y a 4 cm o menos.", "p": "116", "v": ["Protege el cuello y las cervicales en un golpe brusco."]},
+  {"t": "Casco integral", "d": "Protege también la parte de abajo de la cara y la mandíbula.", "p": "118", "v": ["protege también la parte de abajo de la cara y la mandíbula"]}
+ ],
+ "dominar": [
+  {"t": "Activa frente a pasiva", "d": "La activa evita el accidente; la pasiva reduce los daños. Los coches nuevos tienen tantos accidentes como los viejos porque se confía demasiado en estos sistemas.", "p": "87-89", "cubre": [1], "v": ["el mismo número de accidentes"]},
+  {"t": "Frenar bien y frenar de emergencia", "d": "Freno motor en cuestas largas. Con ABS: pisar a fondo hasta parar. Sin ABS: aflojar un poco si se bloquea la rueda, sin dejar de frenar.", "p": "93-96", "cubre": [2], "v": ["hasta que el vehículo se pare", "sin dejar de frenar"]},
+  {"t": "Neumáticos y rueda de galleta", "d": "1,6 mm de ranura, presión una vez al mes, cambiar cada 5 años. Presión baja: puede reventar. Rueda de galleta: 200 km a 80 km/h.", "p": "98-102", "cubre": [3, 4], "v": ["cada cinco años", "Más posibilidad de que la rueda reviente."]},
+  {"t": "Cinturón y niños", "d": "Dobla las posibilidades de sobrevivir. Excepciones solo en ciudad. Niños de menos de 135 cm: retención infantil detrás, mirando hacia atrás si son pequeños.", "p": "107-111", "cubre": [5, 6], "v": ["el doble de posibilidades de sobrevivir", "mirando hacia atrás"]},
+  {"t": "Airbag, reposacabezas y casco", "d": "Pecho a 25 cm del volante; desconectar el airbag del copiloto con sillita. Reposacabezas a 4 cm. El casco salva 3 de cada 10 vidas.", "p": "115-118", "cubre": [7, 8], "v": ["Desconecta el airbag del copiloto si pones ahí una sillita infantil."]}
+ ],
+ "mnemo": [
+  {"r": "Activa = antes del golpe; pasiva = durante el golpe.", "base": "Tipos de seguridad (p.88-89)"},
+  {"r": "Airbag lejos (25 cm), reposacabezas cerca (4 cm).", "base": "Airbag y reposacabezas (p.115-116)"}
+ ],
+ "conexiones": [
+  {"id": "T7", "por": "Sistemas de alumbrado"},
+  {"id": "T15", "por": "Frenos, ruedas y neumáticos"},
+  {"id": "T13", "por": "Transportar niños y pasajeros"}
+ ]
+}

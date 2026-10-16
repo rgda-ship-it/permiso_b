@@ -3,20 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Guía · Manual Permiso B</title>
+  <title>② Guía: lo esencial · Manual Permiso B</title>
+  <meta name="description" content="Lo esencial de cada tema del permiso B: qué memorizar, qué entender, tablas, cifras y trampas de examen.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="esencial.css">
   <script src="../js/menu.js"></script>
+  <script src="datos.js" defer></script>
+  <script src="esencial.js" defer></script>
 </head>
 <body data-seccion="guia">
-  <main id="contenido" class="contenido proximamente">
-    <p class="icono" aria-hidden="true">🚧</p>
-    <h1>② Guía</h1>
-    <p>Lo esencial de cada tema</p>
-    <p class="muted">Esta sección todavía no está lista.  qué memorizar y qué entender.:Se construye cuando estén listos todos los temas.</p>
-    <p><a href="../index.html">← Volver al índice</a></p>
+  <main id="contenido" class="contenido contenido--ancho">
+    <header class="es-cabecera">
+      <h1>② Guía: lo esencial</h1>
+      <p class="lead">Lo que tienes que saber de cada tema, en poco espacio.
+        <span class="es-leyenda">🔴 Memorizar · 🟠 Entender · 📋 Tabla · 🔢 Cifras · ⚠️ Trampas · 🧠 Para recordar · 🔗 Conexiones</span></p>
+      <div id="es-progreso" class="progreso"></div>
+    </header>
+
+    <div class="es-pestanas" role="tablist" aria-label="Vistas">
+      <button role="tab" id="tab-temas" aria-selected="true" aria-controls="vista-temas">Por temas</button>
+      <button role="tab" id="tab-glosario" aria-selected="false" aria-controls="vista-glosario">Glosario A-Z</button>
+    </div>
+
+    <div class="es-controles" role="search">
+      <label class="es-buscar">
+        <span class="sr-only">Buscar</span>
+        <input id="es-buscar" type="search" placeholder="Buscar (por ejemplo: alcohol, 750, ITV)" autocomplete="off">
+      </label>
+      <label class="es-filtro">
+        <span class="sr-only">Tema</span>
+        <select id="es-tema"><option value="">Todos los temas</option></select>
+      </label>
+      <label class="es-check"><input type="checkbox" id="es-tapar"> Tapar definiciones</label>
+      <label class="es-check"><input type="checkbox" id="es-solo-rojo"> Solo 🔴</label>
+      <button type="button" id="es-imprimir" class="es-boton">🖨️ Imprimir</button>
+    </div>
+    <p id="es-resultado" class="muted" aria-live="polite"></p>
+
+    <section id="vista-temas" role="tabpanel" aria-labelledby="tab-temas"></section>
+    <section id="vista-glosario" role="tabpanel" aria-labelledby="tab-glosario" hidden></section>
+
+    <nav class="es-siguiente">
+      <a href="../juegos/index.html"><small>Siguiente paso →</small>③ Juegos: repasa jugando</a>
+    </nav>
+    <p class="fuente">Todo sale de la guía de cada tema, que sale del <i>Manual del Permiso B en Lectura Fácil</i> (DGT).
+      Cada dato lleva su página del libro.</p>
   </main>
 </body>
 </html>

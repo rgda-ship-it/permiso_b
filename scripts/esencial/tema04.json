@@ -1,0 +1,25 @@
+{
+ "memorizar": [
+  {"t": "Conducción defensiva", "d": "Conducir atento para prever lo que van a hacer los demás y reaccionar bien.", "p": "78", "v": ["lo que van a hacer los demás (conductores y peatones) y reaccionar bien"]},
+  {"t": "Zona de inseguridad", "d": "Espacio donde pueden surgir imprevistos: delante, detrás y a los lados.", "p": "78", "v": ["Pueden surgir delante, detrás y a los lados."]},
+  {"t": "Combustible", "d": "Materia que da calor al juntarse con el oxígeno.", "p": "77", "v": ["Materia que da calor al juntarse con el oxígeno."]},
+  {"t": "Arcén", "d": "Lateral de la carretera; por el derecho solo pueden ir algunos vehículos, como los ciclomotores.", "p": "82", "v": ["Lateral de la carretera, a la derecha o a la izquierda."]},
+  {"t": "Ganado", "d": "Animales criados para producir carne, leche, lana y otros productos.", "p": "85", "v": ["Animales criados para producir carne, leche, lana y otros productos."]},
+  {"t": "Echar combustible", "d": "Con el motor, las luces y la radio apagados.", "p": "77", "v": ["Echar combustible con el motor en marcha, las luces encendidas o la radio conectada."]}
+ ],
+ "dominar": [
+  {"t": "Prohibiciones del conductor", "d": "Auriculares, móvil sin manos libres, abrir la puerta sin mirar, echar combustible con algo encendido. Prohibido tirar objetos a la vía.", "p": "75-77", "cubre": [1, 2], "v": ["Usar auriculares conectados al móvil u otro aparato."]},
+  {"t": "Prever y vigilar", "d": "La conducción defensiva prevé; la zona de inseguridad es dónde aparecen los imprevistos.", "p": "78", "cubre": [3], "v": ["Por ejemplo, estar preparado por si otro conductor necesita cambiar de carril."]},
+  {"t": "Dos o tres ruedas y vehículos especiales", "d": "Casco conductor y pasajero (con cinturón obligatorio, no). Bici de noche: luces y prenda visible a 150 m. Vehículos de obras: luz amarilla, sin prioridad, 40 km/h.", "p": "79-80", "cubre": [4, 5], "v": ["Con cinturón no necesitas casco.", "no les da prioridad para pasar ni para adelantar"]},
+  {"t": "Peatones, patinetes y animales", "d": "Peatón: por la izquierda en carretera. VMP: ni aceras, ni túneles, ni autopistas; sin pasajeros. Animales: guía mayor de 18, por el arcén derecho.", "p": "81-85", "cubre": [6, 7, 8], "v": ["Por la izquierda, salvo que sea más seguro por la derecha.", "Sin pasajeros"]}
+ ],
+ "mnemo": [
+  {"r": "Andando por la izquierda ves venir a los coches de frente.", "base": "Peatones en carretera (p.82)"},
+  {"r": "La luz amarilla dice «estoy aquí», no «déjame pasar».", "base": "Vehículos especiales (p.80)"}
+ ],
+ "conexiones": [
+  {"id": "T12", "por": "Preferencia de peatones y animales"},
+  {"id": "T9", "por": "Por dónde circula cada vehículo"},
+  {"id": "T17", "por": "Conducción preventiva"}
+ ]
+}

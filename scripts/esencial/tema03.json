@@ -1,0 +1,41 @@
+{
+ "memorizar": [
+  {"t": "Tiempo de reacción", "d": "El tiempo que pasa desde que ves u oyes algo hasta que reaccionas. Normal: entre medio segundo y un segundo.", "p": "44",
+   "v": ["El tiempo que pasa desde que ves u oyes algo hasta que reaccionas", "tarda entre medio segundo y un segundo en reaccionar"]},
+  {"t": "Fatiga", "d": "Cansancio. Física: sientes cansancio. Psicológica: te cuesta concentrarte.", "p": "45",
+   "v": ["Sientes cansancio.", "Te cuesta más concentrarte."]},
+  {"t": "Somnolencia", "d": "Sensación de cansancio, cuerpo pesado y sueño.", "p": "48",
+   "v": ["Sensación de cansancio, cuerpo pesado y sueño."]},
+  {"t": "Alcoholemia", "d": "Cantidad total de alcohol en la sangre después de beber.", "p": "52",
+   "v": ["Cantidad total de alcohol en la sangre después de beber."]},
+  {"t": "Tasas de alcohol", "d": "Noveles y profesionales: 0,15 mg/l en aire (0,3 g/l en sangre). Resto: 0,25 mg/l en aire (0,5 g/l en sangre).", "p": "53",
+   "v": ["Cualquier otro vehículo y conductor"]},
+  {"t": "Drogas al volante", "d": "Prohibido conducir si has tomado drogas y siguen en tu cuerpo.", "p": "58",
+   "v": ["Está prohibido conducir cualquier vehículo si has tomado drogas y siguen en tu cuerpo."]},
+  {"t": "Positivo en alcohol o drogas", "d": "Falta muy grave: multa y entre 4 y 6 puntos menos.", "p": "61",
+   "v": ["Si das positivo: falta muy grave", "entre 4 y 6 puntos"]},
+  {"t": "Móvil al volante", "d": "Prohibido. El riesgo de accidente es cuatro veces mayor.", "p": "70-71",
+   "v": ["el riesgo de accidente es cuatro veces mayor", "En España está prohibido usar el móvil mientras conduces."]}
+ ],
+ "dominar": [
+  {"t": "Qué alarga el tiempo de reacción", "d": "Cansancio, sueño, edad, ver u oír mal, enfermedades, algunos medicamentos, alcohol y drogas, comer mucho, calor, estado de ánimo alterado y poca atención.", "p": "45", "cubre": [1],
+   "v": ["estás cansado (fatiga) o tienes sueño"]},
+  {"t": "Fatiga y somnolencia: cómo evitarlas", "d": "Descansar 20 o 30 minutos cada dos horas o 200 km, aunque no notes cansancio; con los primeros síntomas, parar y dormir 20 o 30 minutos. Con sueño no hace falta dormirse del todo para tener un accidente.", "p": "48-51", "cubre": [2, 3, 4],
+   "v": ["aunque no te sientas cansado", "No hace falta dormirse del todo"]},
+  {"t": "Por qué sube o baja la tasa de alcohol", "d": "La tasa más alta llega una hora después de beber. Dormir hace que el alcohol se elimine más despacio; beber despacio y comer ayudan. Afecta más a delgados, mujeres, menores de 18 y mayores de 65.", "p": "54-55", "cubre": [5],
+   "v": ["La tasa más alta llega una hora después de beber.", "Durmiendo, el alcohol se elimina más despacio."]},
+  {"t": "Drogas y pruebas", "d": "Prohibido conducir con drogas en el cuerpo. Alcohol: se sopla; drogas: saliva; si no estás de acuerdo, análisis de sangre. Negarse también se sanciona.", "p": "58-62", "cubre": [6, 7],
+   "v": ["Se toma una muestra de saliva y se mete en un aparato.", "Negarse a hacer la prueba también tiene multas y sanciones."]},
+  {"t": "Distracciones: móvil, tabaco y GPS", "d": "Con el móvil el riesgo es cuatro veces mayor; el manos libres está permitido pero también distrae. Quien fuma tiene el doble de accidentes. El GPS se programa antes de salir.", "p": "70-73", "cubre": [8],
+   "v": ["el doble de accidentes", "parte de tu atención se va a la conversación"]}
+ ],
+ "mnemo": [
+  {"r": "En sangre, el doble que en aire: 0,15 → 0,3 y 0,25 → 0,5.", "base": "Tabla de tasas (p.53)"},
+  {"r": "Descanso 2-2-2: cada 2 horas o 200 km, 20 o 30 minutos.", "base": "Cómo evitar la fatiga (p.51)"}
+ ],
+ "conexiones": [
+  {"id": "T10", "por": "Tiempo de reacción y distancia de reacción"},
+  {"id": "ANEXO", "por": "Puntos que se pierden por alcohol y drogas"},
+  {"id": "T14", "por": "Conducir con calor da sueño y fatiga"}
+ ]
+}

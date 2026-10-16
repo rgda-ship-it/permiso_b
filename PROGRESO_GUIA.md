@@ -28,3 +28,15 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 ## Fase 5 — Fichas de resumen
 
 18 fichas en `guia/resumen/` con el esquema fijo. **342 unidades clave** (mapa + cifras + no confundir). Verificadas con `scripts/verificar_fichas.py`: esquema, números presentes en la guía y páginas dentro del rango.
+
+## Fase 6 — Guía esencial
+
+`guia/esencial/` generado por `scripts/generar_esencial.py` a partir de las fichas y de `scripts/esencial/temaNN.json`.
+
+- 18 temas · **136 definiciones 🔴** (5-8 por tema) · **86 conceptos 🟠** · 36 reglas 🧠 · conexiones 🔗 entre temas.
+- Cobertura del «Mapa del punto» por los 🟠: **143/143**.
+- Cada definición y concepto lleva fragmentos literales comprobados en la página del tema y su página del libro contrastada con las referencias cercanas: 0 avisos.
+- Tablas 📋, cifras 🔢 y trampas ⚠️ salen automáticamente de las fichas.
+- Sin «Así lo preguntan» ni prioridad 🔥: no hay exámenes anteriores en el material.
+- Verificado con `scripts/verificar_sitio.py` (búsqueda sin tildes, filtro por tema, Solo 🔴, Tapar, «Ya me lo sé» tras recargar; 1280 y 390 px).
+

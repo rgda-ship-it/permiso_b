@@ -1,0 +1,27 @@
+{
+ "memorizar": [
+  {"t": "Conducción preventiva", "d": "Conducir adelantándose a los imprevistos: recoges información, prevés, reaccionas bien y te adaptas.", "p": "440", "v": ["Conducir adelantándose a los imprevistos"]},
+  {"t": "Ángulos muertos", "d": "Zonas a los lados que no ves aunque los retrovisores estén bien.", "p": "443", "v": ["zonas a los lados que no ves aunque los retrovisores estén bien"]},
+  {"t": "Conducción eficiente", "d": "Conducir gastando menos combustible, contaminando menos y con más seguridad.", "p": "449", "v": ["Conducir gastando menos combustible , contaminando menos y con más seguridad."]},
+  {"t": "Ralentí", "d": "El motor funcionando sin pisar el acelerador. Un ralentí muy alto gasta más.", "p": "455", "v": ["Ralentí. El motor funcionando sin pisar el acelerador."]},
+  {"t": "Deflector", "d": "Accesorio que desvía el aire para que no entre.", "p": "458", "v": ["Deflector. Accesorio que desvía el aire para que no entre."]},
+  {"t": "Punto muerto", "d": "Posición de la caja de cambios en la que el motor no mueve las ruedas.", "p": "461", "v": ["Punto muerto. Posición de la caja de cambios en la que el motor no mueve las ruedas."]},
+  {"t": "Distintivos ambientales", "d": "Clasifican los vehículos según lo que contaminan: Cero emisiones, Eco, B y C.", "p": "463", "v": ["Clasifican los vehículos según lo que contaminan."]}
+ ],
+ "dominar": [
+  {"t": "Preparar el viaje", "d": "Llevar luz de peligro o triángulos, chaleco reflectante y rueda de repuesto. Planificar la ruta y los descansos.", "p": "438-439", "cubre": [1], "v": ["un chaleco reflectante y una rueda de repuesto"]},
+  {"t": "Visión y anticipación", "d": "Mirar lejos (lo que recorrerás en los próximos 20 segundos), mirar a los lados y los retrovisores. Antes de cambiar de carril, gira la cabeza por el ángulo muerto.", "p": "440-444", "cubre": [2, 3, 4], "v": ["Controla el espacio que recorrerás en los próximos 20 segundos", "Antes de cambiar de carril, gira la cabeza y mira por la ventanilla."]},
+  {"t": "Controlar el espacio", "d": "2 o 3 segundos con el de delante, uno más con mal tiempo o de noche. Parado, al menos 2 o 3 metros; el último de la fila, 5 o 6.", "p": "446-448", "cubre": [5], "v": ["2 o 3 segundos con el de delante.", "Al menos 2 o 3 metros con el de delante."]},
+  {"t": "Ahorrar combustible", "d": "Arrancar sin acelerar y salir enseguida; 4.ª y 5.ª, las que menos gastan; velocidad constante; apagar el motor si paras más de 1 minuto. Falso ahorro: bajar en punto muerto.", "p": "452-461", "cubre": [6, 7], "v": ["Arranca sin pisar el acelerador .", "Apaga el motor si vas a estar parado más de 1 minuto ."]},
+  {"t": "Distintivos", "d": "Cuatro: Cero emisiones, Eco, B y C. Dan preferencia a los que menos contaminan. Van en la parte derecha del parabrisas.", "p": "463-465", "cubre": [8], "v": ["El distintivo se pone en la parte derecha del parabrisas"]}
+ ],
+ "mnemo": [
+  {"r": "20 segundos hacia delante, 2-3 segundos de distancia, 2-3 metros parado.", "base": "Visión y espacio (p.441, 446, 448)"},
+  {"r": "4.ª y 5.ª ahorran; el punto muerto cuesta abajo no ahorra: es un falso ahorro.", "base": "Técnicas y falsos ahorros (p.453, 461)"}
+ ],
+ "conexiones": [
+  {"id": "T4", "por": "Conducción defensiva"},
+  {"id": "T10", "por": "Distancia de seguridad"},
+  {"id": "T15", "por": "Mantenimiento y consumo"}
+ ]
+}

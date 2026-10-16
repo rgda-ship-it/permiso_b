@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Factores de riesgo", "d": "Circunstancias del conductor, el vehículo, la carretera o el entorno que aumentan el riesgo de accidente.", "p": "389", "v": ["Los factores de riesgo son circunstancias del conductor, el vehículo, la carretera o el entorno"]},
+  {"t": "Grupos de riesgo", "d": "Personas con más riesgo de sufrir accidentes: jóvenes, mayores de 65 y conductores de dos ruedas.", "p": "395", "v": ["Se llaman grupos de riesgo ."]},
+  {"t": "Omisión de socorro", "d": "Delito: no ayudar pudiendo hacerlo sin ponerse en peligro, no avisar o causar un accidente y huir.", "p": "413", "v": ["no ayuda pudiendo hacerlo sin ponerse en peligro"]},
+  {"t": "Homologado", "d": "Registrado de forma oficial y que cumple lo que marca la ley. El chaleco puede ser amarillo, naranja o rojo.", "p": "417", "v": ["Homologado. Registrado de forma oficial y cumple lo que marca la ley."]},
+  {"t": "Hemorragia", "d": "Perder mucha sangre por la rotura de vasos sanguíneos.", "p": "428", "v": ["Hemorragia. Perder mucha sangre por la rotura de vasos sanguíneos."]},
+  {"t": "Shock", "d": "Peligro de muerte porque el cuerpo no recibe la sangre que necesita.", "p": "428", "v": ["Shock. Peligro de muerte porque el cuerpo no recibe la sangre que necesita."]},
+  {"t": "Arteria", "d": "Tubo que lleva la sangre del corazón a todo el cuerpo.", "p": "430", "v": ["Arteria. Tubo que lleva la sangre del corazón a todo el cuerpo."]},
+  {"t": "eCall", "d": "Sistema de algunos coches que avisa solo al 112 en caso de accidente.", "p": "420", "v": ["El sistema eCall de algunos coches avisa solo al 112 en caso de accidente."]}
+ ],
+ "dominar": [
+  {"t": "Por qué y dónde hay accidentes", "d": "El factor humano (velocidad, alcohol, distracciones) está en 70 a 90 de cada 100. Los mortales, sobre todo fuera de poblado; más en rectas; en Semana Santa, diciembre y verano.", "p": "390-391", "cubre": [1, 2], "v": ["70 a 90 de cada 100", "Épocas: Semana Santa, diciembre y verano ."]},
+  {"t": "Grupos de riesgo", "d": "El tráfico es la primera causa de muerte entre los 15 y los 29 años. También mayores de 65 y conductores de dos ruedas.", "p": "403-407", "cubre": [3], "v": ["el tráfico es la primera causa de muerte entre los 15 y los 29 años"]},
+  {"t": "Omisión de socorro y momentos de riesgo", "d": "No ayudar, no avisar o huir es delito. Tras un accidente hay tres momentos de riesgo de muerte; a la 1 o 2 horas, la reanimación es muy importante.", "p": "413-414", "cubre": [4, 5], "v": ["causa un accidente y huye", "1 o 2 horas después: la reanimación es muy importante"]},
+  {"t": "Regla PAS", "d": "Proteger (motor parado, emergencia, chaleco), Avisar (112 o poste SOS) y Socorrer, en los primeros 10 minutos. No mover al herido ni quitarle el casco.", "p": "415-422", "cubre": [6], "v": ["Llama al 112 o usa el poste SOS", "No quites el casco ."]},
+  {"t": "Primeros auxilios", "d": "Primero la consciencia y después la respiración. Si no respira: reanimación, unas 100 compresiones por minuto, con ventilaciones. Hemorragia: compresión directa, después arterial y por último torniquete.", "p": "424-431", "cubre": [7, 8], "v": ["siempre en el mismo orden", "empujar unas 100 veces por minuto"]}
+ ],
+ "mnemo": [
+  {"r": "PAS como un paso de baile: primero te Proteges, luego Avisas, al final Socorres.", "base": "Regla PAS (p.415)"},
+  {"r": "Hemorragia de menos a más: aprieto la herida → aprieto la arteria → torniquete.", "base": "Hemorragia externa (p.430-431)"}
+ ],
+ "conexiones": [
+  {"id": "T3", "por": "Alcohol, drogas y distracciones"},
+  {"id": "T11", "por": "Vehículo inmovilizado: chaleco y luz de peligro"},
+  {"id": "T4", "por": "Peatones y ciclistas"}
+ ]
+}

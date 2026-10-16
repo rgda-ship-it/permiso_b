@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Acelerador", "d": "Regula el combustible que entra en el motor: cuanto más lo pisas, más corre. Pie derecho.", "p": "121", "v": ["Regula el combustible que entra en el motor: más fuerte, más corre."]},
+  {"t": "Pedal de freno", "d": "Reduce la velocidad o para. Actúa sobre todas las ruedas. Pie derecho, de forma suave.", "p": "121", "v": ["Reduce la velocidad o para. Actúa sobre todas las ruedas."]},
+  {"t": "Embrague", "d": "Conecta la caja de cambios con el motor. Pisado a fondo, el motor no mueve las ruedas y puedes cambiar de marcha.", "p": "122", "v": ["Conecta la caja de cambios con el motor."]},
+  {"t": "Freno de mano", "d": "Frena las ruedas de atrás y mantiene el vehículo parado.", "p": "124", "v": ["Frena las ruedas de atrás y mantiene el vehículo parado."]},
+  {"t": "Luneta térmica", "d": "Las líneas del cristal de atrás: quitan el hielo y el vaho.", "p": "127", "v": ["Las líneas del cristal de atrás. Quitan el hielo y el vaho para que se vea bien."]},
+  {"t": "Cuadro de instrumentos", "d": "Indicadores delante del conductor que informan del estado y funcionamiento del vehículo.", "p": "134", "v": ["Indicadores delante del conductor que informan del estado y funcionamiento del vehículo."]},
+  {"t": "TSR", "d": "Reconocimiento de señales: detecta las señales de límite de velocidad.", "p": "134", "v": ["Detecta las señales de límite de velocidad"]},
+  {"t": "LDW y LKA", "d": "El LDW avisa si te sales del carril sin querer; el LKA, además, ayuda a guiar el coche para no salirte.", "p": "135", "v": ["El LDW avisa si te sales del carril sin querer. El LKA, además, ayuda a guiar el coche para no salirte."]}
+ ],
+ "dominar": [
+  {"t": "Mandos y volante", "d": "Pies: acelerador, freno y embrague. Manos: volante y freno de mano. Volante con las dos manos, por fuera y sin cruzarlas.", "p": "121-123", "cubre": [1, 2], "v": ["Sin cruzar las manos al girar.", "Por la parte exterior , nunca por dentro."]},
+  {"t": "Dos frenos y los mandos de la moto", "d": "El pedal frena todas las ruedas; el de mano, solo las de atrás. Moto: embrague en la izquierda; freno delantero y acelerador en la derecha.", "p": "121-125", "cubre": [3, 4], "v": ["Freno delantero (palanca) y acelerador (se gira el puño del manillar)."]},
+  {"t": "Ver bien: cristales y retrovisores", "d": "Prohibidas las láminas que tapan y los cristales de colores no aprobados. Turismo: exterior izquierdo e interior obligatorios; el derecho, recomendable. Cortinillas solo con los dos exteriores.", "p": "125-129", "cubre": [5, 6], "v": ["El exterior derecho es recomendable, no obligatorio", "solo si tienes los dos retrovisores exteriores"]},
+  {"t": "Postura y comprobaciones", "d": "Cabeza por encima del volante, nunca un cojín; muñecas sobre el volante con los brazos estirados. Antes de arrancar: asiento, retrovisores y cinturón.", "p": "129-132", "cubre": [7], "v": ["usa un complemento bien sujeto al asiento, pero no un cojín"]},
+  {"t": "Sistemas de ayuda", "d": "TSR lee las señales de velocidad; LDW avisa; LKA corrige; RCTA avisa al ir marcha atrás. El conductor sigue vigilando.", "p": "134-138", "cubre": [8], "v": ["suena si se acerca demasiado un vehículo por detrás"]}
+ ],
+ "mnemo": [
+  {"r": "Por orden alfabético: LD (avisa) va antes que LK (además corrige).", "base": "Sistemas de ayuda (p.135)"},
+  {"r": "Freno de mano = freno de atrás.", "base": "Mandos de un turismo (p.124)"}
+ ],
+ "conexiones": [
+  {"id": "T5", "por": "Frenos, ABS y reposacabezas"},
+  {"id": "T15", "por": "Mantenimiento de los mandos y el motor"},
+  {"id": "T11", "por": "Mirar los retrovisores en las maniobras"}
+ ]
+}

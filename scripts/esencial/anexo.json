@@ -1,0 +1,24 @@
+{
+ "memorizar": [
+  {"t": "Objetivo del permiso por puntos", "d": "Reducir los accidentes.", "p": "468", "v": ["El objetivo del permiso por puntos es reducir los accidentes ."]},
+  {"t": "Puntos del novel", "d": "8 puntos los dos primeros años.", "p": "468", "v": ["Novel (los dos primeros años)"]},
+  {"t": "Perder todos los puntos", "d": "6 meses sin conducir; después, curso de 24 horas y examen en Tráfico.", "p": "469", "v": ["6 meses sin conducir. Después, curso de 24 horas y examen en Tráfico."]},
+  {"t": "Perder algunos puntos", "d": "Se recuperan si no pierdes más en 2 años; con un curso de 12 horas, hasta 6.", "p": "469", "v": ["Los recuperas si no pierdes más en 2 años ."]},
+  {"t": "Radar", "d": "Sistema que detecta un objeto, a qué distancia está y a qué velocidad va.", "p": "471", "v": ["Radar. Sistema que detecta un objeto, a qué distancia está y a qué velocidad va."]}
+ ],
+ "dominar": [
+  {"t": "Cuántos puntos tienes", "d": "Objetivo: reducir los accidentes. 8 los dos primeros años; luego 12, 14 y 15 como máximo si no pierdes puntos.", "p": "468", "cubre": [1, 2], "v": ["Más de 2 años sin perder puntos"]},
+  {"t": "Perder y recuperar", "d": "Todos: 6 meses sin conducir, curso de 24 h y examen (12 meses si vuelve a pasar en 3 años). Algunos: 2 años sin perder más, o curso de 12 h para recuperar hasta 6.", "p": "469", "cubre": [3, 4], "v": ["Con un curso de 12 horas , recuperas hasta 6 ."]},
+  {"t": "3 y 4 puntos", "d": "3: cambio de sentido prohibido, auriculares, detector de radar. 4: alcohol de 0,25 a 0,50 mg/l (noveles 0,15 a 0,30), saltarse un Stop o semáforo, sin cinturón.", "p": "470-472", "cubre": [5, 6], "v": ["Llevar detectores de radar.", "Alcohol de 0,25 a 0,50 mg/l en aire"]},
+  {"t": "6 puntos", "d": "Alcohol de más de 0,50 mg/l (noveles más de 0,30), drogas, negarse a la prueba, sentido contrario, móvil en la mano.", "p": "473-474", "cubre": [7], "v": ["Alcohol de más de 0,50 mg/l (noveles y profesionales: más de 0,30)."]}
+ ],
+ "mnemo": [
+  {"r": "Puntos que suben de 8 a 12, 14 y 15: el premio por no perder.", "base": "Puntos según los años (p.468)"},
+  {"r": "Cursos: 12 horas para «algunos» (hasta 6 puntos), el doble (24) para «todos».", "base": "Cómo se recuperan (p.469)"}
+ ],
+ "conexiones": [
+  {"id": "T3", "por": "Tasas de alcohol y drogas"},
+  {"id": "T2", "por": "Permiso de conducir y conductor novel"},
+  {"id": "T10", "por": "Exceso de velocidad"}
+ ]
+}
