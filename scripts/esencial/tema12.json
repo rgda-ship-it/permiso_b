@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Ceder el paso", "d": "Reducir la velocidad poco a poco para que el otro vea que le cedes el paso, y quedarte parado o ir despacio hasta que pase.", "p": "302", "v": ["reduce la velocidad poco a poco , para que el otro conductor vea que le cedes el paso"]},
+  {"t": "Preferencia de la derecha", "d": "En un cruce sin señales, cede el paso a los que vienen por tu derecha, aunque lleguen por una vía estrecha o en mal estado.", "p": "302", "v": ["Cede el paso a los vehículos que vienen por tu derecha , aunque lleguen por una vía estrecha o en mal estado."]},
+  {"t": "Pavimentar", "d": "Cubrir el suelo con asfalto u otros materiales para que se pueda pasar de forma más segura.", "p": "303", "v": ["Pavimentar. Cubrir el suelo con asfalto u otros materiales para que se pueda pasar de forma más segura."]},
+  {"t": "Cañada", "d": "Camino hecho para que pasen los animales.", "p": "307", "v": ["Cañada. Camino hecho para que pasen los animales."]},
+  {"t": "Vehículos de urgencias", "d": "Policía, bomberos, protección civil y salvamento, y ambulancias. En servicio urgente avisan con sirena y luces y tienen preferencia en todas las vías.", "p": "308", "v": ["Son: policía, bomberos, protección civil y salvamento, y ambulancias."]},
+  {"t": "Zona estrecha sin señales", "d": "Pasa primero el que entró antes; si hay duda, el que tiene más dificultad para maniobrar.", "p": "311-312", "v": ["Pasa primero el que entró antes ."]},
+  {"t": "Distancia en un túnel", "d": "100 m o 4 segundos; más de 3.500 kg, 150 m o 6 segundos.", "p": "316", "v": ["100 m o 4 segundos", "150 m o 6 segundos"]}
+ ],
+ "dominar": [
+  {"t": "Cruces sin señales y excepciones", "d": "Preferencia de la derecha. Excepciones: raíles sobre carretera, vía pavimentada sobre sin pavimentar, dentro de la rotonda y dentro de la autopista sobre los que quieren entrar.", "p": "302-303", "cubre": [1, 2, 3], "v": ["los que ya están dentro de la rotonda sobre los que quieren entrar"]},
+  {"t": "No quedarse atrapado", "d": "Nunca entres en un cruce, paso de peatones o de ciclistas si te vas a quedar en medio.", "p": "304", "cubre": [4], "v": ["Nunca entres en un cruce, un paso de peatones o un paso de ciclistas si te vas a quedar atrapado en medio."]},
+  {"t": "Peatones, ciclistas y animales", "d": "Preferencia en sus zonas (carril bici, paso de peatones, cañada) y cuando giras hacia una vía por la que cruzan.", "p": "305-308", "cubre": [5], "v": ["Cuando giras para entrar en una vía por la que cruzan."]},
+  {"t": "Urgencias", "d": "Pueden ir más rápido y no respetar las señales: solo obedecen a los agentes. Tú, apártate a la derecha y para si hace falta.", "p": "309-310", "cubre": [6], "v": ["apártate a la derecha y para si hace falta"]},
+  {"t": "Zonas estrechas y cuestas", "d": "Pasa el que entró antes; si hay duda, el que maniobra peor o el que tendría que ir más marcha atrás. En cuesta muy inclinada, el que sube.", "p": "311-314", "cubre": [7], "v": ["En cuesta, pasa el que sube"]},
+  {"t": "Pasos a nivel y túneles", "d": "Atrapado en un paso a nivel: bajan todos menos el conductor, que intenta arrancar. Incendio en un túnel: llave puesta y salir en sentido contrario al fuego.", "p": "315-318", "cubre": [8], "v": ["Bajan todos menos el conductor .", "siempre en sentido contrario al fuego"]}
+ ],
+ "mnemo": [
+  {"r": "En el túnel, «4 y 6»: 4 segundos los ligeros, 6 los de más de 3.500 kg.", "base": "Distancia dentro del túnel (p.316)"},
+  {"r": "Excepciones a la derecha: «R-P-R-A»: Raíles, Pavimentada, Rotonda, Autopista.", "base": "Excepciones (p.303)"}
+ ],
+ "conexiones": [
+  {"id": "T8", "por": "Señales de prioridad"},
+  {"id": "T4", "por": "Peatones, ciclistas y animales en la vía"},
+  {"id": "T11", "por": "Incorporarse y ceder el paso"}
+ ]
+}

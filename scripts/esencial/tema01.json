@@ -1,0 +1,26 @@
+{
+ "memorizar": [
+  {"t": "Vehículo", "d": "Aparato preparado para circular por vías, calles, carreteras y terrenos de todo tipo.", "p": "6", "v": ["Aparato preparado para circular por vías, calles, carreteras y terrenos de todo tipo."]},
+  {"t": "Remolque", "d": "Plataforma con ruedas que se engancha a un vehículo con motor por medio de un eje, para llevar cargas.", "p": "7", "v": ["que se engancha a un vehículo con motor por medio de un eje"]},
+  {"t": "Semirremolque", "d": "Remolque que se une directamente a un vehículo con motor, sin eje.", "p": "8", "v": ["Remolque que se une directamente a un vehículo con motor, sin eje."]},
+  {"t": "Motocicleta", "d": "Dos ruedas y al menos una de dos: motor de gasolina de más de 50 cm³ o velocidad de más de 45 km/h.", "p": "11", "v": ["Cumple al menos una de estas dos"]},
+  {"t": "Turismo", "d": "Lleva personas. Al menos 4 ruedas y 9 asientos como máximo, contando el del conductor.", "p": "13", "v": ["9 asientos como máximo, contando el del conductor"]},
+  {"t": "Peatón", "d": "Quien va andando por la acera o la carretera; también quien lleva a mano un ciclo o empuja una silla de ruedas.", "p": "24", "v": ["Persona que va andando por la acera o por la carretera."]},
+  {"t": "Titular del vehículo", "d": "Persona que tiene el vehículo a su nombre en el registro oficial.", "p": "24", "v": ["Persona que tiene el vehículo a su nombre en el registro oficial."]},
+  {"t": "Conductor habitual", "d": "Persona que suele conducir un vehículo aunque no sea el titular; lo autoriza el titular.", "p": "25", "v": ["Persona que suele conducir un vehículo, aunque no sea el titular."]}
+ ],
+ "dominar": [
+  {"t": "Tres tipos de vehículos", "d": "Sin motor, a motor (automóviles y especiales) y otros con motor que no se consideran vehículos a motor.", "p": "6-9", "cubre": [1, 3], "v": ["hacen trabajos o servicios concretos"]},
+  {"t": "Remolque y semirremolque, ligeros o pesados", "d": "Con eje o sin eje; ligeros hasta 750 kg con carga. Con remolque se forma un tren de carretera; con semirremolque, un vehículo articulado.", "p": "7-18", "cubre": [2], "v": ["el remolque va enganchado por medio de un eje", "el semirremolque va unido sin eje"]},
+  {"t": "Moto, turismo y vehículos que no son «a motor»", "d": "La moto pasa de 50 cm³ o de 45 km/h; el turismo, hasta 9 asientos. Ciclomotor, tranvía, vehículo de movilidad reducida, bici con motor y VMP llevan motor pero no son vehículos a motor.", "p": "11-23", "cubre": [4, 5, 6], "v": ["no se consideran vehículos a motor"]},
+  {"t": "Personas y categorías", "d": "Conductor, peatón, titular y conductor habitual. Categorías: M personas, N mercancías, O remolques.", "p": "23-25", "cubre": [7, 8], "v": ["Vehículos a motor para llevar mercancías"]}
+ ],
+ "mnemo": [
+  {"r": "Remolque = barra (eje) en medio; semirremolque = pegado, sin barra.", "base": "Definiciones (p.7-8)"},
+  {"r": "M de «muchas personas», N de «negocio» (mercancías), O de «otro vehículo» que se arrastra.", "base": "Categorías M, N y O (p.25)"}
+ ],
+ "conexiones": [
+  {"id": "T2", "por": "Qué permiso necesita cada vehículo"},
+  {"id": "T13", "por": "Medidas y cargas de cada vehículo"}
+ ]
+}

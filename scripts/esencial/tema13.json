@@ -1,0 +1,27 @@
+{
+ "memorizar": [
+  {"t": "Carga", "d": "Cualquier cosa que se transporta: equipaje, mercancía u otros objetos.", "p": "324", "v": ["Carga es cualquier cosa que se transporta: equipaje, mercancía u otros objetos."]},
+  {"t": "Baca", "d": "Parte de arriba del vehículo donde se colocan equipajes y otros objetos.", "p": "329", "v": ["Baca. Parte de arriba del vehículo donde se colocan equipajes y otros objetos."]},
+  {"t": "Límite de peso", "d": "Prohibido llevar más del peso máximo, contando pasajeros, equipaje y carga.", "p": "320", "v": ["Está prohibido llevar más, contando pasajeros, equipaje y carga."]},
+  {"t": "Pasajero de moto", "d": "Una persona de más de 12 años, sentada detrás, con los pies en los reposapiés y casco. Excepción: más de 7 años con su padre, madre o un adulto responsable.", "p": "323-324", "v": ["Una persona de más de 12 años , sentada detrás"]},
+  {"t": "Carga divisible e indivisible", "d": "En un turismo, solo por detrás: divisible, el 10 % de la longitud; indivisible, el 15 %.", "p": "331-332", "v": ["el 10 % de la longitud", "el 15 % (en 3 m, una tabla puede sobresalir 45 cm)"]},
+  {"t": "Placa de vehículo lento", "d": "No puede ir a más de 40 km/h. Va detrás.", "p": "337", "v": ["No puede ir a más de 40 km/h . Detrás."]},
+  {"t": "Placa de vehículo largo", "d": "Mide más de 12 m. Detrás; rectangular, amarilla con bordes rojos.", "p": "337", "v": ["Mide más de 12 m . Detrás; rectangular, amarilla con bordes rojos."]},
+  {"t": "Placa de mercancías peligrosas", "d": "Números de arriba: tipo de peligro. De abajo: la materia que lleva.", "p": "338", "v": ["Números de arriba: tipo de peligro. De abajo: la materia que lleva."]}
+ ],
+ "dominar": [
+  {"t": "Peso y animales", "d": "Nunca más del peso permitido; el exceso estropea neumáticos, aceleración y frenos. Animales detrás, sujetos al asiento, nunca sueltos.", "p": "320-321", "cubre": [1, 2], "v": ["El exceso estropea neumáticos, aceleración y frenos."]},
+  {"t": "Personas en coche, bici y moto", "d": "Tantas como asientos; subir y bajar parado, por el lado de la acera o el arcén. Bici: niño de menos de 7 años con un conductor mayor de edad. Moto: pasajero de más de 12 años.", "p": "321-324", "cubre": [3, 4], "v": ["Se sube y se baja con el vehículo parado y por el lado de la acera o el arcén ."]},
+  {"t": "Medidas y carga que sobresale", "d": "Máximos: 2,55 m de ancho, 4 m de alto, 12 m de largo. Turismo: carga solo por detrás, 10 % divisible y 15 % indivisible.", "p": "327-332", "cubre": [5, 6], "v": ["La carga no puede sobresalir por delante ni por los lados."]},
+  {"t": "Señalizar la carga y placas", "d": "Placa de rayas rojas y blancas detrás siempre; de noche, además luz roja; delante, luz blanca. Matrícula delante y detrás (motos, solo detrás); vehículo lento 40 km/h; largo, más de 12 m.", "p": "333-337", "cubre": [7, 8], "v": ["Placa con rayas diagonales rojas y blancas", "Motos y ciclomotores: una , detrás."]}
+ ],
+ "mnemo": [
+  {"r": "Divisible 10, indivisible 15: lo que no se puede partir tiene 5 puntos más de margen.", "base": "Carga en turismos (p.331-332)"},
+  {"r": "Bici: niño de MENOS de 7, en asiento adicional. Moto: pasajero de MÁS de 12.", "base": "Pasajeros en bici y moto (p.323)"}
+ ],
+ "conexiones": [
+  {"id": "T5", "por": "Sistemas de retención infantil"},
+  {"id": "T1", "por": "Remolques y tipos de vehículos"},
+  {"id": "T11", "por": "Luz de preseñalización de peligro"}
+ ]
+}

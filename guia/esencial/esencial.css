@@ -1,0 +1,104 @@
+/* ② Guía «lo esencial» — estilos propios (usa los tokens de ../css/style.css) */
+.contenido--ancho { max-width: 58rem; }
+.es-cabecera h1 { margin-bottom: .2em; }
+.es-leyenda { display: block; font-size: .95rem; margin-top: 6px; }
+
+.es-pestanas { display: flex; gap: 6px; margin: 8px 0 12px; border-bottom: 1px solid var(--border); }
+.es-pestanas button {
+  font: inherit; font-weight: 600; background: none; border: 0; padding: 10px 14px; cursor: pointer;
+  color: var(--text-soft); border-bottom: 3px solid transparent; margin-bottom: -1px; min-height: 44px;
+}
+.es-pestanas button[aria-selected="true"] { color: var(--text); border-bottom-color: var(--primary); }
+
+.es-controles { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 6px; }
+.es-buscar { flex: 1 1 240px; }
+.es-buscar input, .es-filtro select {
+  width: 100%; font: inherit; padding: 10px 12px; border-radius: var(--radius-s);
+  border: 1px solid var(--border); background: var(--surface); color: var(--text); min-height: 44px;
+}
+.es-filtro { flex: 0 1 260px; }
+.es-check { display: inline-flex; gap: 6px; align-items: center; font-size: 1rem; cursor: pointer; min-height: 44px; }
+.es-check input { width: 20px; height: 20px; }
+.es-boton {
+  font: inherit; padding: 8px 14px; border-radius: var(--radius-s); border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); cursor: pointer; min-height: 44px;
+}
+.es-boton:hover { border-color: var(--primary); }
+
+/* Tema */
+.es-tema {
+  background: var(--surface); border: 1px solid var(--border); border-left: 8px solid var(--c);
+  border-radius: var(--radius); margin: 0 0 16px; box-shadow: var(--shadow);
+}
+.es-tema > summary {
+  list-style: none; cursor: pointer; padding: 14px 16px; display: grid;
+  grid-template-columns: 1fr auto; gap: 4px 12px; align-items: center;
+}
+.es-tema > summary::-webkit-details-marker { display: none; }
+.es-tema > summary h2 { margin: 0; font-size: 1.2rem; }
+.es-tema > summary p { margin: 0; grid-column: 1 / -1; color: var(--text-soft); font-size: 1rem; }
+.es-tema__prog { font-size: .85rem; font-weight: 700; color: var(--text-soft); white-space: nowrap; }
+.es-barra { grid-column: 1 / -1; height: 6px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.es-barra span { display: block; height: 100%; background: var(--ok); }
+.es-tema__cuerpo { padding: 0 16px 16px; }
+.es-tema h3 { font-size: 1.05rem; margin: 1.2em 0 .5em; }
+.es-tema__enlace { font-size: .95rem; }
+
+/* Tarjetas de definición y concepto */
+.es-lista { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.es-item {
+  display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start;
+  padding: 10px 12px; border-radius: var(--radius-s); background: var(--surface-2); margin: 0;
+}
+.es-item.sabido { opacity: .65; }
+.es-item input { width: 22px; height: 22px; margin-top: 3px; cursor: pointer; }
+.es-item b { display: block; }
+.es-item .es-def { display: block; }
+.es-item .ref { margin-left: 4px; }
+.es-item small { color: var(--text-soft); }
+.tapar .es-def { filter: blur(6px); cursor: pointer; user-select: none; transition: filter .15s; }
+.tapar .es-def.visto { filter: none; }
+
+.es-trampa { background: var(--warn-soft); }
+.es-mnemo { background: var(--primary-soft); }
+.es-conex { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; }
+.es-conex li { margin: 0; }
+.es-conex a {
+  display: inline-block; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border);
+  text-decoration: none; color: var(--text); background: var(--surface); font-size: .95rem;
+}
+.es-conex a:hover { border-color: var(--primary); }
+
+mark { background: #ffe58a; color: #1a1f2b; border-radius: 3px; padding: 0 2px; }
+
+/* Glosario */
+.es-letras { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 12px; }
+.es-letras a {
+  display: inline-grid; place-items: center; min-width: 36px; min-height: 36px; border-radius: 6px;
+  background: var(--surface-2); text-decoration: none; color: var(--text); font-weight: 700;
+}
+.es-glosario dt { font-weight: 700; margin-top: 12px; }
+.es-glosario dd { margin: 2px 0 0; }
+.es-glosario h2 { border-bottom: 2px solid var(--border); padding-bottom: 4px; }
+
+.es-siguiente { margin-top: 40px; }
+.es-siguiente a {
+  display: block; padding: 16px; border-radius: var(--radius); border: 1px solid var(--border);
+  background: var(--surface); text-decoration: none; color: var(--text); font-weight: 700; text-align: right;
+}
+.es-siguiente a:hover { border-color: var(--primary); }
+.es-siguiente small { display: block; font-weight: 600; color: var(--text-soft); }
+
+@media (max-width: 760px) {
+  .es-tema > summary { grid-template-columns: 1fr; }
+  .es-filtro { flex: 1 1 100%; }
+}
+
+@media print {
+  .es-pestanas, .es-controles, .es-siguiente, #es-resultado, .es-item input, .es-barra, .es-tema__prog { display: none !important; }
+  .es-tema { break-before: page; border: 0; box-shadow: none; }
+  .es-tema:first-of-type { break-before: auto; }
+  .es-item { break-inside: avoid; background: none; border-bottom: 1px solid #ccc; border-radius: 0; }
+  .tapar .es-def { filter: none; }
+  #vista-glosario { display: none !important; }
+}

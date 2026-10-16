@@ -1,0 +1,27 @@
+{
+ "memorizar": [
+  {"t": "Permiso de conducir", "d": "Documento que te autoriza a conducir y asegura que cumples los requisitos.", "p": "28", "v": ["Documento que te autoriza a conducir y asegura que cumples los requisitos."]},
+  {"t": "Permiso de circulación", "d": "Documento que confirma que un vehículo tiene matrícula y está autorizado a circular.", "p": "32", "v": ["Documento que confirma que un vehículo tiene matrícula y está autorizado a circular."]},
+  {"t": "Tarjeta de inspección técnica", "d": "Documento que demuestra que el vehículo no tiene averías y está en buenas condiciones.", "p": "34", "v": ["Documento que demuestra que el vehículo no tiene averías y está en buenas condiciones."]},
+  {"t": "Compulsar", "d": "Un organismo oficial certifica que la copia de un documento es auténtica.", "p": "27", "v": ["Un organismo oficial certifica que la copia de un documento es auténtica."]},
+  {"t": "Conductor novel", "d": "Durante el primer año con el permiso. Placa verde rectangular con una L blanca, en el cristal de atrás.", "p": "31", "v": ["placa verde rectangular con una L blanca"]},
+  {"t": "Permiso B", "d": "Desde los 18 años. Conjuntos con un remolque de no más de 750 kg.", "p": "30", "v": ["Conjuntos de vehículos con un remolque de no más de 750 kg"]},
+  {"t": "Renovar el permiso B", "d": "Cada 10 años con menos de 65; cada 5 años con más de 65.", "p": "32", "v": ["Menos de 65 años"]},
+  {"t": "Seguro obligatorio", "d": "Protege a las demás personas, objetos o vehículos si tienes un accidente.", "p": "37", "v": ["Este seguro protege a las demás personas, objetos o vehículos si tienes un accidente."]}
+ ],
+ "dominar": [
+  {"t": "Los cuatro documentos", "d": "Permiso de conducir, permiso de circulación, tarjeta de ITV y seguro. Siempre en el vehículo: originales o copias compulsadas.", "p": "27", "cubre": [1], "v": ["Lleva siempre estos documentos en el vehículo"]},
+  {"t": "Permisos, puntos y novel", "d": "B desde los 18 y remolque hasta 750 kg; B+E hasta 3.500 kg. Al empezar, 8 puntos. Novel, el primer año.", "p": "29-31", "cubre": [2, 3, 4], "v": ["Al conseguir el permiso te dan 8 puntos."]},
+  {"t": "Plazos y ITV", "d": "Cambio de datos: 15 días. Venta: 10 días. ITV de un turismo: a los 4 años, cada 2 y desde los 10, cada año.", "p": "33-36", "cubre": [5, 6], "v": ["Cambios: 15 días; venta: 10 días."]},
+  {"t": "Seguro y responsables", "d": "El seguro cubre los daños a otros, no las lesiones del conductor. Avisar en 7 días. Responde quien comete la falta; si es menor, padre, madre o tutor; el titular, del estado del vehículo.", "p": "38-41", "cubre": [7, 8], "v": ["Las lesiones del conductor del vehículo asegurado.", "Su padre, madre o tutor"]}
+ ],
+ "mnemo": [
+  {"r": "Cuanto más urgente, menos días: accidente 7, venta 10, cambio de datos 15.", "base": "Plazos (p.34, 39)"},
+  {"r": "El seguro obligatorio es un paraguas para los demás, no para ti.", "base": "Qué cubre el seguro (p.38-39)"}
+ ],
+ "conexiones": [
+  {"id": "ANEXO", "por": "Cómo funcionan los puntos"},
+  {"id": "T15", "por": "Revisiones y mantenimiento del vehículo"},
+  {"id": "T1", "por": "Qué vehículos son ciclomotor, turismo o remolque"}
+ ]
+}

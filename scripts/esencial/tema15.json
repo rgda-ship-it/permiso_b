@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Sistemas del vehículo", "d": "Mecanismos y elementos que hacen que el vehículo funcione y sea seguro. Hay ocho principales.", "p": "366", "v": ["Son los mecanismos y elementos que hacen que el vehículo funcione y sea seguro."]},
+  {"t": "Sistema de alimentación", "d": "Lleva el aire y el combustible al motor.", "p": "366", "v": ["Lleva el aire y el combustible al motor."]},
+  {"t": "Tubo de escape", "d": "Tubo de la parte de atrás que expulsa los gases del motor.", "p": "367", "v": ["Tubo de la parte de atrás que expulsa los gases del motor."]},
+  {"t": "Sistema de lubricación", "d": "Reparte el aceite por el motor para cubrir las piezas, protegerlas y que no se rocen.", "p": "371", "v": ["Reparte el aceite por el motor para cubrir las piezas, protegerlas y que no se rocen."]},
+  {"t": "Sistema de refrigeración", "d": "Mantiene el motor a buena temperatura para que no se estropee por el calor.", "p": "376", "v": ["Mantiene el motor a buena temperatura para que no se estropee por el calor."]},
+  {"t": "Sistema de dirección", "d": "Transmite el movimiento del volante a las ruedas de delante.", "p": "380", "v": ["Transmite el movimiento del volante a las ruedas de delante ."]},
+  {"t": "Sistema de suspensión", "d": "Mantiene los neumáticos en contacto con la carretera: más estabilidad y comodidad.", "p": "382", "v": ["Mantiene los neumáticos en contacto con la carretera: más estabilidad y comodidad."]},
+  {"t": "Sistema de frenado", "d": "Reduce la velocidad o para el vehículo y evita que se mueva cuando no debe.", "p": "385", "v": ["Reduce la velocidad o para el vehículo y evita que se mueva cuando no debe."]}
+ ],
+ "dominar": [
+  {"t": "Ocho sistemas y el filtro de aire", "d": "Alimentación, eléctrico, lubricación, refrigeración, transmisión, dirección, suspensión y frenado. Filtro sucio: gastas más; muy sucio o roto: humo negro.", "p": "366-367", "cubre": [1, 2], "v": ["Hay ocho sistemas principales."]},
+  {"t": "Sistema eléctrico", "d": "Batería para arrancar; la chispa salta en la bujía; el alternador, movido por una correa, produce la electricidad con el motor en marcha.", "p": "368-370", "cubre": [3], "v": ["Produce electricidad el alternador , movido por una correa."]},
+  {"t": "Aceite y refrigerante", "d": "Nivel de aceite con la varilla, motor parado y frío; cambiarlo con el motor caliente. Testigo de aceite encendido: parar. Refrigerante entre mínimo y máximo, en frío; radiador y bomba de agua.", "p": "371-378", "cubre": [4, 5], "v": ["con la varilla, motor parado y frío", "vehículo recto, motor parado y caliente"]},
+  {"t": "Transmisión y suspensión", "d": "Lleva la fuerza del motor a las ruedas: tracción (delante), propulsión (detrás), total (todas). Suspensión en mal estado: más aquaplaning y más espacio para frenar.", "p": "379-384", "cubre": [6, 7], "v": ["Lleva la fuerza del motor a las ruedas.", "Necesitas más espacio para frenar , sobre todo con suelo mojado."]},
+  {"t": "Frenos y neumáticos", "d": "La fuerza del pedal pasa por el líquido de frenos a las pastillas o zapatas. Presión de los neumáticos: al menos una vez al mes; rueda de repuesto un poco más inflada.", "p": "385-387", "cubre": [8], "v": ["Comprueba la presión al menos una vez al mes"]}
+ ],
+ "mnemo": [
+  {"r": "Aceite: se MIRA en frío y se CAMBIA en caliente.", "base": "Comprobar y cambiar el aceite (p.372, 376)"},
+  {"r": "Humo negro = aire (filtro); azulado = aceite; blanco al arrancar = vapor normal.", "base": "Color del humo (p.367, 376-378)"}
+ ],
+ "conexiones": [
+  {"id": "T5", "por": "Frenos, ABS y neumáticos"},
+  {"id": "T6", "por": "Mandos del vehículo"},
+  {"id": "T2", "por": "La ITV"}
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "memorizar": [
+  {"t": "Velocidad máxima", "d": "La más alta permitida en esa vía. Si la pasas, vas con exceso de velocidad.", "p": "244", "v": ["La más alta permitida en esa vía. Si la pasas, vas con exceso de velocidad"]},
+  {"t": "Velocidad mínima", "d": "La más baja permitida. Por debajo llevas una velocidad anormalmente reducida.", "p": "245", "v": ["La más baja permitida. Si vas más despacio, llevas una velocidad anormalmente reducida"]},
+  {"t": "Velocidad inadecuada", "d": "Dentro de los límites, pero no adecuada a las condiciones del conductor, del clima, de la carretera o del vehículo.", "p": "245", "v": ["Dentro de los límites, pero no adecuada a las condiciones del conductor, del clima, de la carretera o del vehículo."]},
+  {"t": "Velocidad genérica", "d": "Límite máximo y mínimo de cada tipo de vehículo en cada tipo de vía.", "p": "251", "v": ["Límite de velocidad, máximo y mínimo, de cada tipo de vehículo en cada tipo de vía."]},
+  {"t": "Distancia de reacción", "d": "Lo que recorres desde que detectas un imprevisto hasta que reaccionas. Tiempo de reacción normal: unos 0,75 s.", "p": "261", "v": ["Lo que recorres desde que detectas un imprevisto hasta que reaccionas."]},
+  {"t": "Distancia de frenado", "d": "Lo que recorre el vehículo desde que pisas el freno hasta que se para.", "p": "262", "v": ["Lo que recorre el vehículo desde que pisas el freno hasta que se para."]},
+  {"t": "Distancia de seguridad", "d": "Espacio mínimo con el vehículo de delante para no chocar si frena de golpe.", "p": "264", "v": ["Espacio mínimo con el vehículo de delante para no chocar si frena de golpe."]},
+  {"t": "Visión túnel", "d": "Si vas muy rápido ves menos a los lados.", "p": "260", "v": ["ves menos a los lados"]}
+ ],
+ "dominar": [
+  {"t": "Cuatro velocidades e ir despacio", "d": "Máxima, mínima, inadecuada y adecuada. Ve despacio con peatones, ciclistas, escuelas o autobuses parados. Cerca de pasos a nivel, rotondas o cruces sin prioridad: 50 km/h como máximo.", "p": "244-250", "cubre": [1, 2], "v": ["pasos a nivel, rotondas o cruces en los que no tienes prioridad"]},
+  {"t": "Límites del turismo", "d": "Fuera de poblado: autopista y autovía 120/60; carretera 90/45; camino 30/15. En poblado: 20 sin bordillo, 30 con un carril por sentido, 50 con varios; autopista urbana 80. Escolar y mercancías peligrosas: 10 menos.", "p": "252-257", "cubre": [3, 4, 5], "v": ["Su velocidad máxima es 10 km/h menos que la del resto."]},
+  {"t": "Velocidad mínima", "d": "60 en autopistas y autovías; en las demás, según el vehículo (turismo con máxima de 90: mínima de 45). Más despacio solo con mucho tráfico, avería o mala vía; si hay peligro, luz de emergencia.", "p": "258-259", "cubre": [6], "v": ["con mucho tráfico, una avería o la carretera en mal estado"]},
+  {"t": "Detención y separación", "d": "Detención = reacción + frenado. El frenado aumenta con la velocidad, la carga, los frenos o neumáticos gastados y el suelo mojado. Más de 3.500 kg o conjuntos de más de 10 m: 50 m de separación.", "p": "261-266", "cubre": [7, 8], "v": ["Distancia de detención = reacción + frenado.", "Vehículos de más de 3.500 kg y conjuntos de más de 10 m: separación mínima de 50 metros"]}
+ ],
+ "mnemo": [
+  {"r": "Turismo fuera de poblado, en las tres parejas de la tabla la mínima es la mitad: 120/60, 90/45, 30/15.", "base": "Tabla de velocidades del turismo (p.252)"},
+  {"r": "En ciudad, 20-30-50: sin bordillo, un carril, varios carriles.", "base": "Velocidad máxima en poblado (p.256)"}
+ ],
+ "conexiones": [
+  {"id": "T3", "por": "Tiempo de reacción y estado del conductor"},
+  {"id": "T9", "por": "Tipos de vía"},
+  {"id": "T14", "por": "Velocidad con lluvia, niebla o hielo"}
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "memorizar": [
+  {"t": "Curva", "d": "Tramo peligroso: al tomarla con velocidad aparece una fuerza que empuja el vehículo hacia fuera.", "p": "342", "v": ["al tomarlas con velocidad aparece una fuerza que empuja el vehículo hacia fuera"]},
+  {"t": "Derrapar", "d": "Deslizarse o patinar: el vehículo se desvía de su dirección.", "p": "344", "v": ["Derrapar. Deslizarse o patinar: el vehículo se desvía de su dirección."]},
+  {"t": "Aquaplaning", "d": "Perder el control porque el neumático no puede echar toda el agua que recoge y patina.", "p": "355", "v": ["Aquaplaning. Perder el control porque el neumático no puede echar toda el agua que recoge y patina."]},
+  {"t": "Caja de cambios", "d": "Convierte la fuerza del motor en movimiento de las ruedas; permite ir más rápido o más despacio, con más o menos fuerza.", "p": "356", "v": ["Convierte la fuerza del motor en movimiento de las ruedas"]},
+  {"t": "Cadenas (R-412)", "d": "Obligatorias con la señal R-412: al menos en las ruedas motrices y una cadena a cada lado.", "p": "357", "v": ["Se ponen, por lo menos, en las ruedas motrices , y al menos una cadena a cada lado ."]},
+  {"t": "Primeras gotas", "d": "El agua se mezcla con polvo y grasa y forma un barro que hace patinar.", "p": "354", "v": ["el agua se mezcla con polvo y grasa y forma un barro que hace patinar"]},
+  {"t": "Dónde hay hielo", "d": "Zonas húmedas, zonas sin sol, puentes y pasos elevados, badenes y donde lo indiquen las señales.", "p": "358", "v": ["zonas húmedas, zonas sin sol, puentes y pasos elevados"]}
+ ],
+ "dominar": [
+  {"t": "Curvas y derrapes", "d": "Frena antes de la curva, gira suave dentro y acelera poco a poco al salir. El derrape lo causan la velocidad, giros o frenazos bruscos, neumáticos gastados o carga mal repartida. Al derrapar: no frenar.", "p": "343-345", "cubre": [1, 2], "v": ["Gira el volante suave. Sin acelerones ni frenazos. Acelera poco a poco."]},
+  {"t": "Obras", "d": "Señales de fondo amarillo y marcas amarillas; sigue siempre al personal de obras.", "p": "346", "cubre": [3], "v": ["sigue siempre las indicaciones del personal de obras"]},
+  {"t": "De noche", "d": "Si te deslumbran: reduce o para sin cambiar de carril, guiándote por la línea del borde derecho; nunca gafas de sol. Al adelantar, cruce; si te adelantan, largo alcance; en una curva, cambia el de dentro.", "p": "349-352", "cubre": [4, 5], "v": ["sin cambiar de carril , guiándote por la línea del borde derecho", "Mantén el largo alcance : alumbra la carretera a los dos."]},
+  {"t": "Lluvia, nieve y hielo", "d": "Si patinas, suelta el acelerador sin frenar. Contra el aquaplaning, despacio donde hay agua. Con nieve, cuesta abajo en primera o segunda, frenar poco y suave.", "p": "354-358", "cubre": [6, 7], "v": ["levanta el pie del acelerador sin frenar", "Cuesta abajo, más despacio y en primera o segunda ."]},
+  {"t": "Niebla, viento y calor", "d": "Niebla: luz de cruce y antiniebla, despacio y sin adelantar si no hace falta. Viento: volante firme. Calor: aire acondicionado entre 20 y 23 grados y más descansos.", "p": "360-363", "cubre": [8], "v": ["Enciende la luz de cruce y las antiniebla .", "Aire acondicionado entre 20 y 23 grados ."]}
+ ],
+ "mnemo": [
+  {"r": "Curva: «frena fuera, sal acelerando».", "base": "Cómo tomar una curva (p.343)"},
+  {"r": "Patinar con agua o barro: pie fuera del acelerador y fuera del freno.", "base": "Las primeras gotas (p.354)"}
+ ],
+ "conexiones": [
+  {"id": "T7", "por": "Uso de las luces"},
+  {"id": "T10", "por": "Distancia de frenado"},
+  {"id": "T5", "por": "Neumáticos y ABS"}
+ ]
+}

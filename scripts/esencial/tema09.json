@@ -1,0 +1,29 @@
+{
+ "memorizar": [
+  {"t": "Plataforma", "d": "Zona que los vehículos pueden usar para circular y parar: la calzada y el arcén.", "p": "213", "v": ["Zona que los vehículos pueden usar para circular y parar. Incluye la calzada y el arcén."]},
+  {"t": "Arcén", "d": "Zona firme a los lados de la calzada, por donde no circulan la mayoría de vehículos.", "p": "214", "v": ["Zona firme a los lados de la calzada, por donde no circulan la mayoría de vehículos."]},
+  {"t": "Mediana", "d": "Espacio entre dos plataformas, por donde no se circula.", "p": "217", "v": ["Espacio entre dos plataformas, por donde no se circula."]},
+  {"t": "Apartadero", "d": "Ensanche de la calzada para parar sin molestar.", "p": "217", "v": ["Ensanche de la calzada para parar sin molestar."]},
+  {"t": "Glorieta", "d": "Intersección con una construcción circular en el centro: se circula alrededor, nunca por el centro.", "p": "218", "v": ["se circula alrededor, nunca por el centro"]},
+  {"t": "Isleta", "d": "Zona elevada o pintada que guía el tráfico; sus líneas paralelas son el cebreado.", "p": "219", "v": ["Zona elevada o pintada que guía el tráfico"]},
+  {"t": "Refugio", "d": "Zona peatonal dentro de la calzada donde no entran vehículos.", "p": "221", "v": ["El refugio es una zona peatonal dentro de la calzada donde no entran vehículos."]},
+  {"t": "Travesía", "d": "Carretera que atraviesa un poblado.", "p": "223", "v": ["carretera que atraviesa un poblado"]}
+ ],
+ "dominar": [
+  {"t": "Medidas y partes de la vía", "d": "Plataforma = calzada + arcén. Calzada estrecha: menos de 6,5 m. Carril estrecho: menos de 3 m.", "p": "213-214", "cubre": [1], "v": ["Plataforma = calzada + arcén."]},
+  {"t": "Dirección frente a sentido", "d": "La dirección une dos lugares; el sentido es ir o volver. Ida y vuelta por la misma carretera: misma dirección, distinto sentido.", "p": "222", "cubre": [2], "v": ["van en la misma dirección y en distinto sentido"]},
+  {"t": "Tipos de vía", "d": "Urbana, interurbana y travesía. Autopista: calzadas separadas, sin accesos desde fincas, puede ser de peaje. Autovía: más accesos y no se paga. Vía para automóviles: una sola calzada.", "p": "223-226", "cubre": [3], "v": ["tiene más accesos y no se paga"]},
+  {"t": "Por qué carril circular", "d": "Por la derecha, lo más cerca del borde; isletas por la derecha. Tres carriles en doble sentido: el izquierdo, nunca; el central, solo para adelantar o girar a la izquierda.", "p": "227-229", "cubre": [4, 5], "v": ["Nunca el de la izquierda."]},
+  {"t": "Carriles reservados y especiales", "d": "VAO: solo personas, hasta 3.500 kg, con los ocupantes indicados. En sentido contrario y adicional: corto alcance de día y de noche, de 60 a 80 km/h, sin cambiar de carril.", "p": "233-238", "cubre": [6, 7], "v": ["Lleva el número de personas que marca el carril.", "No mover ni pisar las balizas."]},
+  {"t": "Autopistas, autovías y arcén", "d": "Prohibidas a peatones, animales, bicis, ciclomotores y VMP; bici de más de 14 años, por el arcén de la autovía. Por el arcén no se adelanta si dura más de 15 s o 200 m.", "p": "239-240", "cubre": [8], "v": ["ciclistas de más de 14 años por el arcén de la autovía"]}
+ ],
+ "mnemo": [
+  {"r": "6,5 para la calzada y 3 para el carril: la calzada es algo más que dos carriles.", "base": "Medidas (p.214)"},
+  {"r": "Colores del estado de la vía como un semáforo ampliado: blanco y verde bien, amarillo y rojo peor, negro cortada.", "base": "Colores del estado de la vía (p.226)"}
+ ],
+ "conexiones": [
+  {"id": "T7", "por": "Luces en carriles reversibles y adicionales"},
+  {"id": "T10", "por": "Velocidades según el tipo de vía"},
+  {"id": "T11", "por": "Incorporarse, adelantar y cambiar de carril"}
+ ]
+}

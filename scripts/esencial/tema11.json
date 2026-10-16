@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Regla R.S.M.", "d": "Retrovisor (observar), Señal (avisar), Maniobra (hacerla): pasos para cualquier maniobra.", "p": "268", "v": ["Normas y pasos para hacer cualquier maniobra."]},
+  {"t": "Adelantar", "d": "Sobrepasar a vehículos que van más lentos. Por la izquierda.", "p": "274", "v": ["Adelantar es sobrepasar a vehículos que van más lentos."]},
+  {"t": "Cambio de sentido", "d": "Dar media vuelta para seguir por la misma vía hacia el otro lado.", "p": "287", "v": ["Dar media vuelta para seguir por la misma vía hacia el otro lado."]},
+  {"t": "Raqueta", "d": "Desvío en forma de medio círculo para cambiar de dirección o de sentido.", "p": "287", "v": ["Raqueta. Desvío en forma de medio círculo para cambiar de dirección o de sentido."]},
+  {"t": "Calzo", "d": "Cuña entre el vehículo y la carretera para que no se mueva.", "p": "296", "v": ["Calzo. Cuña entre el vehículo y la carretera para que no se mueva."]},
+  {"t": "Parar y estacionar", "d": "Parar: menos de 2 minutos, el conductor no sale o se queda cerca. Estacionar: más de 2 minutos.", "p": "294", "v": ["Menos de 2 minutos", "Más de 2 minutos"]},
+  {"t": "Luz de preseñalización de peligro", "d": "Luz naranja que es obligatorio poner encima del coche si no puede seguir.", "p": "293", "v": ["Es obligatorio poner encima del coche la luz de preseñalización de peligro (luz naranja)."]},
+  {"t": "Aparcar en cuesta", "d": "Cuesta arriba, deja puesta la primera; cuesta abajo, la marcha atrás.", "p": "295", "v": ["Cuesta arriba : deja puesta la primera . Cuesta abajo : la marcha atrás ."]}
+ ],
+ "dominar": [
+  {"t": "R.S.M. e incorporarse", "d": "Observar, avisar y maniobrar; el brazo vale más que las luces si se ve bien. Al entrar, cede el paso; los demás facilitan la entrada, sobre todo al autobús en su parada.", "p": "268-273", "cubre": [1, 2], "v": ["Las señales con el brazo tienen más validez que las de las luces, si se hacen bien y se ven."]},
+  {"t": "Adelantar y ser adelantado", "d": "Por la izquierda, sin pasar del límite. A ciclos y ciclomotores: 1,5 m y cambiando de carril. Si te adelantan: prohibido acelerar; borde derecho sin pasar al arcén.", "p": "274-281", "cubre": [3, 4], "v": ["acelera, pero sin pasar del límite", "Ponerse en el borde derecho del carril, sin pasar al arcén ."]},
+  {"t": "Cambio de sentido y marcha atrás", "d": "Cambio de sentido en un solo giro y sin marcha atrás; prohibido en túneles, pasos a nivel y autopistas. Marcha atrás: solo para aparcar o sin otra opción, 15 m como máximo, nunca en autopistas y autovías.", "p": "288-291", "cubre": [5, 6], "v": ["En un solo giro y sin marcha atrás", "Nunca más de 15 metros"]},
+  {"t": "Vehículo inmovilizado", "d": "Chaleco antes de salir; luces de emergencia; luz de preseñalización obligatoria. Triángulos opcionales: a 50 m, visibles a 100 m.", "p": "293", "cubre": [7], "v": ["Los triángulos son opcionales : a 50 m"]},
+  {"t": "Dónde parar y estacionar", "d": "Fuera de poblado, a la derecha y dejando libre el arcén si se puede. En poblado, doble sentido a la derecha; sentido único, a cualquier lado. Prohibido en curvas sin visibilidad, túneles, pasos y carriles reservados.", "p": "294-300", "cubre": [8], "v": ["Fuera de poblado : a la derecha, dejando libre el arcén si se puede."]}
+ ],
+ "mnemo": [
+  {"r": "R.S.M. es el orden natural: miro, aviso, hago.", "base": "Regla de seguridad (p.268)"},
+  {"r": "La marcha puesta siempre «mira» cuesta arriba: subiendo, primera; bajando, marcha atrás.", "base": "Antes de dejar el vehículo (p.295)"}
+ ],
+ "conexiones": [
+  {"id": "T7", "por": "Luces de dirección y de emergencia"},
+  {"id": "T8", "por": "Líneas y señales que prohíben adelantar o aparcar"},
+  {"id": "T12", "por": "Ceder el paso al incorporarse"}
+ ]
+}

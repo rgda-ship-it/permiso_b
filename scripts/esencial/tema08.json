@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Calzada", "d": "Parte de la vía por donde van los vehículos.", "p": "165", "v": ["Calzada. Parte de la vía por donde van los vehículos."]},
+  {"t": "Resalto", "d": "Parte de la vía que sobresale hacia arriba para obligar a ir más despacio.", "p": "168", "v": ["Parte de la vía que sobresale hacia arriba para obligar a ir más despacio."]},
+  {"t": "Badén", "d": "Bache o zanja en la vía.", "p": "168", "v": ["Badén. Bache o zanja en la vía."]},
+  {"t": "Señales de balizamiento", "d": "Luces, señales y dispositivos que destacan las obras, marcan la dirección y avisan de obstáculos.", "p": "160", "v": ["luces, señales y dispositivos que destacan las obras, marcan la dirección y avisan de obstáculos"]},
+  {"t": "R-1 Ceda el paso", "d": "Cede el paso a los que ya circulan por la vía o el carril al que quieres entrar.", "p": "173", "v": ["Cede el paso a los que ya circulan por la vía o el carril al que quieres entrar."]},
+  {"t": "R-2 Stop", "d": "Obligación de parar y dejar pasar a los que ya circulan por la vía a la que entras.", "p": "173", "v": ["Obligación de parar y dejar pasar a los que ya circulan por la vía a la que entras."]},
+  {"t": "R-305 Prohibido adelantar", "d": "Solo puedes adelantar a motos de dos ruedas sin invadir el carril contrario.", "p": "177", "v": ["Solo puedes adelantar a motos de dos ruedas sin invadir el carril contrario."]},
+  {"t": "R-411 Velocidad mínima", "d": "No puedes ir más despacio de lo que indica.", "p": "182", "v": ["Velocidad mínima : no puedes ir más despacio."]}
+ ],
+ "dominar": [
+  {"t": "Qué señal obedecer primero", "d": "1 agentes, 2 señales temporales y de curvas u obstáculos, 3 semáforos, 4 señales verticales, 5 marcas viales. Stop y verde: el verde. Stop y ceda el paso: el Stop.", "p": "156-157", "cubre": [1, 2], "v": ["Señales y órdenes de los agentes de tráfico."]},
+  {"t": "Agentes", "d": "Sus señales se cumplen siempre; se ven a 150 m. Brazo vertical u horizontal: paran todos. Silbato corto y repetido: parar; largo: seguir.", "p": "157-159", "cubre": [3], "v": ["Usan objetos y prendas que se ven a 150 metros", "Silbato: un toque largo"]},
+  {"t": "Semáforos", "d": "Amarillo fijo prohíbe pasar, salvo si no puedes parar con seguridad. Amarillo intermitente obliga a ceder el paso. De carril: aspa roja, déjalo; flecha verde, puedes circular.", "p": "162-164", "cubre": [4], "v": ["Prohíbe el paso como la roja, salvo a quien no puede parar con seguridad.", "Obliga a ceder el paso a los vehículos de derecha e izquierda y a los peatones."]},
+  {"t": "Señales verticales: P, R y S", "d": "P avisa de peligro, R obliga o prohíbe, S informa. Una R junto al nombre del pueblo vale para todo el pueblo.", "p": "166-184", "cubre": [5, 6], "v": ["vale para todo el pueblo"]},
+  {"t": "Líneas y marcas amarillas", "d": "Continua: no se cruza. Discontinua: sí. Con las dos juntas, manda la de tu lado. Amarilla continua: ni parar ni aparcar; discontinua o zigzag: no aparcar.", "p": "200-209", "cubre": [7, 8], "v": ["Haz caso a la que está más cerca de tu lado.", "Amarilla continua Prohibido parar y aparcar"]}
+ ],
+ "mnemo": [
+  {"r": "P de Peligro, R de Regla, S de Servicio e información.", "base": "Letras de las señales (p.166, 173, 184)"},
+  {"r": "El silbato habla como tú: «¡pa-pa-pa!» para parar; «vaaaale» largo para seguir.", "base": "Señales de los agentes (p.159)"}
+ ],
+ "conexiones": [
+  {"id": "T12", "por": "Preferencia en cruces y pasos estrechos"},
+  {"id": "T10", "por": "Señales de velocidad"},
+  {"id": "T11", "por": "Parar, aparcar y adelantar"}
+ ]
+}

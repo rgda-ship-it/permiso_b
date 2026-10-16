@@ -1,0 +1,28 @@
+{
+ "memorizar": [
+  {"t": "Carril reversible", "d": "Carril abierto unas veces en un sentido y otras en el contrario.", "p": "140", "v": ["Carril abierto unas veces en un sentido y otras en el contrario."]},
+  {"t": "Carril adicional", "d": "Carril nuevo que se abre un tiempo por obras, retenciones o un accidente.", "p": "140", "v": ["Carril nuevo que se abre un tiempo por obras, retenciones o un accidente."]},
+  {"t": "Luces de posición", "d": "Sirven para que se vea el vehículo y se sepa lo ancho que es. Blancas delante, rojas detrás y amarillas en los laterales.", "p": "142", "v": ["Sirven para que se vea el vehículo y se sepa lo ancho que es."]},
+  {"t": "Gálibo", "d": "Anchura de un vehículo. Las luces de gálibo indican la anchura total.", "p": "143", "v": ["Gálibo. Anchura de un vehículo."]},
+  {"t": "Catadióptrico", "d": "Dispositivo que refleja la luz de otros vehículos para que se vea el tuyo.", "p": "148", "v": ["Dispositivo que refleja la luz de otros vehículos para que se vea el tuyo."]},
+  {"t": "Señal de emergencia", "d": "Avisa de que el vehículo tiene un problema: se encienden todas las luces de dirección a la vez.", "p": "149", "v": ["Se encienden todas las luces de dirección a la vez."]},
+  {"t": "Tercera luz de freno", "d": "Una sola luz detrás, por encima de las de freno. Opcional en automóviles; las motos no pueden llevarla.", "p": "151", "v": ["Una sola luz detrás, por encima de las de freno"]},
+  {"t": "Señales acústicas", "d": "Sonidos para avisar a los demás de que estás ahí. Solo en tres casos.", "p": "152", "v": ["Sonidos para avisar a los demás de que estás ahí."]}
+ ],
+ "dominar": [
+  {"t": "Luces de día y vía poco iluminada", "d": "De día: días oscuros, túneles, carriles reversibles y adicionales. Vía poco iluminada: no lees la matrícula de delante a 10 m o no ves un coche oscuro a 50 m.", "p": "140-141", "cubre": [1, 2], "v": ["Por un carril adicional o que va en sentido contrario al normal"]},
+  {"t": "Colores de las luces", "d": "Delante blanco, detrás rojo, laterales amarillo. Antiniebla delanteras blancas o amarillas; traseras rojas. Catadióptricos de remolque: triángulo.", "p": "142-148", "cubre": [3], "v": ["Colores: blancas delante, rojas detrás y amarillas en los laterales."]},
+  {"t": "Largo frente a corto alcance", "d": "Largo: de noche en carretera a más de 40 km/h; prohibida en ciudad y parado; intermitente para avisar. Corto: de noche en todas las vías; motos, siempre.", "p": "144-147", "cubre": [4, 5], "v": ["Dentro de pueblos y ciudades. Con el vehículo parado.", "siempre encendida, también de día, en cualquier vía"]},
+  {"t": "Antiniebla y emergencia", "d": "Antiniebla trasera solo con tiempo y visibilidad muy malos. Emergencia: avería que no deja llegar a la velocidad mínima, viaje urgente, avisar de otro vehículo parado, transporte escolar.", "p": "148-150", "cubre": [6, 7], "v": ["con una avería que no te deja llegar a la velocidad mínima de esa vía"]},
+  {"t": "Claxon: solo tres casos", "d": "Evitar un accidente; fuera de poblado, avisar de que adelantas; servicio prioritario.", "p": "152-153", "cubre": [8], "v": ["Evitar un posible accidente.", "Fuera de poblado, avisar a un conductor de que le vas a adelantar."]}
+ ],
+ "mnemo": [
+  {"r": "Como un semáforo al revés del coche: blanco te mira, rojo se va, amarillo de lado.", "base": "Colores de las luces (p.142, 148)"},
+  {"r": "Las cifras de la noche: 10 m (matrícula), 50 m (coche oscuro), 40 km/h (largo alcance).", "base": "Vía poco iluminada y largo alcance (p.141, 144)"}
+ ],
+ "conexiones": [
+  {"id": "T9", "por": "Carriles reversibles y adicionales"},
+  {"id": "T14", "por": "Conducir de noche y con niebla"},
+  {"id": "T11", "por": "Indicar las maniobras"}
+ ]
+}
