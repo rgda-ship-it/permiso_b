@@ -3,20 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Juegos · Manual Permiso B</title>
+  <title>③ Juegos · Manual Permiso B</title>
+  <meta name="description" content="Juegos para repasar el permiso B: Pasapalabra, ¿Quién soy?, ¿Mito o realidad?, situaciones al volante, secuencias y parejas de cifras.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="juegos.css">
   <script src="../js/menu.js"></script>
+  <script src="fichas.js" defer></script>
+  <script src="datos.js" defer></script>
+  <script src="juegos.js" defer></script>
 </head>
 <body data-seccion="juegos">
-  <main id="contenido" class="contenido proximamente">
-    <p class="icono" aria-hidden="true">🚧</p>
-    <h1>③ Juegos</h1>
-    <p>Juegos para repasar los temas.</p>
-    <p class="muted">Esta sección todavía no está lista. Se construye después de la Guía.</p>
-    <p><a href="../index.html">← Volver al índice</a></p>
+  <main id="contenido" class="contenido contenido--ancho">
+    <header class="ju-cabecera">
+      <h1>③ Juegos</h1>
+      <p class="lead">Repasa jugando. Todo sale de la guía: después de cada respuesta ves la explicación y la página del libro.</p>
+      <label class="ju-filtro">Temas
+        <select id="ju-tema"><option value="">Todos los temas</option></select>
+      </label>
+    </header>
+
+    <section id="ju-menu" class="ju-menu" aria-label="Elige un juego">
+      <button type="button" class="ju-carta" data-juego="pasapalabra"><span class="ju-carta__icono" aria-hidden="true">🔤</span><b>Pasapalabra</b><span>Una palabra por cada letra.</span></button>
+      <button type="button" class="ju-carta" data-juego="quien"><span class="ju-carta__icono" aria-hidden="true">❓</span><b>¿Quién soy?</b><span>Lees la definición y eliges la palabra.</span></button>
+      <button type="button" class="ju-carta" data-juego="mitos"><span class="ju-carta__icono" aria-hidden="true">🤔</span><b>¿Mito o realidad?</b><span>¿Es verdad lo que dice la frase?</span></button>
+      <button type="button" class="ju-carta" data-juego="situaciones"><span class="ju-carta__icono" aria-hidden="true">🚗</span><b>Situaciones al volante</b><span>¿Qué haces en cada caso?</span></button>
+      <button type="button" class="ju-carta" data-juego="secuencias"><span class="ju-carta__icono" aria-hidden="true">🔢</span><b>Secuencias</b><span>Pon los pasos en orden.</span></button>
+      <button type="button" class="ju-carta" data-juego="parejas"><span class="ju-carta__icono" aria-hidden="true">🔗</span><b>Parejas de cifras</b><span>Une cada dato con su número.</span></button>
+    </section>
+
+    <section id="ju-juego" class="ju-juego" hidden aria-live="polite"></section>
+
+    <p class="ju-siguiente">Siguiente paso: <a href="../simulador/index.html">④ Examen →</a></p>
   </main>
 </body>
 </html>

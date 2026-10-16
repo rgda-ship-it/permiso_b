@@ -1,0 +1,18 @@
+{
+ "mitos": [
+  {"f": "Un conductor novel empieza con 12 puntos.", "r": false, "e": "Los dos primeros años, 8 puntos. Después, 12, 14 y hasta 15 si no pierdes puntos.", "p": "468", "v": ["Novel (los dos primeros años)"]},
+  {"f": "Se puede llegar a tener 15 puntos.", "r": true, "e": "Después de 3 años más con 14 puntos (más de 8 años de permiso sin perder puntos).", "p": "468", "v": ["3 años más con 14 puntos (más de 8 años)"]},
+  {"f": "Si pierdes todos los puntos, con un curso puedes conducir al día siguiente.", "r": false, "e": "6 meses sin conducir. Después, curso de 24 horas y examen en Tráfico.", "p": "469", "v": ["6 meses sin conducir. Después, curso de 24 horas y examen en Tráfico."]},
+  {"f": "Con un curso de 12 horas recuperas hasta 6 puntos.", "r": true, "e": "Es para quien ha perdido algunos puntos. También se recuperan si no pierdes más en 2 años.", "p": "469", "v": ["Con un curso de 12 horas , recuperas hasta 6 ."]},
+  {"f": "Llevar un detector de radar no quita puntos.", "r": false, "e": "Quita 3 puntos, igual que los auriculares o un cambio de sentido prohibido.", "p": "470-471", "v": ["Llevar detectores de radar."]},
+  {"f": "Negarse a la prueba de alcohol o drogas quita 6 puntos.", "r": true, "e": "Igual que conducir con drogas o con más de 0,50 mg/l en aire.", "p": "473", "v": ["Negarse a las pruebas."]}
+ ],
+ "situaciones": [
+  {"s": "Un conductor novel da 0,20 mg/l en aire. ¿Qué le pasa en el permiso?", "o": ["No pierde puntos", "Pierde 4 puntos", "Pierde 6 puntos"], "c": 1, "e": "Noveles y profesionales: de 0,15 a 0,30 mg/l, 4 puntos; más de 0,30, 6 puntos.", "p": "471", "v": ["noveles y profesionales: de 0,15 a 0,30"]},
+  {"s": "Perdiste 3 puntos y llevas 2 años sin perder ninguno más. ¿Qué pasa?", "o": ["Los recupero", "Los pierdo para siempre", "Tengo que hacer un examen"], "c": 0, "e": "Los puntos perdidos se recuperan si no pierdes más en 2 años.", "p": "469", "v": ["Los recuperas si no pierdes más en 2 años ."]},
+  {"s": "No eres novel y conduces con 0,60 mg/l de alcohol en aire. ¿Cuántos puntos pierdes?", "o": ["3 puntos", "4 puntos", "6 puntos"], "c": 2, "e": "Más de 0,50 mg/l en aire: 6 puntos.", "p": "473", "v": ["Alcohol de más de 0,50 mg/l"]}
+ ],
+ "secuencias": [
+  {"t": "Pierdes todos los puntos: ordena lo que pasa", "pasos": ["Pierdes todos los puntos", "6 meses sin conducir", "Curso de 24 horas", "Examen en Tráfico"], "p": "469", "v": ["6 meses sin conducir. Después, curso de 24 horas y examen en Tráfico."]}
+ ]
+}

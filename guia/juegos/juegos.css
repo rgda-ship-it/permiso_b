@@ -1,0 +1,94 @@
+/* ③ Juegos — estilos propios (usa los tokens de ../css/style.css) */
+.contenido--ancho { max-width: 58rem; }
+.ju-cabecera h1 { margin-bottom: .2em; }
+.ju-filtro { display: flex; flex-direction: column; gap: 4px; font-weight: 600; max-width: 26rem; margin: 8px 0 16px; }
+.ju-filtro select, .ju-respuesta input {
+  font: inherit; font-weight: 400; padding: 10px 12px; border-radius: var(--radius-s);
+  border: 1px solid var(--border); background: var(--surface); color: var(--text); min-height: 44px;
+}
+
+/* Elegir juego */
+.ju-menu { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 12px; }
+.ju-carta {
+  font: inherit; color: var(--text); text-align: left; cursor: pointer;
+  display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; align-items: center;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 14px 16px; box-shadow: var(--shadow); min-height: 72px;
+}
+.ju-carta:hover, .ju-carta:focus-visible { border-color: var(--primary); }
+.ju-carta__icono { grid-row: span 2; font-size: 2rem; }
+.ju-carta span:last-child { color: var(--text-soft); font-size: 1rem; }
+
+.ju-menu[hidden], .ju-juego[hidden] { display: none; }
+
+/* Panel del juego */
+.ju-juego { scroll-margin-top: calc(var(--menu-h) + 12px); }
+.ju-juego { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
+.ju-barra { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.ju-barra h2 { margin: 0; font-size: 1.3rem; }
+.ju-marcador { font-weight: 700; }
+.ju-boton {
+  font: inherit; padding: 8px 16px; border-radius: var(--radius-s); border: 1px solid var(--border);
+  background: var(--surface-2); color: var(--text); cursor: pointer; min-height: 44px;
+}
+.ju-boton:hover:not(:disabled) { border-color: var(--primary); }
+.ju-boton--primario { background: var(--primary); color: var(--on-primary); border-color: var(--primary); font-weight: 600; }
+.ju-botones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.ju-tema-etiqueta { display: inline-block; font-size: .85rem; font-weight: 700; padding: 2px 10px; border-radius: 999px;
+  background: var(--surface-2); border-left: 6px solid var(--c, var(--primary)); margin-bottom: 8px; }
+.ju-pista { font-size: 1.15rem; font-weight: 600; margin: 8px 0; }
+.ju-feedback { margin-top: 12px; padding: 10px 12px; border-radius: var(--radius-s); background: var(--surface-2); }
+.ju-feedback.ok { background: var(--ok-soft); }
+.ju-feedback.mal { background: var(--bad-soft); }
+.ju-feedback p { margin: 0 0 .3em; }
+.ju-feedback p:last-child { margin: 0; }
+
+/* Pasapalabra */
+.ju-rosco { list-style: none; padding: 0; margin: 0 0 12px; display: flex; flex-wrap: wrap; gap: 6px; }
+.ju-rosco li {
+  width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; margin: 0;
+  font-weight: 700; background: var(--primary-soft); color: var(--text); border: 2px solid transparent;
+}
+.ju-rosco li.actual { border-color: var(--primary); }
+.ju-rosco li.acierto { background: var(--ok); color: var(--on-primary); }
+.ju-rosco li.fallo { background: var(--bad); color: var(--on-primary); }
+.ju-respuesta { display: flex; flex-wrap: wrap; gap: 8px; }
+.ju-respuesta input { flex: 1 1 14rem; }
+
+/* Mito o realidad */
+.ju-dos { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+.ju-dos button { font: inherit; font-weight: 700; min-height: 52px; border-radius: var(--radius-s); cursor: pointer;
+  border: 2px solid var(--border); background: var(--surface-2); color: var(--text); }
+.ju-dos button:hover:not(:disabled) { border-color: var(--primary); }
+.ju-dos button.correcta { background: var(--ok-soft); border-color: var(--ok); }
+.ju-dos button.incorrecta { background: var(--bad-soft); border-color: var(--bad); }
+
+/* Secuencias */
+.ju-pasos { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 8px; }
+.ju-pasos li { margin: 0; }
+.ju-pasos button { width: 100%; text-align: left; font: inherit; color: var(--text); cursor: pointer; min-height: 48px;
+  padding: 10px 12px; border-radius: var(--radius-s); border: 2px solid transparent; background: var(--surface-2); }
+.ju-pasos button:hover:not(:disabled) { border-color: var(--primary); }
+.ju-pasos button:disabled { opacity: .45; cursor: default; }
+.ju-orden { padding-left: 1.6em; margin: 8px 0; }
+.ju-orden li { padding: 6px 8px; border-radius: var(--radius-s); margin-bottom: 4px; }
+.ju-orden li.ok { background: var(--ok-soft); }
+.ju-orden li.mal { background: var(--bad-soft); }
+
+/* Parejas */
+.ju-parejas { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; }
+.ju-col { display: grid; gap: 8px; align-content: start; }
+.ju-col button { font: inherit; font-size: 1rem; text-align: left; color: var(--text); cursor: pointer; min-height: 52px;
+  padding: 8px 10px; border-radius: var(--radius-s); border: 2px solid transparent; background: var(--surface-2); }
+.ju-col button:hover:not(:disabled) { border-color: var(--primary); }
+.ju-col button.elegido { border-color: var(--primary); background: var(--primary-soft); }
+.ju-col button.hecho { background: var(--ok-soft); border-color: var(--ok); cursor: default; }
+.ju-col button.error { background: var(--bad-soft); border-color: var(--bad); }
+
+.ju-resumen ul { padding-left: 1.2em; }
+.ju-siguiente { margin-top: 32px; font-weight: 600; }
+
+@media (max-width: 480px) {
+  .ju-parejas { gap: 8px; }
+  .ju-col button { font-size: .95rem; }
+}

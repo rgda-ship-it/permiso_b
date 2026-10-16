@@ -1,0 +1,20 @@
+{
+ "mitos": [
+  {"f": "Puedes llevar en el coche una fotocopia normal del permiso de conducir.", "r": false, "e": "Tienen que ser los originales o una fotocopia compulsada por un organismo oficial.", "p": "27", "v": ["Deben ser los originales o una fotocopia compulsada por un organismo oficial"]},
+  {"f": "Eres conductor novel durante el primer año con el permiso.", "r": true, "e": "Durante ese año llevas la placa verde con una L blanca en el cristal de atrás.", "p": "31", "v": ["Durante el primer año con el permiso eres conductor novel."]},
+  {"f": "Un remolque que solo puede llevar 500 kg necesita permiso de circulación.", "r": false, "e": "Solo lo necesitan los remolques y semirremolques que pueden llevar más de 750 kilos.", "p": "33", "v": ["Los remolques y semirremolques que pueden llevar más de 750 kilos ."]},
+  {"f": "Todos los remolques tienen que tener tarjeta de ITV.", "r": true, "e": "Permiso de circulación, solo los de más de 750 kg; tarjeta de ITV, todos.", "p": "33-34", "v": ["Permiso de circulación: solo remolques de más de 750 kg. Tarjeta de ITV: todos los remolques."]},
+  {"f": "El seguro obligatorio cubre las lesiones del propio conductor.", "r": false, "e": "No las cubre. Protege a los demás: personas, objetos o vehículos.", "p": "39", "v": ["Las lesiones del conductor del vehículo asegurado."]},
+  {"f": "Si un menor de 18 años comete una falta, responden su padre, su madre o su tutor.", "r": true, "e": "Normalmente paga quien comete la falta; si es menor, su padre, madre o tutor.", "p": "41", "v": ["Su padre, madre o tutor"]},
+  {"f": "La pegatina de la ITV va en el lado derecho del parabrisas.", "r": true, "e": "Va por dentro, en el lado derecho del parabrisas.", "p": "37", "v": ["va dentro, en el lado derecho del parabrisas"]}
+ ],
+ "situaciones": [
+  {"s": "Vendes tu coche a un amigo. ¿Cuánto tiempo tienes para comunicarlo a Tráfico?", "o": ["7 días", "10 días", "15 días"], "c": 1, "e": "Venta o entrega del vehículo: 10 días.", "p": "34", "v": ["Venta o entrega del vehículo a otra persona: 10 días ."]},
+  {"s": "Has tenido un accidente. ¿Hasta cuándo puedes avisar a tu seguro?", "o": ["7 días", "10 días", "15 días"], "c": 0, "e": "Todos los conductores deben informar a su seguro como muy tarde 7 días después.", "p": "39", "v": ["como muy tarde 7 días después"]},
+  {"s": "Cambia un dato tuyo como titular del coche, por ejemplo el domicilio. ¿Plazo para avisar a Tráfico?", "o": ["7 días", "10 días", "15 días"], "c": 2, "e": "Cambio en los datos del titular: como muy tarde 15 días después.", "p": "33-34", "v": ["Cambio en los datos del titular: como muy tarde 15 días después"]},
+  {"s": "En la ITV encuentran un fallo grave en tu coche. ¿Qué haces?", "o": ["Lo sigo usando un mes más y luego lo arreglo", "No circulo y lo llevo a un taller", "Pago una multa y sigo"], "c": 1, "e": "Con un fallo grave no puedes seguir circulando. Llévalo a un taller y pasa una nueva inspección.", "p": "37", "v": ["No puedes seguir circulando."]}
+ ],
+ "secuencias": [
+  {"t": "La ITV encuentra un fallo grave: ordena lo que pasa", "pasos": ["No puedes seguir circulando", "Llevas el coche a un taller", "Cuando está arreglado, pasas una nueva inspección"], "p": "37", "v": ["No puedes seguir circulando.", "Cuando esté arreglado, pasa una nueva inspección."]}
+ ]
+}

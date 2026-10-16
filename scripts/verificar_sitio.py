@@ -148,6 +148,48 @@ def main():
         comprobar(page.locator(".es-item.sabido").count() == 1, "esencial: «Ya me lo sé» se mantiene al recargar")
         ctx.close()
 
+        # ③ Juegos: cada juego se puede jugar hasta el final
+        ctx = nav.new_context(viewport={"width": 390, "height": 844})
+        page = ctx.new_page()
+        errores_js = []
+        page.on("pageerror", lambda e: errores_js.append(str(e)))
+        page.goto((GUIA / "juegos" / "index.html").as_uri())
+        page.wait_for_selector(".ju-carta")
+        comprobar(page.locator(".ju-carta").count() == 6, "juegos: 6 juegos")
+        acciones = {"quien": "[data-op]", "mitos": "[data-mr]", "situaciones": "[data-op]",
+                    "secuencias": "[data-paso]:not([disabled])"}
+        for juego, sel in acciones.items():
+            page.click(f'[data-juego="{juego}"]')
+            comprobar(not page.locator("#ju-menu").is_visible(), f"juegos: {juego} oculta el menú de juegos")
+            for _ in range(80):
+                if page.locator("[data-otra]").count():
+                    break
+                if page.locator("[data-siguiente]").count():
+                    page.click("[data-siguiente]")
+                else:
+                    page.locator(sel).first.click()
+            comprobar("Has acertado" in page.locator("#ju-juego").inner_text(), f"juegos: {juego} llega al resultado")
+            page.click("[data-volver]")
+        page.click('[data-juego="parejas"]')
+        for i in range(5):
+            if page.locator(f'[data-lado="c"][data-i="{i}"]:not([disabled])').count():
+                page.click(f'[data-lado="c"][data-i="{i}"]')
+                page.click(f'[data-lado="v"][data-i="{i}"]')
+        comprobar("0 errores" in page.locator("#ju-juego").inner_text(), "juegos: parejas unidas sin errores")
+        page.click("[data-volver]")
+        page.click('[data-juego="pasapalabra"]')
+        n = page.locator(".ju-rosco li").count()
+        page.click("[data-pasapalabra]")
+        page.fill("#ju-palabra", "zzz")
+        page.press("#ju-palabra", "Enter")
+        comprobar(n >= 20 and page.locator(".ju-rosco li.fallo").count() == 1,
+                  f"juegos: pasapalabra con {n} letras corrige la respuesta")
+        page.click("[data-rendirse]")
+        comprobar("Has acertado 0 de" in page.locator("#ju-juego").inner_text(), "juegos: pasapalabra termina")
+        sw = page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+        comprobar(sw and not errores_js, f"juegos: sin scroll horizontal ni errores de JS {errores_js or ''}")
+        ctx.close()
+
         # móvil: botón ☰ abre y Escape cierra el panel
         ctx = nav.new_context(viewport={"width": 390, "height": 844})
         page = ctx.new_page()

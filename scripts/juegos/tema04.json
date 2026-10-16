@@ -1,0 +1,16 @@
+{
+ "mitos": [
+  {"f": "Puedes echar gasolina con la radio puesta si el motor está apagado.", "r": false, "e": "Para echar combustible, todo apagado: motor, luces y radio.", "p": "77", "v": ["Echar combustible con el motor en marcha, las luces encendidas o la radio conectada."]},
+  {"f": "Por carretera, los peatones van por la izquierda.", "r": true, "e": "Por la izquierda, salvo que sea más seguro por la derecha.", "p": "82", "v": ["Por la izquierda , salvo que sea más seguro por la derecha."]},
+  {"f": "Un vehículo de obras con la luz amarilla encendida tiene prioridad para pasar.", "r": false, "e": "La luz amarilla solo avisa de que está allí: no le da prioridad para pasar ni para adelantar.", "p": "80", "v": ["no les da prioridad para pasar ni para adelantar"]},
+  {"f": "Si el vehículo tiene cinturón obligatorio y lo llevas abrochado, no necesitas casco.", "r": true, "e": "Con cinturón no necesitas casco.", "p": "79", "v": ["Con cinturón no necesitas casco."]},
+  {"f": "Los patinetes eléctricos pueden circular por la acera.", "r": false, "e": "No pueden ir por aceras ni zonas peatonales, ni por autopistas, autovías o carreteras fuera del pueblo.", "p": "84", "v": ["Aceras y zonas peatonales"]},
+  {"f": "El ganado en la carretera lo guía siempre una persona mayor de 18 años.", "r": true, "e": "Y va por el arcén derecho; si no hay arcén, pegado al borde derecho.", "p": "85", "v": ["Siempre los guía una persona mayor de 18 años ."]}
+ ],
+ "situaciones": [
+  {"s": "Has aparcado en la calle y vas a bajar del coche. ¿Qué haces?", "o": ["Abro rápido la puerta para no molestar a nadie", "Compruebo antes que no viene ninguna bici", "Abro despacio la puerta sin mirar"], "c": 1, "e": "Está prohibido abrir la puerta y bajar sin comprobar que no hay peligro; por ejemplo, puede pasar una bicicleta.", "p": "76", "v": ["Abrir la puerta y bajar sin comprobar que no hay peligro."]},
+  {"s": "Vas andando de noche por una carretera. ¿Qué llevas?", "o": ["Algo brillante que se vea a 150 m", "Ropa oscura para no deslumbrar a nadie", "Nada, los coches llevan luces"], "c": 0, "e": "De noche, algo luminoso o brillante que se vea a 150 metros, como un chaleco reflectante.", "p": "82", "v": ["De noche: algo luminoso o brillante que se vea a 150 metros"]},
+  {"s": "Un grupo de peatones va en fila por la carretera de noche. ¿Qué luces llevan?", "o": ["Delante luz roja y detrás luz blanca", "No necesitan luces si van todos juntos en fila", "Delante blanca o amarilla; detrás roja"], "c": 2, "e": "En grupo: delante, luz blanca o amarilla; detrás, luz roja.", "p": "83", "v": ["Delante, luz blanca o amarilla ; detrás, luz roja ."]}
+ ],
+ "secuencias": []
+}

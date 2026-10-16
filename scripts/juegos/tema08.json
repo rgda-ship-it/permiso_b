@@ -1,0 +1,18 @@
+{
+ "mitos": [
+  {"f": "Si un Stop y un semáforo en verde dicen cosas distintas, manda el Stop.", "r": false, "e": "Manda el semáforo en verde. Entre un Stop y un ceda el paso, en cambio, manda el Stop.", "p": "157", "v": ["El semáforo en verde"]},
+  {"f": "Un semáforo en amarillo intermitente obliga a ceder el paso.", "r": true, "e": "A los vehículos de derecha e izquierda y a los peatones.", "p": "162-163", "v": ["Obliga a ceder el paso a los vehículos de derecha e izquierda y a los peatones."]},
+  {"f": "Si el agente con los brazos en horizontal los baja, ya puedes seguir.", "r": false, "e": "Se obedece hasta otra indicación, aunque baje los brazos.", "p": "158-159", "v": ["Se obedece hasta otra indicación, aunque baje los brazos ."]},
+  {"f": "Una señal de reglamentación junto al nombre del pueblo vale para todo el pueblo.", "r": true, "e": "Si está antes o después del cartel, vale solo para ese tramo, hasta otra señal.", "p": "172", "v": ["vale para todo el pueblo"]},
+  {"f": "La línea continua se puede pisar si no viene nadie.", "r": false, "e": "Está prohibido cruzarla y circular sobre ella.", "p": "200", "v": ["Prohibido cruzarla, circular sobre ella"]},
+  {"f": "Las señales de peligro tienen un nombre que empieza por P.", "r": true, "e": "P de peligro. Las de reglamentación empiezan por R y las de indicación por S.", "p": "166", "v": ["Su nombre empieza por P de peligro."]}
+ ],
+ "situaciones": [
+  {"s": "Un agente de tráfico da un toque largo con el silbato. ¿Qué significa?", "o": ["Tengo que parar el vehículo", "Puedo volver a circular", "Tengo que ir más despacio"], "c": 1, "e": "Un toque largo: volver a circular. Toques cortos y repetidos: detenerse.", "p": "159", "v": ["Silbato: un toque largo"]},
+  {"s": "Llegas a un semáforo en amarillo fijo y puedes parar con seguridad. ¿Qué haces?", "o": ["Paro, como si fuera rojo", "Acelero para pasar antes del rojo", "Paso con precaución"], "c": 0, "e": "El amarillo fijo prohíbe el paso como el rojo, salvo a quien no puede parar con seguridad.", "p": "162", "v": ["Prohíbe el paso como la roja, salvo a quien no puede parar con seguridad."]},
+  {"s": "Hay una línea continua y una discontinua juntas. La discontinua está en tu lado. ¿Puedes cruzar?", "o": ["No puedo cruzar ninguna de las dos líneas", "Sí, manda la línea de mi lado", "Solo puedo cruzar si es de noche"], "c": 1, "e": "Con las dos juntas, haz caso a la que está más cerca de tu lado.", "p": "202", "v": ["Haz caso a la que está más cerca de tu lado."]}
+ ],
+ "secuencias": [
+  {"t": "¿Qué señal se obedece primero? Ordena de más a menos importante", "pasos": ["Agentes de tráfico", "Señales temporales y de curvas u obstáculos", "Semáforos", "Señales verticales", "Marcas y líneas en la carretera"], "p": "156", "v": ["Señales y órdenes de los agentes de tráfico.", "Marcas y líneas en la carretera."]}
+ ]
+}

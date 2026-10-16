@@ -1,0 +1,18 @@
+{
+ "mitos": [
+  {"f": "Dirección y sentido son lo mismo.", "r": false, "e": "Ida y vuelta por la misma carretera: misma dirección y distinto sentido.", "p": "222", "v": ["Dirección y sentido no son lo mismo"]},
+  {"f": "A una autovía se puede entrar desde algunas propiedades de al lado.", "r": true, "e": "En eso se diferencia de la autopista. Además, la autovía tiene más accesos y no se paga.", "p": "225", "v": ["se puede entrar desde algunas propiedades de al lado"]},
+  {"f": "En una calzada de doble sentido con tres carriles puedes ir por el de la izquierda.", "r": false, "e": "El de la izquierda, nunca. El central, solo para adelantar y para girar a la izquierda.", "p": "229", "v": ["Nunca el de la izquierda."]},
+  {"f": "En una vía de doble sentido, las isletas se pasan por la derecha.", "r": true, "e": "Refugios e isletas, por la derecha. En vías de sentido único, por cualquier lado.", "p": "228", "v": ["Refugios e isletas: pásalos por la derecha ."]},
+  {"f": "Un ciclista de 16 años puede ir por el arcén de una autovía.", "r": true, "e": "Los ciclistas de más de 14 años pueden ir por el arcén de la autovía, salvo que una señal lo prohíba.", "p": "240", "v": ["ciclistas de más de 14 años por el arcén de la autovía"]},
+  {"f": "Los automóviles pueden ir por el arcén cuando hay mucho tráfico.", "r": false, "e": "Los automóviles no van por el arcén, salvo avería u otro imprevisto.", "p": "229", "v": ["Los automóviles no van por el arcén, salvo avería u otro imprevisto."]}
+ ],
+ "situaciones": [
+  {"s": "Tu coche se avería en la autovía y tienes que ir más despacio. ¿Qué haces?", "o": ["Sigo por el carril derecho hasta casa", "Salgo por la primera salida", "Paro en el carril izquierdo"], "c": 1, "e": "Sal por la primera salida. Si tienes que parar, en el arcén o en la mediana.", "p": "241", "v": ["Si una avería te obliga a ir más despacio, sal por la primera salida ."]},
+  {"s": "Por obras, vas por un carril en sentido contrario al habitual. ¿A qué velocidad?", "o": ["Entre 60 y 80 km/h", "A 120 km/h, como en autopista", "A menos de 40 km/h"], "c": 0, "e": "De 60 a 80 km/h, con luz de corto alcance de día y de noche y sin cambiar de carril.", "p": "236-237", "v": ["Corto alcance de día y de noche, 60 a 80 km/h"]},
+  {"s": "En el mapa del estado de las carreteras, un tramo aparece en negro. ¿Qué significa?", "o": ["Que hay retenciones", "Que está cortada", "Que se circula con normalidad"], "c": 1, "e": "Negro: carretera cortada, no se puede circular.", "p": "226", "v": ["Carretera cortada: no se puede circular."]}
+ ],
+ "secuencias": [
+  {"t": "Salir de una vía por el carril de salida: ordena los pasos", "pasos": ["Ponerte en el carril más cercano a la salida", "Entrar lo antes posible en el carril de salida", "Ir más despacio", "Atender a la nueva carretera"], "p": "234", "v": ["Colócate en el carril más cercano, entra lo antes posible, ve más despacio y atiende a la nueva carretera."]}
+ ]
+}

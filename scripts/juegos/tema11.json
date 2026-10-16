@@ -1,0 +1,19 @@
+{
+ "mitos": [
+  {"f": "Si se ven bien, las señales con el brazo valen más que las de las luces.", "r": true, "e": "Las señales con el brazo tienen más validez que las de las luces, si se hacen bien y se ven.", "p": "269", "v": ["Las señales con el brazo tienen más validez que las de las luces, si se hacen bien y se ven."]},
+  {"f": "Cuando te adelantan, puedes acelerar un poco si no estorbas.", "r": false, "e": "Al que adelantan le está prohibido acelerar. Tiene que facilitar el adelantamiento y ponerse en el borde derecho del carril.", "p": "281", "v": ["Dejarle adelantar y facilitarlo: prohibido acelerar ."]},
+  {"f": "Puedes ir marcha atrás hasta 50 metros si no viene nadie.", "r": false, "e": "Nunca más de 15 metros, y siempre prohibida en autopistas y autovías.", "p": "290", "v": ["Nunca más de 15 metros"]},
+  {"f": "Los triángulos de emergencia son obligatorios cuando el coche no puede seguir.", "r": false, "e": "Lo obligatorio es la luz de preseñalización de peligro. Los triángulos son opcionales.", "p": "293", "v": ["Los triángulos son opcionales"]},
+  {"f": "Parar es detener el vehículo menos de 2 minutos.", "r": true, "e": "Si son más de 2 minutos, es estacionar.", "p": "294", "v": ["Menos de 2 minutos"]},
+  {"f": "Para adelantar a un ciclista hay que dejar al menos 1,5 m y cambiar de carril.", "r": true, "e": "A un ciclo o ciclomotor, dentro o fuera de poblado: al menos 1,5 m y pasando al carril de la izquierda.", "p": "279", "v": ["al menos 1,5 m y cambiando al carril de la izquierda"]}
+ ],
+ "situaciones": [
+  {"s": "Vas a aparcar un coche con marchas en una cuesta abajo. ¿Qué marcha dejas puesta?", "o": ["La primera", "La marcha atrás", "Ninguna: punto muerto y freno"], "c": 1, "e": "Cuesta abajo, la marcha atrás. Cuesta arriba, la primera. Y siempre el freno de estacionamiento.", "p": "295", "v": ["Cuesta abajo : la marcha atrás ."]},
+  {"s": "Tu coche se ha quedado parado en la carretera y no puede seguir. ¿Qué haces antes de salir?", "o": ["Pongo los triángulos", "Me pongo el chaleco amarillo", "No salgo y llamo desde dentro"], "c": 1, "e": "Ponte el chaleco antes de salir y ve a un lugar seguro. Si no lo hay, quédate dentro con el cinturón.", "p": "293", "v": ["Ponte el chaleco amarillo antes de salir"]},
+  {"s": "Vas por la autovía y te has pasado la salida. ¿Qué haces?", "o": ["Doy marcha atrás por el arcén", "Cambio de sentido en la mediana", "Sigo hasta la siguiente salida"], "c": 2, "e": "La marcha atrás en autopistas y autovías está siempre prohibida. Cambiar de sentido allí también, salvo en lugares preparados.", "p": "291", "v": ["En autopistas y autovías está siempre prohibida ."]}
+ ],
+ "secuencias": [
+  {"t": "Regla R.S.M.: ordena los pasos de cualquier maniobra", "pasos": ["Retrovisor: observar la vía", "Señal: avisar a los demás", "Maniobra: hacerla sin peligro"], "p": "268", "v": ["Observar la vía: mirar directamente y por los retrovisores", "Hacerla bien, a la velocidad adecuada y sin peligro"]},
+  {"t": "Adelantar a otro vehículo: ordena los pasos", "pasos": ["Prepararte: distancia adecuada y mirar el otro carril", "Comprobar que puedes volver a tu carril sin riesgo", "Pedir paso, si hace falta", "Adelantar sin pasar del límite", "Señalizar y volver a tu carril"], "p": "277-280", "v": ["Preparación : distancia adecuada", "Fin : señaliza y vuelve a tu carril cuanto antes"]}
+ ]
+}

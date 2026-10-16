@@ -1,0 +1,16 @@
+{
+ "mitos": [
+  {"f": "En un coche de 5 asientos pueden ir 6 personas si una es un niño.", "r": false, "e": "Tantas personas como asientos, cada una en su asiento durante todo el viaje.", "p": "321", "v": ["Tantas personas como asientos: en un coche de 5 asientos no pueden ir 6."]},
+  {"f": "Un perro pequeño puede ir suelto dentro del coche.", "r": false, "e": "Los animales van detrás, sujetos al asiento y nunca sueltos.", "p": "320-321", "v": ["Nunca sueltos ."]},
+  {"f": "En moto puede ir de pasajero un niño de 10 años con su padre.", "r": true, "e": "Excepción a la regla de más de 12 años: niños de más de 7 con su padre, su madre o un adulto responsable.", "p": "324", "v": ["niños de más de 7 años , si van con su padre, su madre o un adulto responsable"]},
+  {"f": "En un turismo, la carga puede sobresalir un poco por delante.", "r": false, "e": "En un turismo la carga no puede sobresalir por delante ni por los lados; solo por detrás.", "p": "331", "v": ["La carga no puede sobresalir por delante ni por los lados."]},
+  {"f": "La carga que va en la baca puede sobresalir del vehículo.", "r": true, "e": "Por norma general la carga no sobresale, pero la de la baca sí puede.", "p": "329", "v": ["Sí puede sobresalir la que va en la baca ."]},
+  {"f": "Hay que subir y bajar del vehículo por el lado de la acera o del arcén.", "r": true, "e": "Y siempre con el vehículo parado.", "p": "322", "v": ["Se sube y se baja con el vehículo parado y por el lado de la acera o el arcén ."]}
+ ],
+ "situaciones": [
+  {"s": "Llevas una bici que sobresale por detrás de tu coche de 3 m. ¿Cuánto puede sobresalir como máximo?", "o": ["30 cm", "45 cm", "1 m"], "c": 0, "e": "Carga divisible: el 10 % de la longitud. En un coche de 3 m, 30 cm.", "p": "331", "v": ["en un coche de 3 m, una bici puede sobresalir 30 cm"]},
+  {"s": "Es de noche y la carga sobresale por detrás de tu vehículo. ¿Cómo la señalizas?", "o": ["Basta con la placa de rayas", "Con una luz blanca detrás", "La placa y además luz roja"], "c": 2, "e": "De día, la placa de rayas rojas y blancas. De noche o con poca luz, la placa y además luz roja.", "p": "333-334", "v": ["La placa y además luz roja"]},
+  {"s": "Ves detrás de un camión una placa rectangular amarilla con bordes rojos. ¿Qué indica?", "o": ["Que mide más de 12 m", "Que lleva mercancías peligrosas", "Que no pasa de 40 km/h"], "c": 0, "e": "Es la placa de vehículo largo: mide más de 12 m.", "p": "337", "v": ["Mide más de 12 m . Detrás; rectangular, amarilla con bordes rojos."]}
+ ],
+ "secuencias": []
+}

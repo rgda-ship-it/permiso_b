@@ -1,0 +1,19 @@
+{
+ "mitos": [
+  {"f": "En una curva se frena dentro de la curva, no antes.", "r": false, "e": "Se frena antes de entrar. Dentro, giro suave sin acelerones ni frenazos; al salir, se acelera poco a poco.", "p": "343", "v": ["Reduce o frena si hace falta. Acércate al borde derecho."]},
+  {"f": "Si te deslumbran de noche, ponte gafas de sol.", "r": false, "e": "Nunca gafas de sol de noche. Reduce o para, sin cambiar de carril, guiándote por la línea del borde derecho.", "p": "349", "v": ["No uses gafas de sol de noche"]},
+  {"f": "Con las primeras gotas de lluvia la carretera patina más.", "r": true, "e": "El agua se mezcla con polvo y grasa y forma un barro que hace patinar.", "p": "354", "v": ["el agua se mezcla con polvo y grasa y forma un barro que hace patinar"]},
+  {"f": "Con neumáticos muy anchos o desgastados es más fácil el aquaplaning.", "r": true, "e": "También con mucha velocidad. La mejor forma de evitarlo es ir despacio donde hay agua.", "p": "355", "v": ["neumáticos muy anchos o desgastados"]},
+  {"f": "Las cadenas para la nieve se ponen siempre en las ruedas de atrás.", "r": false, "e": "Se ponen, por lo menos, en las ruedas motrices, y al menos una cadena a cada lado.", "p": "357", "v": ["en las ruedas motrices"]},
+  {"f": "De noche, si te están adelantando, mantén el largo alcance.", "r": true, "e": "Alumbra la carretera a los dos. El que adelanta es quien cambia a cruce.", "p": "350-351", "v": ["Mantén el largo alcance : alumbra la carretera a los dos."]}
+ ],
+ "situaciones": [
+  {"s": "Llueve por primera vez en semanas y notas que las ruedas patinan. ¿Qué haces?", "o": ["Freno fuerte hasta que el coche se pare del todo", "Suelto el acelerador sin frenar", "Acelero un poco para recuperar el agarre"], "c": 1, "e": "Si las ruedas patinan, levanta el pie del acelerador sin frenar.", "p": "354", "v": ["levanta el pie del acelerador sin frenar"]},
+  {"s": "De noche, un coche que viene de frente te deslumbra. ¿Qué haces?", "o": ["Le respondo encendiendo mi largo alcance", "Reduzco y me guío por la línea derecha", "Me cambio al carril izquierdo para evitarlo"], "c": 1, "e": "Reduce o incluso para, sin cambiar de carril, guiándote por la línea del borde derecho.", "p": "349", "v": ["sin cambiar de carril , guiándote por la línea del borde derecho"]},
+  {"s": "Entras en una zona con niebla espesa. ¿Qué luces enciendes?", "o": ["Largo alcance para ver más", "Solo las luces de posición", "Luz de cruce y antiniebla"], "c": 2, "e": "Luz de cruce y antiniebla. Despacio, con mucha distancia y sin adelantar si no es necesario.", "p": "360", "v": ["Enciende la luz de cruce y las antiniebla ."]},
+  {"s": "Bajas una cuesta con nieve. ¿En qué marcha vas?", "o": ["En primera o segunda", "En la marcha más larga posible", "En punto muerto, frenando poco"], "c": 0, "e": "Cuesta abajo con nieve, más despacio y en primera o segunda.", "p": "357", "v": ["Cuesta abajo, más despacio y en primera o segunda ."]}
+ ],
+ "secuencias": [
+  {"t": "Tomar una curva: ordena lo que haces", "pasos": ["Antes: reducir o frenar y acercarte al borde derecho", "Dentro: girar el volante suave, sin acelerones ni frenazos", "Al salir: enderezar el volante y acelerar poco a poco"], "p": "343", "v": ["Reduce o frena si hace falta. Acércate al borde derecho.", "Endereza el volante con suavidad. Aumenta la velocidad poco a poco."]}
+ ]
+}
