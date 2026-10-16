@@ -1,0 +1,19 @@
+{
+ "mitos": [
+  {"f": "Bajar las cuestas en punto muerto ahorra combustible.", "r": false, "e": "Es un falso ahorro: pierdes estabilidad y abusas de los frenos.", "p": "461", "v": ["Bajar las cuestas en punto muerto : pierdes estabilidad y abusas de los frenos."]},
+  {"f": "Hay que mirar lejos: lo que vas a recorrer en los próximos 20 segundos.", "r": true, "e": "Así prevés peligros y evitas frenazos y acelerones. Cuanto más rápido, más lejos.", "p": "441", "v": ["Controla el espacio que recorrerás en los próximos 20 segundos"]},
+  {"f": "Si los retrovisores están bien colocados, no hay ángulos muertos.", "r": false, "e": "Los ángulos muertos son zonas a los lados que no ves aunque los retrovisores estén bien.", "p": "443", "v": ["zonas a los lados que no ves aunque los retrovisores estén bien"]},
+  {"f": "Hay que calentar el motor parado unos minutos antes de salir.", "r": false, "e": "Empieza a circular justo después de encender el motor, despacio hasta que se caliente.", "p": "452", "v": ["Empieza a circular justo después de encender el motor"]},
+  {"f": "Las marchas que menos gastan son la 4.ª y la 5.ª.", "r": true, "e": "Por eso conviene cambiar pronto a marchas largas.", "p": "453", "v": ["Las que menos gastan: 4.ª y 5.ª ."]},
+  {"f": "El distintivo ambiental se pone en la parte derecha del parabrisas.", "r": true, "e": "Si no hay parabrisas, en un lugar visible.", "p": "465", "v": ["El distintivo se pone en la parte derecha del parabrisas"]}
+ ],
+ "situaciones": [
+  {"s": "Vas a estar parado 3 minutos esperando a alguien. ¿Qué haces con el motor?", "o": ["Lo dejo en marcha", "Acelero de vez en cuando", "Lo apago"], "c": 2, "e": "Apaga el motor si vas a estar parado más de 1 minuto.", "p": "454", "v": ["Apaga el motor si vas a estar parado más de 1 minuto ."]},
+  {"s": "Vas a cambiar al carril de la izquierda en la autopista. ¿Qué haces antes?", "o": ["Miro solo el retrovisor interior y cambio", "Giro la cabeza y miro por la ventanilla", "Pongo el intermitente y cambio sin mirar más"], "c": 1, "e": "Por el ángulo muerto: gira la cabeza y mira por la ventanilla antes de cambiar de carril.", "p": "443", "v": ["Antes de cambiar de carril, gira la cabeza y mira por la ventanilla."]},
+  {"s": "Estás parado en un atasco detrás de otro coche. ¿Qué espacio dejas?", "o": ["Pegado, a menos de 1 metro", "Al menos 2 o 3 metros", "Unos 20 metros"], "c": 1, "e": "Al menos 2 o 3 metros: así puedes salir si se queda parado y no chocas si te golpean por detrás.", "p": "448", "v": ["Al menos 2 o 3 metros con el de delante."]},
+  {"s": "Es de noche y llueve. ¿Qué distancia, en segundos, dejas con el de delante?", "o": ["3 o 4 segundos", "Solo 1 segundo", "Menos que de día"], "c": 0, "e": "Lo normal son 2 o 3 segundos, y un segundo más con lluvia, nieve, niebla o de noche.", "p": "446", "v": ["Un segundo más con lluvia, nieve, niebla, de noche"]}
+ ],
+ "secuencias": [
+  {"t": "Arrancar gastando poco: ordena los pasos", "pasos": ["Arrancar el motor sin pisar el acelerador", "Empezar a circular enseguida", "Salir en primera", "Pasar a segunda a los pocos segundos"], "p": "452-453", "v": ["Arranca sin pisar el acelerador .", "Sal en primera (mucha potencia, poca velocidad) y pasa a segunda a los pocos segundos."]}
+ ]
+}

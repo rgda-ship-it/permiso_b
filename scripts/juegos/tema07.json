@@ -1,0 +1,16 @@
+{
+ "mitos": [
+  {"f": "En ciudad puedes usar la luz de largo alcance si la calle está oscura.", "r": false, "e": "La luz de largo alcance está prohibida dentro de pueblos y ciudades y con el vehículo parado.", "p": "145", "v": ["Dentro de pueblos y ciudades. Con el vehículo parado."]},
+  {"f": "Las motos deben llevar la luz de corto alcance encendida también de día.", "r": true, "e": "Las motos la llevan siempre encendida, también de día, en cualquier vía.", "p": "147", "v": ["siempre encendida, también de día, en cualquier vía"]},
+  {"f": "La antiniebla trasera se puede encender siempre que llueva.", "r": false, "e": "Solo en casos de mucha necesidad, con tiempo y visibilidad muy malos.", "p": "148", "v": ["solo en casos de mucha necesidad, con tiempo y visibilidad muy malos"]},
+  {"f": "Las motos pueden llevar tercera luz de freno.", "r": false, "e": "La tercera luz de freno es opcional en automóviles. Las motos no pueden llevarla.", "p": "151", "v": ["Las motos no pueden llevarla"]},
+  {"f": "Con la luz de largo alcance puedes avisar de un peligro encendiéndola y apagándola.", "r": true, "e": "Sí: de forma intermitente, para no deslumbrar.", "p": "145", "v": ["Puedes usarla para avisar de un peligro: encendiendo y apagando de forma intermitente, para no deslumbrar."]},
+  {"f": "Las luces de posición son blancas delante y rojas detrás.", "r": true, "e": "Blancas delante, rojas detrás y amarillas en los laterales.", "p": "142", "v": ["Colores: blancas delante, rojas detrás y amarillas en los laterales."]}
+ ],
+ "situaciones": [
+  {"s": "Es de noche, vas por carretera a 80 km/h y no viene nadie. ¿Qué luz llevas?", "o": ["Largo alcance", "Solo las de posición", "Antiniebla delantera"], "c": 0, "e": "De noche, en carretera y a más de 40 km/h, la de largo alcance. Cambia a cruce si viene alguien.", "p": "144", "v": ["De noche o con poca luz, en carretera, a más de 40 km/h"]},
+  {"s": "Tu coche tiene una avería y no puede llegar a la velocidad mínima de la vía. ¿Qué enciendes?", "o": ["La antiniebla trasera roja", "La de largo alcance", "La señal de emergencia"], "c": 2, "e": "La señal de emergencia: todas las luces de dirección a la vez.", "p": "150", "v": ["con una avería que no te deja llegar a la velocidad mínima de esa vía"]},
+  {"s": "Fuera de poblado quieres avisar a un conductor de que le vas a adelantar. ¿Puedes pitar?", "o": ["Sí, puedo usar el claxon", "No, no puedo hacer ninguna señal", "Solo con las luces de freno"], "c": 0, "e": "Es uno de los tres casos en que se puede usar el claxon.", "p": "152-153", "v": ["Fuera de poblado, avisar a un conductor de que le vas a adelantar."]}
+ ],
+ "secuencias": []
+}

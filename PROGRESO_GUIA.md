@@ -40,3 +40,20 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 - Sin «Así lo preguntan» ni prioridad 🔥: no hay exámenes anteriores en el material.
 - Verificado con `scripts/verificar_sitio.py` (búsqueda sin tildes, filtro por tema, Solo 🔴, Tapar, «Ya me lo sé» tras recargar; 1280 y 390 px).
 
+## Fase 7 — Juegos
+
+`guia/juegos/` con 6 juegos, filtro por tema, explicación y página del libro después de cada respuesta.
+
+| Juego | Origen | Cantidad |
+|---|---|---|
+| Pasapalabra | definiciones 🔴 de la Guía (términos de hasta 3 palabras) | 23 letras con «Todos los temas» |
+| ¿Quién soy? | definiciones 🔴 de la Guía | 136 |
+| Parejas de cifras | «Cifras que caen» de las fichas | 109 |
+| ¿Mito o realidad? | `scripts/juegos/temaNN.json` | 112 (56 mitos / 56 realidades) |
+| Situaciones al volante | `scripts/juegos/temaNN.json` | 61 (correcta en a/b/c = 19/25/17; nunca la más larga) |
+| Secuencias | `scripts/juegos/temaNN.json` | 17 |
+
+- Todo lo redactado lleva fragmentos literales comprobados en la página del tema: 0 errores, 0 avisos. Prueba de mutación: cambiar «izquierda» por «derecha» detiene el generador.
+- En pantalla las opciones se barajan en cada partida.
+- Verificado con `scripts/verificar_sitio.py`: cada juego llega al resultado a 390 px, sin errores de JS ni scroll horizontal.
+

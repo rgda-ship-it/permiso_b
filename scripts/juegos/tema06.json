@@ -1,0 +1,17 @@
+{
+ "mitos": [
+  {"f": "El freno de mano frena las cuatro ruedas.", "r": false, "e": "El freno de mano frena solo las ruedas de atrás. El pedal de freno actúa sobre todas.", "p": "124", "v": ["Frena las ruedas de atrás y mantiene el vehículo parado."]},
+  {"f": "En un turismo, el retrovisor exterior derecho es obligatorio.", "r": false, "e": "Son obligatorios el exterior izquierdo y el interior. El derecho es recomendable.", "p": "128", "v": ["El exterior derecho es recomendable, no obligatorio"]},
+  {"f": "Si no llegas bien al volante, puedes sentarte sobre un cojín.", "r": false, "e": "La cabeza debe quedar por encima del volante. Si no llegas, usa un complemento bien sujeto al asiento, nunca un cojín.", "p": "130", "v": ["usa un complemento bien sujeto al asiento, pero no un cojín"]},
+  {"f": "Usar el limpiaparabrisas con el cristal seco puede rayarlo.", "r": true, "e": "Por eso no se usa con el cristal seco. Cambia la escobilla si no limpia bien.", "p": "126", "v": ["No lo uses con el cristal seco: lo puede rayar."]},
+  {"f": "Solo puedes poner cortinillas detrás si tienes los dos retrovisores exteriores.", "r": true, "e": "Las cortinillas contra el sol en las ventanillas de atrás solo se permiten con los dos retrovisores exteriores.", "p": "128", "v": ["solo si tienes los dos retrovisores exteriores"]},
+  {"f": "Una moto que circula a más de 100 km/h debe llevar dos retrovisores.", "r": true, "e": "Dos: izquierdo y derecho. A menos de 100 km/h basta uno, en el lado izquierdo.", "p": "128-129", "v": ["Motos a más de 100 km/h"]}
+ ],
+ "situaciones": [
+  {"s": "Mientras conduces notas que un retrovisor está mal puesto. ¿Qué haces?", "o": ["Lo muevo con una mano mientras conduzco despacio", "Paro en un lugar llano y recto y lo coloco", "Sigo y lo arreglo al llegar"], "c": 1, "e": "Para, mejor en un lugar llano y recto, y colócalo.", "p": "132", "v": ["Si notas que un retrovisor está mal puesto mientras conduces, para (mejor en un lugar llano y recto) y colócalo."]},
+  {"s": "Vas a girar el volante en una curva cerrada. ¿Cómo colocas las manos?", "o": ["Las dos manos por fuera, sin cruzarlas", "Cruzo las manos para girar más rápido y mejor", "Una mano por dentro del volante"], "c": 0, "e": "Con las dos manos, por la parte exterior, con firmeza y sin cruzarlas al girar.", "p": "123", "v": ["Sin cruzar las manos al girar."]}
+ ],
+ "secuencias": [
+  {"t": "Antes de arrancar: ordena las comprobaciones", "pasos": ["Ajustar el asiento y el respaldo", "Colocar los retrovisores", "Abrocharse el cinturón", "Arrancar"], "p": "130-132", "v": ["Antes de arrancar comprueba: asiento y respaldo, retrovisores y cinturón.", "abróchate el cinturón antes de arrancar"]}
+ ]
+}

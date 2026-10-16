@@ -1,0 +1,19 @@
+{
+ "mitos": [
+  {"f": "Los coches nuevos tienen menos accidentes que los viejos.", "r": false, "e": "Tienen el mismo número de accidentes: pocos conductores saben cómo funcionan sus sistemas y muchos confían demasiado en ellos.", "p": "87", "v": ["Los vehículos nuevos tienen el mismo número de accidentes que los viejos."]},
+  {"f": "Con el cinturón bien puesto tienes el doble de posibilidades de sobrevivir.", "r": true, "e": "Por eso lo llevan todas las personas del vehículo, en todas las carreteras y calles.", "p": "107", "v": ["una persona tiene el doble de posibilidades de sobrevivir a un accidente"]},
+  {"f": "Un taxista de servicio puede ir sin cinturón también en autopista.", "r": false, "e": "Las excepciones son solo dentro de pueblos y ciudades, nunca en carreteras, autovías ni autopistas.", "p": "108", "v": ["Solo dentro de pueblos y ciudades , nunca en carreteras, autovías ni autopistas"]},
+  {"f": "Los neumáticos se cambian cada cinco años aunque estén bien.", "r": true, "e": "Y antes si se gastan: el dibujo debe tener al menos 1,6 mm en los turismos.", "p": "101", "v": ["cambia los neumáticos cada cinco años , aunque estén bien"]},
+  {"f": "Con la rueda de galleta puedes hacer un viaje largo.", "r": false, "e": "Solo sirve para llegar al taller más cercano: unos 200 km a 80 km/h como máximo.", "p": "102", "v": ["Rueda que solo sirve para llegar al taller más cercano"]},
+  {"f": "Si pones una sillita infantil en el asiento del copiloto, hay que desconectar el airbag.", "r": true, "e": "Nunca una sillita en un asiento con airbag delante. Y mejor detrás, en el asiento central.", "p": "115", "v": ["Desconecta el airbag del copiloto si pones ahí una sillita infantil."]}
+ ],
+ "situaciones": [
+  {"s": "Tienes que hacer una frenada de emergencia y tu coche tiene ABS. ¿Cómo frenas?", "o": ["Piso a fondo hasta que se pare", "Piso y suelto el pedal varias veces seguidas", "Freno muy suave y poco a poco"], "c": 0, "e": "Con ABS: pisa fuerte y a fondo hasta que el vehículo se pare del todo.", "p": "96", "v": ["Pisa fuerte y a fondo hasta que el vehículo se pare del todo."]},
+  {"s": "Pinchas una rueda en la carretera. ¿Qué haces primero?", "o": ["Freno de golpe", "Cambio la rueda sin salir del carril", "Reduzco la velocidad poco a poco"], "c": 2, "e": "Reduce poco a poco, sin frenar de golpe. Después, para en un lugar seguro y cambia la rueda.", "p": "102", "v": ["Reduce la velocidad poco a poco, sin frenar de golpe."]},
+  {"s": "Los frenos fallan al bajar una cuesta larga y muy inclinada. ¿Qué haces?", "o": ["Acelero para llegar abajo cuanto antes", "Reduzco marchas para frenar con el motor", "Apago el motor y saco la llave en plena marcha"], "c": 1, "e": "No aceleres. Reduce marchas para que el motor frene; si no puedes, tira del freno de mano suavemente.", "p": "96", "v": ["Reduce marchas para que el motor frene."]},
+  {"s": "Viajas con un niño que mide 120 cm. ¿Cómo va?", "o": ["Delante, con el cinturón normal del asiento", "Con un sistema de retención infantil", "Detrás, en brazos de un adulto"], "c": 1, "e": "Los niños de menos de 135 cm llevan un sistema de retención infantil adaptado a su altura y peso.", "p": "109", "v": ["Niños de menos de 135 cm : llevan un sistema de retención infantil"]}
+ ],
+ "secuencias": [
+  {"t": "Si pinchas una rueda: ordena lo que haces", "pasos": ["Reducir la velocidad poco a poco", "Inmovilizar el vehículo en un lugar seguro", "Cambiar la rueda por la de repuesto"], "p": "102", "v": ["Inmoviliza el vehículo en un lugar seguro", "Cambia la rueda por la de repuesto."]}
+ ]
+}

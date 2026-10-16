@@ -34,7 +34,10 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 - [x] Fase 6 — ② Guía esencial `guia/esencial/` (136 definiciones 🔴, 86 conceptos 🟠, mapa cubierto 143/143).
       Curado a mano en `scripts/esencial/temaNN.json`; regenerar: `python scripts/generar_esencial.py`
       (aborta si un fragmento «v» no está literal en la guía; los tooltips no cuentan)
-- [ ] Fases 7-8 — Juegos, Examen
+- [x] Fase 7 — ③ Juegos `guia/juegos/` (6 juegos; 112 mito/realidad, 61 situaciones, 17 secuencias).
+      Redactado en `scripts/juegos/temaNN.json`; regenerar: `python scripts/generar_juegos.py`
+      (Pasapalabra, ¿Quién soy? y Parejas salen solos de las definiciones 🔴 y de las cifras de las fichas)
+- [ ] Fase 8 — ④ Examen
 - [ ] Fase 9 — verificación y cierre
 
 ## Reglas (resumen; detalle en el método, sección 2)

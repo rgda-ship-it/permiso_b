@@ -1,0 +1,19 @@
+{
+ "mitos": [
+  {"f": "En un cruce sin señales pasa primero el que viene por la derecha, aunque llegue por una vía estrecha.", "r": true, "e": "Preferencia de la derecha, aunque llegue por una vía estrecha o en mal estado. Hay excepciones: raíles, vía pavimentada, rotonda y autopista.", "p": "302", "v": ["aunque lleguen por una vía estrecha o en mal estado"]},
+  {"f": "Al entrar en una rotonda tienes preferencia sobre los que ya están dentro.", "r": false, "e": "Tienen preferencia los que ya están dentro de la rotonda.", "p": "303", "v": ["los que ya están dentro de la rotonda sobre los que quieren entrar"]},
+  {"f": "Una ambulancia en servicio urgente solo obedece a los agentes, no a las señales.", "r": true, "e": "Puede ir más rápido y no respetar las señales, pero sin poner en peligro a nadie.", "p": "309", "v": ["solo obedecen a los agentes"]},
+  {"f": "En una cuesta muy inclinada y estrecha tiene preferencia el que baja.", "r": false, "e": "Tiene preferencia el que va cuesta arriba, salvo que tenga más cerca un sitio seguro para parar.", "p": "314", "v": ["tiene preferencia el que va cuesta arriba"]},
+  {"f": "Si el coche se queda atrapado en un paso a nivel, el conductor es el primero en bajar.", "r": false, "e": "Bajan todos menos el conductor, que intenta poner en marcha el vehículo.", "p": "315", "v": ["Bajan todos menos el conductor ."]},
+  {"f": "Si hay un incendio en un túnel, deja la llave puesta en el coche.", "r": true, "e": "Deja la llave puesta, las puertas sin cerrar y ve al refugio o a la salida, en sentido contrario al fuego.", "p": "317", "v": ["Deja la llave puesta y las puertas sin cerrar con llave ."]}
+ ],
+ "situaciones": [
+  {"s": "Hay un atasco dentro de un túnel y te quedas parado. ¿Qué haces?", "o": ["Bajamos todos a esperar fuera", "Paro el motor y dejo las luces de posición", "Dejo el motor en marcha y salgo a mirar qué pasa"], "c": 1, "e": "Los pasajeros se quedan dentro; el conductor para el motor y deja las luces de posición.", "p": "316", "v": ["el conductor para el motor y deja las luces de posición"]},
+  {"s": "Oyes la sirena de una ambulancia que viene detrás de ti. ¿Qué haces?", "o": ["Acelero mucho para alejarme y no estorbarle nada", "Me aparto a la derecha y paro si hace falta", "Sigo igual, que me adelante"], "c": 1, "e": "Facilítale el paso en cuanto oigas la sirena: apártate a la derecha y para si hace falta.", "p": "310", "v": ["apártate a la derecha y para si hace falta"]},
+  {"s": "Dos turismos se encuentran en un paso estrecho sin señales. ¿Quién pasa primero?", "o": ["El que entró antes", "El que va más rápido", "El que lleva más prisa"], "c": 0, "e": "En zonas estrechas sin señales, pasa primero el que entró antes.", "p": "311-312", "v": ["Pasa primero el que entró antes ."]},
+  {"s": "Un turismo y un camión se encuentran en un paso estrecho y no se sabe quién entró antes. ¿Quién pasa?", "o": ["El turismo", "El que pite primero", "El camión"], "c": 2, "e": "Si hay duda, el que tiene más dificultad para maniobrar. En el orden del libro, los camiones van antes que los turismos.", "p": "312", "v": ["Camiones, tractocamiones y furgones", "Si hay duda, el vehículo con más dificultad para maniobrar ."]}
+ ],
+ "secuencias": [
+  {"t": "Atrapado en un paso a nivel: ordena lo que se hace", "pasos": ["Bajan todos menos el conductor", "El conductor intenta poner en marcha el vehículo", "Si no puede, el conductor también baja", "Avisa a los trenes y a los demás conductores"], "p": "315", "v": ["Bajan todos menos el conductor .", "Si no puede, baja también y trata de avisar a los trenes o tranvías y a los demás conductores."]}
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "mitos": [
+  {"f": "La mayoría de los accidentes de tráfico no se pueden evitar.", "r": false, "e": "La mayoría se pueden evitar con un comportamiento responsable.", "p": "389", "v": ["La mayoría de los accidentes se pueden evitar ."]},
+  {"f": "Hay más accidentes en rectas que en curvas.", "r": true, "e": "Sí. Y los mortales, sobre todo fuera de pueblos y ciudades.", "p": "391", "v": ["Más en rectas que en curvas."]},
+  {"f": "A un motorista herido hay que quitarle el casco para que respire mejor.", "r": false, "e": "No le quites el casco. Tampoco muevas al herido salvo para ponerlo a salvo.", "p": "421", "v": ["No quites el casco ."]},
+  {"f": "No ayudar a un herido, pudiendo hacerlo sin peligro, es un delito.", "r": true, "e": "Es omisión de socorro. También lo es no avisar o causar un accidente y huir.", "p": "413", "v": ["no ayuda pudiendo hacerlo sin ponerse en peligro"]},
+  {"f": "Si hay fuego en un accidente, se apaga con agua.", "r": false, "e": "Con extintor, tierra, arena o mantas, nunca con agua.", "p": "416", "v": ["el fuego, con extintor, tierra, arena o mantas, nunca con agua"]},
+  {"f": "Si un herido tiene un objeto clavado, no hay que sacárselo.", "r": true, "e": "No lo saques: espera a la ayuda.", "p": "428", "v": ["Si hay un objeto clavado, no lo saques ."]}
+ ],
+ "situaciones": [
+  {"s": "Llegas el primero a un accidente. ¿Qué haces primero?", "o": ["Socorrer a los heridos sin esperar a nadie más", "Protegerme a mí, a las víctimas y el lugar", "Avisar al 112"], "c": 1, "e": "Regla PAS: Proteger, Avisar y Socorrer, en ese orden.", "p": "415", "v": ["Pautas para ayudar a un accidentado: Proteger, Avisar y Socorrer"]},
+  {"s": "Un herido no responde ni se mueve. ¿Qué compruebas a continuación?", "o": ["Si respira", "Si tiene fracturas", "Si tiene sed"], "c": 0, "e": "Está inconsciente: comprueba si respira.", "p": "425", "v": ["Está inconsciente. Comprueba si respira."]},
+  {"s": "Un herido sangra mucho por una herida en el brazo. ¿Qué haces primero?", "o": ["Pongo un torniquete por encima de la herida", "Le doy agua y espero", "Presiono la herida con una gasa limpia"], "c": 2, "e": "Primero compresión directa. Si falla, compresión arterial. El torniquete, solo si fallan las dos.", "p": "430", "v": ["Presiona la herida con una gasa o pañuelo limpio."]},
+  {"s": "Un herido no respira con normalidad. ¿Qué haces?", "o": ["Lo pongo de lado y espero a la ambulancia", "Le doy de beber", "Hago reanimación cardiopulmonar"], "c": 2, "e": "Reanimación cardiopulmonar hasta que llegue la ayuda: unas 100 compresiones por minuto, con ventilaciones.", "p": "427", "v": ["Reanimación cardiopulmonar hasta que llegue la ayuda"]}
+ ],
+ "secuencias": [
+  {"t": "Regla PAS: ordena cómo ayudar en un accidente", "pasos": ["Proteger", "Avisar", "Socorrer"], "p": "415", "v": ["Proteger, Avisar y Socorrer"]},
+  {"t": "Hemorragia externa: ordena los métodos", "pasos": ["Compresión directa sobre la herida", "Compresión de la arteria", "Torniquete"], "p": "430-431", "v": ["compresión directa, después arterial y por último torniquete"]},
+  {"t": "Primeros auxilios: ordena qué compruebas", "pasos": ["Si está consciente", "Si respira", "Si tiene hemorragias, quemaduras o fracturas"], "p": "424-428", "v": ["siempre en el mismo orden", "Si está consciente y respira, mira si hay hemorragias, quemaduras o fracturas ."]}
+ ]
+}

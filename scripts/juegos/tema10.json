@@ -1,0 +1,19 @@
+{
+ "mitos": [
+  {"f": "Si vas dentro de los límites, tu velocidad siempre es la adecuada.", "r": false, "e": "Puede ser inadecuada: dentro de los límites, pero no adecuada al conductor, al clima, a la carretera o al vehículo. Por ejemplo, 70 km/h con placas de hielo.", "p": "245", "v": ["Dentro de los límites, pero no adecuada a las condiciones del conductor, del clima, de la carretera o del vehículo."]},
+  {"f": "En autopista está prohibido ir por debajo de la velocidad mínima aunque no haya nadie.", "r": true, "e": "Solo se puede con mucho tráfico, avería o la carretera en mal estado, y en algunos casos especiales.", "p": "258", "v": ["Está prohibido ir más despacio, aunque no haya nadie."]},
+  {"f": "Un autobús que lleva niños al colegio puede ir a la misma velocidad que los demás autobuses.", "r": false, "e": "El transporte escolar va 10 km/h por debajo: en carretera, 80 en vez de 90.", "p": "255", "v": ["Su velocidad máxima es 10 km/h menos que la del resto."]},
+  {"f": "Cuanto más rápido vas, menos ves a los lados.", "r": true, "e": "Es la visión túnel. Además reaccionas peor y te cansas más.", "p": "260", "v": ["ves menos a los lados"]},
+  {"f": "Las bicicletas que van juntas pueden no guardar la distancia de seguridad entre ellas.", "r": true, "e": "Son los únicos vehículos que pueden no guardarla entre ciclistas.", "p": "266", "v": ["Las bicicletas son los únicos vehículos que pueden no guardar la distancia de seguridad"]},
+  {"f": "La distancia de detención es lo mismo que la distancia de frenado.", "r": false, "e": "Detención = reacción + frenado.", "p": "263", "v": ["Distancia de detención = reacción + frenado."]}
+ ],
+ "situaciones": [
+  {"s": "Te acercas a un cruce en el que no tienes prioridad. ¿Qué velocidad máxima llevas?", "o": ["30 km/h", "50 km/h", "70 km/h"], "c": 1, "e": "Al acercarte a pasos a nivel, rotondas o cruces sin prioridad, 50 km/h como máximo.", "p": "250", "v": ["pasos a nivel, rotondas o cruces en los que no tienes prioridad"]},
+  {"s": "Vas en turismo por una autovía dentro de una ciudad y no hay ninguna señal. ¿Velocidad máxima?", "o": ["50 km/h", "120 km/h", "80 km/h"], "c": 2, "e": "Autopistas y autovías dentro de un poblado: 80 km/h para todos, si no hay otra señal.", "p": "257", "v": ["Autopistas y autovías dentro de un poblado: 80 km/h para todos, si no hay otra señal."]},
+  {"s": "Un camión de más de 3.500 kg circula detrás de otro vehículo. ¿Qué separación mínima deja?", "o": ["25 metros", "100 metros", "50 metros"], "c": 2, "e": "Los vehículos de más de 3.500 kg y los conjuntos de más de 10 m, 50 metros como mínimo.", "p": "266", "v": ["separación mínima de 50 metros"]},
+  {"s": "Vas por una calle sin bordillo: la calzada y la acera están a la misma altura. ¿Velocidad máxima?", "o": ["20 km/h", "30 km/h", "50 km/h"], "c": 0, "e": "En poblado: 20 sin bordillo, 30 con un carril por sentido y 50 con varios.", "p": "256", "v": ["Calle sin bordillo (calzada y acera a la misma altura)"]}
+ ],
+ "secuencias": [
+  {"t": "Distancia de detención: ordena lo que pasa", "pasos": ["Ves el obstáculo", "Reaccionas y pisas el freno", "El vehículo frena", "El vehículo se para del todo"], "p": "261-263", "v": ["desde que ves el semáforo rojo hasta que pisas el freno", "Lo que recorres desde que detectas el obstáculo hasta que el vehículo se para del todo."]}
+ ]
+}

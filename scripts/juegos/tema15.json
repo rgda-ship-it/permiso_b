@@ -1,0 +1,18 @@
+{
+ "mitos": [
+  {"f": "El nivel de aceite se mira con el motor caliente.", "r": false, "e": "Se mira con la varilla, con el motor parado y frío. El cambio de aceite, en cambio, se hace en caliente.", "p": "372", "v": ["con la varilla, motor parado y frío"]},
+  {"f": "Si sale humo negro por el escape, el filtro de aire puede estar muy sucio o roto.", "r": true, "e": "Si está sucio, además, gastas más combustible.", "p": "367", "v": ["si está muy sucio o roto, puede salir humo negro por el tubo de escape"]},
+  {"f": "El humo blanco al arrancar en frío es vapor de agua y es normal.", "r": true, "e": "Si sale humo blanco con el motor ya caliente, puede haber una pieza rota o una avería.", "p": "377", "v": ["Vapor de agua: normal."]},
+  {"f": "La primera es la marcha que manda más fuerza a las ruedas.", "r": true, "e": "Es la que más fuerza manda, pero también la más lenta.", "p": "379", "v": ["La primera velocidad es la que manda más fuerza a las ruedas, pero es la más lenta ."]},
+  {"f": "La rueda de repuesto debe ir menos inflada que las demás.", "r": false, "e": "Lleva siempre la rueda de repuesto, un poco más inflada que las demás.", "p": "387", "v": ["Lleva siempre la rueda de repuesto, un poco más inflada que las demás."]},
+  {"f": "Si el líquido refrigerante se congela no pasa nada grave.", "r": false, "e": "Si se congela, puede romper el motor. Compruébalo al empezar el invierno.", "p": "378", "v": ["si se congela, puede romper el motor"]}
+ ],
+ "situaciones": [
+  {"s": "Mientras conduces se enciende el testigo de la presión del aceite. ¿Qué haces?", "o": ["Sigo despacio y lo miro cuando llegue a casa", "Paro y no sigo hasta arreglarlo", "Echo agua al radiador y sigo"], "c": 1, "e": "Hay poco aceite o poca presión: para y no sigas hasta arreglarlo.", "p": "372", "v": ["para y no sigas hasta arreglarlo"]},
+  {"s": "Al soltar el volante en una recta, el coche se va hacia un lado. ¿Qué causa da el libro?", "o": ["Unos neumáticos más inflados que otros", "El aceite del motor está muy viejo y sucio", "Falta líquido de frenos en el depósito"], "c": 0, "e": "Que unos neumáticos estén más inflados que otros.", "p": "380", "v": ["Unos neumáticos más inflados que otros"]},
+  {"s": "Vas a cambiar el aceite. ¿Cómo tiene que estar el motor?", "o": ["Parado y frío", "En marcha, al ralentí", "Parado y caliente"], "c": 2, "e": "Para cambiar aceite y filtro: vehículo recto, motor parado y caliente, sin que caiga aceite al suelo.", "p": "376", "v": ["vehículo recto, motor parado y caliente"]}
+ ],
+ "secuencias": [
+  {"t": "Cómo frena el coche: ordena lo que pasa", "pasos": ["Pisas el pedal de freno", "La fuerza pasa por el líquido de frenos", "Llega a las pastillas o zapatas", "Rozan con las ruedas y las paran"], "p": "385", "v": ["Al pisar el pedal, la fuerza pasa por el líquido de frenos hasta las pastillas o zapatas , que rozan con las ruedas y las paran."]}
+ ]
+}

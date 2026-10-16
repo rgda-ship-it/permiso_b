@@ -1,0 +1,18 @@
+{
+ "mitos": [
+  {"f": "El ciclomotor es un «vehículo a motor».", "r": false, "e": "Tiene motor, pero no se considera vehículo a motor. La motocicleta sí lo es: supera los 50 cm³ o los 45 km/h.", "p": "21-22", "v": ["El ciclomotor tiene motor, pero no es un «vehículo a motor»."]},
+  {"f": "La bicicleta es un ciclo de dos ruedas.", "r": true, "e": "Ciclo: vehículo de dos o más ruedas con pedales, movido por la fuerza de quien lo conduce.", "p": "7", "v": ["La bicicleta es un ciclo de dos ruedas."]},
+  {"f": "Quien empuja una silla de ruedas por la acera es un peatón.", "r": true, "e": "También quien empuja un cochecito de niño o lleva a mano un ciclo o un ciclomotor de dos ruedas.", "p": "24", "v": ["empujan o arrastran un cochecito de niño, una silla de ruedas"]},
+  {"f": "Un turismo puede tener hasta 12 asientos.", "r": false, "e": "Un turismo tiene 9 asientos como máximo, contando el del conductor. Con más de 9, es un autobús.", "p": "13", "v": ["9 asientos como máximo , contando el del conductor"]},
+  {"f": "El conductor habitual tiene que ser el titular del vehículo.", "r": false, "e": "Es quien suele conducirlo aunque no sea el titular. Lo autoriza el titular.", "p": "25", "v": ["Persona que suele conducir un vehículo, aunque no sea el titular."]},
+  {"f": "En el coche de autoescuela, quien lleva los mandos añadidos también es conductor.", "r": true, "e": "El libro lo incluye en la definición de conductor.", "p": "23", "v": ["También es conductor quien lleva los mandos añadidos del coche de la autoescuela."]},
+  {"f": "En un patín eléctrico pueden ir dos personas.", "r": false, "e": "En un vehículo de movilidad personal solo puede ir 1 persona.", "p": "23", "v": ["Solo puede ir 1 persona ."]}
+ ],
+ "situaciones": [
+  {"s": "Ves un camión con un remolque unido sin eje. ¿Qué conjunto forman?", "o": ["Un tren de carretera", "Un vehículo articulado", "Una configuración euromodular"], "c": 1, "e": "Con semirremolque, unido sin eje, es un vehículo articulado. Con remolque y eje, un tren de carretera.", "p": "18", "v": ["Vehículo articulado : el semirremolque va unido sin eje."]},
+  {"s": "Un vehículo tiene carrocería de turismo, lleva mercancías y solo una fila de asientos. ¿Qué es?", "o": ["Un vehículo mixto adaptable", "Un derivado de turismo", "Un autobús pequeño"], "c": 1, "e": "Es un derivado de turismo.", "p": "14", "v": ["Carrocería de turismo, pero lleva mercancías . Solo tiene una fila de asientos ."]},
+  {"s": "Un remolque pesa 700 kg con la carga. ¿Cómo se llama?", "o": ["Remolque ligero", "Remolque pesado", "Semirremolque no ligero"], "c": 0, "e": "Remolques y semirremolques de 750 kilos como máximo con carga son ligeros.", "p": "8", "v": ["Como máximo 750 kilos"]},
+  {"s": "Una furgoneta lleva mercancías. ¿En qué categoría está?", "o": ["Categoría M", "Categoría O", "Categoría N"], "c": 2, "e": "N: vehículos a motor para llevar mercancías. M: personas. O: remolques.", "p": "25", "v": ["Vehículos a motor para llevar mercancías"]}
+ ],
+ "secuencias": []
+}

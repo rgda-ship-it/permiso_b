@@ -1,0 +1,20 @@
+{
+ "mitos": [
+  {"f": "Si duermes unas horas después de beber mucho, ya puedes conducir sin peligro.", "r": false, "e": "Dormir unas pocas horas después de beber mucho no hace que sea seguro conducir. Durmiendo, el alcohol se elimina más despacio.", "p": "55", "v": ["Dormir unas pocas horas después de beber mucho no hace que sea seguro conducir."]},
+  {"f": "Con manos libres puedes hablar por teléfono mientras conduces.", "r": true, "e": "Está permitido, sin tocar la pantalla. Pero también es peligroso: parte de tu atención se va a la conversación.", "p": "71", "v": ["Se puede hablar con un dispositivo de manos libres , sin tocar la pantalla."]},
+  {"f": "Mientras no te duermas del todo, el sueño no es peligroso al volante.", "r": false, "e": "No hace falta dormirse del todo para tener un accidente: los síntomas aparecen antes.", "p": "48", "v": ["No hace falta dormirse del todo para tener un accidente"]},
+  {"f": "Comer hace que el alcohol llegue más lento a la sangre.", "r": true, "e": "Es así. Aun así, la única tasa segura para conducir es 0,0.", "p": "55", "v": ["Comer hace que el alcohol llegue más lento a la sangre."]},
+  {"f": "Si no notas cansancio, no hace falta parar a descansar.", "r": false, "e": "Descansa 20 o 30 minutos cada dos horas o cada 200 km, aunque no te sientas cansado.", "p": "51", "v": ["aunque no te sientas cansado"]},
+  {"f": "Quien fuma mientras conduce tiene más accidentes.", "r": true, "e": "Tiene el doble de accidentes: se distrae al encender el cigarro, lleva una mano ocupada y el humo no deja ver bien.", "p": "70", "v": ["Quien fuma mientras conduce tiene el doble de accidentes que quien no fuma."]},
+  {"f": "La ginebra o el whisky llegan antes a la sangre que el vino o la cerveza.", "r": true, "e": "Sí. Y mezclados con tónica o refrescos, también llegan antes.", "p": "55", "v": ["Ginebra o whisky llegan antes a la sangre que vino o cerveza."]},
+  {"f": "La tasa de alcohol más alta llega justo al terminar de beber.", "r": false, "e": "La tasa más alta llega una hora después de beber. Luego baja muy poco a poco.", "p": "55", "v": ["La tasa más alta llega una hora después de beber."]}
+ ],
+ "situaciones": [
+  {"s": "Llevas 2 horas conduciendo por la autopista y no notas cansancio. ¿Qué haces?", "o": ["Sigo, porque no estoy cansado", "Paro a descansar 20 o 30 minutos", "Abro la ventanilla y sigo hasta llegar"], "c": 1, "e": "Hay que descansar cada 2 horas o cada 200 km, aunque no notes cansancio.", "p": "51", "v": ["Descansa 20 o 30 minutos cada dos horas o cada 200 kilómetros"]},
+  {"s": "En un control das positivo en la prueba de aire y no estás de acuerdo. ¿Qué puedes hacer?", "o": ["Pedir un análisis de sangre", "Negarme a repetir la prueba", "Esperar una hora y soplar otra vez"], "c": 0, "e": "Si no estás de acuerdo, puedes pedir un análisis de sangre. Negarse a la prueba también tiene multas y sanciones.", "p": "61", "v": ["Puedes pedir un análisis de sangre ."]},
+  {"s": "Vas a un sitio que no conoces y quieres usar el GPS. ¿Cuándo lo programas?", "o": ["En el primer semáforo en rojo", "Despacio, mientras voy conduciendo", "Antes de empezar a conducir"], "c": 2, "e": "El GPS se programa antes de empezar a conducir, se deja fijo y donde lo veas sin apartar la vista.", "p": "73", "v": ["prográmalo antes de empezar a conducir"]}
+ ],
+ "secuencias": [
+  {"t": "Prueba de alcohol en aire: ordena lo que pasa", "pasos": ["Soplas en un aparato", "El aparato da positivo", "Se repite la prueba para confirmarlo", "Si no estás de acuerdo, pides un análisis de sangre"], "p": "60-61", "v": ["Soplas en un aparato.", "Si da positivo o hay señales de que has bebido, se repite para confirmarlo."]}
+ ]
+}
