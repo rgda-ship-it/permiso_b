@@ -57,3 +57,14 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 - En pantalla las opciones se barajan en cada partida.
 - Verificado con `scripts/verificar_sitio.py`: cada juego llega al resultado a 390 px, sin errores de JS ni scroll horizontal.
 
+## Fase 8 — Examen
+
+`guia/simulador/index.html`, generado por `scripts/generar_simulador.py` desde `scripts/plantillas/simulador.html` (las preguntas van dentro: funciona sin servidor).
+
+- **324 preguntas** (las 18 del «Examen tipo» de cada tema). 0 de estilo examen: no hay exámenes anteriores en el material; el script acepta `scripts/simulador/preguntas_estilo_examen.json` si se redactan.
+- Correcta en a/b/c = 108/108/108 tal como están escritas; la más larga en 79 de 324 (24 %, por debajo del 33 % del azar). En pantalla las opciones se barajan en cada intento: 0 opciones fijas («todas/ninguna de las anteriores»).
+- Simulacro: 10, 20, 30 o todas; temas a elegir; cronómetro de 1 minuto por pregunta o sin tiempo; una pregunta por pantalla con mapa para saltar y teclas a/b/c y flechas.
+- Corrección: nota, fallos y sin responder, desglose por tema, revisión con la explicación, la página del libro y el enlace al tema, «Ver solo los fallos», «Repetir las que no acertaste» e historial de los 10 últimos (en el navegador).
+- No dice «apto / no apto»: el libro no da el número de preguntas ni de fallos del examen oficial.
+- Verificado con `scripts/verificar_sitio.py` (examen completo, corrección, repetir, historial tras recargar y fin por tiempo con reloj simulado; 390 px).
+

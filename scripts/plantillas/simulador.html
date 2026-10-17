@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Generado por scripts/generar_simulador.py a partir de scripts/plantillas/simulador.html: no editar a mano. -->
+  <title>④ Examen · Manual Permiso B</title>
+  <meta name="description" content="Simulacros de examen del permiso B con 3 respuestas, cronómetro y corrección con la página del libro.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/menu.js"></script>
+  <style>
+    .contenido--ancho { max-width: 52rem; }
+    .si-caja { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); margin-bottom: 16px; }
+    .si-caja h2 { margin-top: 0; font-size: 1.2rem; }
+    .si-grupo { border: 0; padding: 0; margin: 0 0 16px; }
+    .si-grupo legend { font-weight: 700; margin-bottom: 6px; }
+    .si-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .si-chips label { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 6px 12px; cursor: pointer;
+      border: 2px solid var(--border); border-radius: 999px; background: var(--surface-2); }
+    .si-chips label:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .si-chips input { width: 18px; height: 18px; }
+    .si-temas { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 6px; }
+    .si-temas label { display: flex; gap: 8px; align-items: center; min-height: 40px; padding: 4px 8px; border-radius: var(--radius-s);
+      border-left: 6px solid var(--c); background: var(--surface-2); cursor: pointer; font-size: 1rem; }
+    .si-temas input { width: 18px; height: 18px; flex: none; }
+    .si-enlaces { display: flex; gap: 12px; font-size: 1rem; margin-bottom: 8px; }
+    .si-enlaces button { font: inherit; background: none; border: 0; color: var(--primary); text-decoration: underline; cursor: pointer; padding: 4px 0; min-height: 36px; }
+    .si-boton { font: inherit; padding: 10px 18px; border-radius: var(--radius-s); border: 1px solid var(--border);
+      background: var(--surface-2); color: var(--text); cursor: pointer; min-height: 48px; }
+    .si-boton:hover:not(:disabled) { border-color: var(--primary); }
+    .si-boton:disabled { opacity: .5; cursor: default; }
+    .si-boton--primario { background: var(--primary); color: var(--on-primary); border-color: var(--primary); font-weight: 700; }
+    .si-botones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .si-cabecera-examen { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center; margin-bottom: 8px; font-weight: 700; }
+    .si-reloj { font-variant-numeric: tabular-nums; padding: 4px 12px; border-radius: 999px; background: var(--surface-2); }
+    .si-reloj.poco { background: var(--bad-soft); color: var(--bad); }
+    .si-progreso { height: 8px; background: var(--surface-2); border-radius: 999px; overflow: hidden; margin-bottom: 12px; }
+    .si-progreso span { display: block; height: 100%; background: var(--primary); transition: width .2s; }
+    .si-tema { display: inline-block; font-size: .85rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; background: var(--surface-2); border-left: 6px solid var(--c); }
+    .si-enunciado { font-size: 1.2rem; font-weight: 600; margin: 10px 0; }
+    .opciones button.elegida { border-color: var(--primary); background: var(--primary-soft); }
+    .si-mapa { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; padding: 0; list-style: none; }
+    .si-mapa li { margin: 0; }
+    .si-mapa button { width: 40px; height: 40px; border-radius: var(--radius-s); font: inherit; font-size: .95rem; cursor: pointer;
+      border: 2px solid var(--border); background: var(--surface); color: var(--text); }
+    .si-mapa button.respondida { background: var(--primary-soft); }
+    .si-mapa button.actual { border-color: var(--primary); font-weight: 700; }
+    .si-mapa button.bien { background: var(--ok-soft); border-color: var(--ok); }
+    .si-mapa button.mal { background: var(--bad-soft); border-color: var(--bad); }
+    .si-nota { font-size: 2rem; font-weight: 700; margin: 0; }
+    .si-desglose { width: 100%; border-collapse: collapse; font-size: 1rem; }
+    .si-desglose th, .si-desglose td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+    .si-desglose td:last-child, .si-desglose th:last-child { text-align: right; white-space: nowrap; }
+    .si-revision { list-style: none; padding: 0; margin: 0; }
+    .si-revision > li { border: 1px solid var(--border); border-left: 6px solid var(--ok); border-radius: var(--radius-s); padding: 12px; margin-bottom: 10px; background: var(--surface); }
+    .si-revision > li.mal { border-left-color: var(--bad); }
+    .si-revision .opciones button { cursor: default; }
+    .si-tu { font-size: .9rem; font-weight: 700; margin-left: 6px; }
+    .si-explica { margin: 10px 0 0; padding: 10px 12px; border-radius: var(--radius-s); background: var(--surface-2); }
+    .si-historial { padding-left: 1.2em; font-size: 1rem; }
+    .si-siguiente { margin-top: 32px; font-weight: 600; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body data-seccion="examen">
+  <main id="contenido" class="contenido contenido--ancho">
+    <h1>④ Examen</h1>
+
+    <!-- 1. Preparar -->
+    <section id="si-inicio">
+      <p class="lead">Simulacros con 3 respuestas posibles, como el examen oficial. Las preguntas salen al azar y las respuestas cambian de orden cada vez.</p>
+      <form id="si-form" class="si-caja">
+        <fieldset class="si-grupo">
+          <legend>¿Cuántas preguntas?</legend>
+          <div class="si-chips">
+            <label><input type="radio" name="n" value="10"> 10</label>
+            <label><input type="radio" name="n" value="20"> 20</label>
+            <label><input type="radio" name="n" value="30" checked> 30</label>
+            <label><input type="radio" name="n" value="0"> Todas</label>
+          </div>
+        </fieldset>
+        <fieldset class="si-grupo">
+          <legend>Cronómetro</legend>
+          <div class="si-chips">
+            <label><input type="radio" name="reloj" value="1" checked> 1 minuto por pregunta</label>
+            <label><input type="radio" name="reloj" value="0"> Sin tiempo</label>
+          </div>
+        </fieldset>
+        <fieldset class="si-grupo">
+          <legend>Temas <span class="muted" id="si-disponibles"></span></legend>
+          <div class="si-enlaces"><button type="button" id="si-todos">Marcar todos</button><button type="button" id="si-ninguno">Quitar todos</button></div>
+          <div class="si-temas" id="si-temas"></div>
+        </fieldset>
+        <button type="submit" class="si-boton si-boton--primario" id="si-empezar">Empezar el examen</button>
+      </form>
+      <section class="si-caja" id="si-hist-caja" hidden>
+        <h2>Tus últimos exámenes</h2>
+        <ol class="si-historial" id="si-historial"></ol>
+      </section>
+    </section>
+
+    <!-- 2. Examen -->
+    <section id="si-examen" hidden>
+      <div class="si-caja">
+        <div class="si-cabecera-examen"><span id="si-contador"></span><span class="si-reloj" id="si-reloj" role="timer" aria-live="off"></span></div>
+        <div class="si-progreso"><span id="si-barra"></span></div>
+        <div id="si-pregunta"></div>
+        <div class="si-botones">
+          <button type="button" class="si-boton" id="si-anterior">← Anterior</button>
+          <button type="button" class="si-boton" id="si-siguiente">Siguiente →</button>
+          <button type="button" class="si-boton si-boton--primario" id="si-terminar">Terminar y corregir</button>
+        </div>
+        <ol class="si-mapa" id="si-mapa" aria-label="Ir a la pregunta"></ol>
+      </div>
+    </section>
+
+    <!-- 3. Resultado -->
+    <section id="si-resultado" hidden></section>
+
+    <p class="si-siguiente">¿Fallos? Vuelve a <a href="../esencial/index.html">② Guía</a> o al <a href="../index.html">① Índice</a> del tema.</p>
+  </main>
+
+  <script>
+  window.SIMULADOR = /*PREGUNTAS*/;
+  </script>
+  <script>
+  (function () {
+    "use strict";
+    var D = window.SIMULADOR, TEMAS = {}, CLAVE = "simulador-historial";
+    D.temas.forEach(function (t) { TEMAS[t.id] = t; });
+    var ex = null, reloj = null;
+
+    function $(id) { return document.getElementById(id); }
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+    function ref(p) { return p ? ' <span class="ref" tabindex="0" data-tooltip="Manual Permiso B (DGT, LF), p. ' + esc(p) + '">p.' + esc(p) + "</span>" : ""; }
+    function barajar(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var x = a[i]; a[i] = a[j]; a[j] = x; } return a; }
+    function etiqueta(t) { return '<span class="si-tema" style="--c:' + t.color + '">' + esc(t.titulo) + "</span>"; }
+    function mmss(s) { s = Math.max(0, s); return Math.floor(s / 60) + ":" + ("0" + (s % 60)).slice(-2); }
+    function leerHist() { try { return JSON.parse(localStorage.getItem(CLAVE) || "[]") || []; } catch (e) { return []; } }
+    function guardarHist(h) { try { localStorage.setItem(CLAVE, JSON.stringify(h.slice(0, 10))); } catch (e) { /* sin almacenamiento */ } }
+
+    /* Orden de las opciones: se barajan salvo las fijas, que se quedan en su sitio */
+    function ordenOpciones(q) {
+      var fijas = q.fija || [];
+      var libres = barajar([0, 1, 2].filter(function (k) { return fijas.indexOf(k) < 0; }));
+      return [0, 1, 2].map(function (k) { return fijas.indexOf(k) >= 0 ? k : libres.shift(); });
+    }
+
+    /* ---------- Preparar ---------- */
+    function elegidos() { return Array.prototype.map.call(document.querySelectorAll("#si-temas input:checked"), function (i) { return i.value; }); }
+    function actualizarDisponibles() {
+      var sel = elegidos();
+      var n = D.preguntas.filter(function (q) { return sel.indexOf(q.tema) >= 0; }).length;
+      $("si-disponibles").textContent = "(" + n + " preguntas)";
+      $("si-empezar").disabled = !n;
+    }
+    function pintarHistorial() {
+      var h = leerHist();
+      $("si-hist-caja").hidden = !h.length;
+      $("si-historial").innerHTML = h.map(function (r) {
+        return "<li>" + esc(r.fecha) + ": <b>" + r.bien + " de " + r.n + "</b> bien (" + Math.round(100 * r.bien / r.n) + " %)</li>";
+      }).join("");
+    }
+
+    function empezar(lista, conReloj) {
+      ex = { qs: lista.map(function (q) { return { q: q, orden: ordenOpciones(q), resp: null }; }),
+             i: 0, conReloj: conReloj, inicio: Date.now(), limite: conReloj ? lista.length * 60 : 0 };
+      $("si-inicio").hidden = true;
+      $("si-resultado").hidden = true;
+      $("si-examen").hidden = false;
+      clearInterval(reloj);
+      reloj = setInterval(tic, 1000);
+      tic();
+      pintarPregunta();
+      window.scrollTo(0, 0);
+    }
+    function segundos() { return Math.round((Date.now() - ex.inicio) / 1000); }
+    function tic() {
+      var r = $("si-reloj");
+      if (!ex.conReloj) { r.textContent = "⏱ " + mmss(segundos()); return; }
+      var queda = ex.limite - segundos();
+      r.textContent = "⏱ " + mmss(queda);
+      r.classList.toggle("poco", queda <= 60);
+      if (queda <= 0) corregir(true);
+    }
+
+    /* ---------- Examen ---------- */
+    function pintarPregunta() {
+      var it = ex.qs[ex.i], q = it.q, n = ex.qs.length;
+      var hechas = ex.qs.filter(function (x) { return x.resp !== null; }).length;
+      $("si-contador").textContent = "Pregunta " + (ex.i + 1) + " de " + n + " · " + hechas + " respondidas";
+      $("si-barra").style.width = Math.round(100 * hechas / n) + "%";
+      $("si-pregunta").innerHTML = etiqueta(TEMAS[q.tema]) + '<p class="si-enunciado">' + esc(q.q) + '</p><ol class="opciones">' +
+        it.orden.map(function (k, pos) {
+          return '<li><button type="button" data-op="' + k + '" aria-pressed="' + (it.resp === k) + '"' + (it.resp === k ? ' class="elegida"' : "") +
+            '><span class="letra">' + "abc"[pos] + ")</span><span>" + esc(q.o[k]) + "</span></button></li>";
+        }).join("") + "</ol>";
+      $("si-anterior").disabled = ex.i === 0;
+      $("si-siguiente").disabled = ex.i === n - 1;
+      $("si-mapa").innerHTML = ex.qs.map(function (x, k) {
+        return '<li><button type="button" data-ir="' + k + '" class="' + (x.resp !== null ? "respondida" : "") + (k === ex.i ? " actual" : "") +
+          '" aria-label="Pregunta ' + (k + 1) + (x.resp !== null ? ", respondida" : "") + '">' + (k + 1) + "</button></li>";
+      }).join("");
+    }
+    function ir(k) { ex.i = Math.max(0, Math.min(ex.qs.length - 1, k)); pintarPregunta(); }
+
+    /* ---------- Corregir ---------- */
+    function corregir(porTiempo) {
+      if (!ex || ex.fin) return;
+      clearInterval(reloj);
+      ex.fin = true;
+      var bien = ex.qs.filter(function (x) { return x.resp === x.q.c; }).length, n = ex.qs.length;
+      var sinResp = ex.qs.filter(function (x) { return x.resp === null; }).length;
+      var porTema = {};
+      ex.qs.forEach(function (x) {
+        var t = porTema[x.q.tema] = porTema[x.q.tema] || { bien: 0, n: 0 };
+        t.n++; if (x.resp === x.q.c) t.bien++;
+      });
+      var h = leerHist();
+      h.unshift({ fecha: new Date().toLocaleString("es-ES", { dateStyle: "short", timeStyle: "short" }), n: n, bien: bien });
+      guardarHist(h);
+
+      var html = '<div class="si-caja"><h2>' + (porTiempo ? "⏰ Se acabó el tiempo. " : "") + "Resultado</h2>" +
+        '<p class="si-nota">' + bien + " de " + n + "</p><p>" + Math.round(100 * bien / n) + " % bien · " + (n - bien - sinResp) + " fallos · " +
+        sinResp + " sin responder · tiempo: " + mmss(segundos()) + "</p>" +
+        '<table class="si-desglose"><thead><tr><th scope="col">Tema</th><th scope="col">Bien</th></tr></thead><tbody>' +
+        D.temas.filter(function (t) { return porTema[t.id]; }).map(function (t) {
+          var r = porTema[t.id];
+          return "<tr><td>" + esc(t.titulo) + "</td><td>" + r.bien + " de " + r.n + "</td></tr>";
+        }).join("") + "</tbody></table>" +
+        '<div class="si-botones">' + (bien < n ? '<button type="button" class="si-boton si-boton--primario" id="si-repetir">Repetir las que no acertaste (' + (n - bien) + ")</button>" : "") +
+        '<button type="button" class="si-boton" id="si-nuevo">Nuevo examen</button></div></div>' +
+        '<div class="si-caja"><h2>Revisión</h2><div class="si-chips"><label><input type="checkbox" id="si-solo-fallos"> Ver solo los fallos</label></div>' +
+        '<ol class="si-revision" id="si-revision">' + ex.qs.map(function (x, k) {
+          var q = x.q, ok = x.resp === q.c, t = TEMAS[q.tema];
+          return '<li class="' + (ok ? "bien" : "mal") + '"><p>' + etiqueta(t) + '</p><p class="si-enunciado">' + (k + 1) + ". " + esc(q.q) + '</p><ol class="opciones">' +
+            x.orden.map(function (o, pos) {
+              var cls = o === q.c ? "correcta" : (o === x.resp ? "incorrecta" : "");
+              return '<li><button type="button" disabled class="' + cls + '"><span class="letra">' + "abc"[pos] + ")</span><span>" + esc(q.o[o]) +
+                (o === x.resp ? '<span class="si-tu">← tu respuesta</span>' : "") + "</span></button></li>";
+            }).join("") + "</ol>" + (x.resp === null ? '<p class="muted">Sin responder.</p>' : "") +
+            '<p class="si-explica">' + (ok ? "✔ " : "✘ ") + esc(q.e) + ref(q.p) + ' · <a href="../' + esc(t.archivo) + '">Ver el tema →</a></p></li>';
+        }).join("") + "</ol></div>";
+      $("si-examen").hidden = true;
+      $("si-resultado").innerHTML = html;
+      $("si-resultado").hidden = false;
+      window.scrollTo(0, 0);
+    }
+
+    /* ---------- Arranque ---------- */
+    $("si-temas").innerHTML = D.temas.map(function (t) {
+      return '<label style="--c:' + t.color + '"><input type="checkbox" value="' + t.id + '" checked> ' + esc(t.titulo) + "</label>";
+    }).join("");
+    $("si-temas").addEventListener("change", actualizarDisponibles);
+    $("si-todos").addEventListener("click", function () { document.querySelectorAll("#si-temas input").forEach(function (i) { i.checked = true; }); actualizarDisponibles(); });
+    $("si-ninguno").addEventListener("click", function () { document.querySelectorAll("#si-temas input").forEach(function (i) { i.checked = false; }); actualizarDisponibles(); });
+    $("si-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var sel = elegidos();
+      var n = +document.querySelector('input[name="n"]:checked').value;
+      var pool = barajar(D.preguntas.filter(function (q) { return sel.indexOf(q.tema) >= 0; }));
+      empezar(n ? pool.slice(0, n) : pool, document.querySelector('input[name="reloj"]:checked').value === "1");
+    });
+    $("si-pregunta").addEventListener("click", function (e) {
+      var b = e.target.closest("[data-op]");
+      if (!b) return;
+      ex.qs[ex.i].resp = +b.dataset.op;
+      pintarPregunta();
+    });
+    $("si-mapa").addEventListener("click", function (e) { var b = e.target.closest("[data-ir]"); if (b) ir(+b.dataset.ir); });
+    $("si-anterior").addEventListener("click", function () { ir(ex.i - 1); });
+    $("si-siguiente").addEventListener("click", function () { ir(ex.i + 1); });
+    $("si-terminar").addEventListener("click", function () {
+      var faltan = ex.qs.filter(function (x) { return x.resp === null; }).length;
+      if (faltan && !window.confirm("Te quedan " + faltan + " preguntas sin responder. ¿Corregir igualmente?")) return;
+      corregir(false);
+    });
+    $("si-resultado").addEventListener("click", function (e) {
+      if (e.target.id === "si-nuevo") { ex = null; $("si-resultado").hidden = true; $("si-inicio").hidden = false; pintarHistorial(); window.scrollTo(0, 0); }
+      if (e.target.id === "si-repetir") {
+        empezar(barajar(ex.qs.filter(function (x) { return x.resp !== x.q.c; }).map(function (x) { return x.q; })), ex.conReloj);
+      }
+    });
+    $("si-resultado").addEventListener("change", function (e) {
+      if (e.target.id !== "si-solo-fallos") return;
+      document.querySelectorAll("#si-revision > li.bien").forEach(function (li) { li.hidden = e.target.checked; });
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!ex || ex.fin || $("si-examen").hidden || /INPUT|SELECT|TEXTAREA/.test(e.target.tagName)) return;
+      var k = { a: 0, b: 1, c: 2 }[e.key.toLowerCase()];
+      if (k !== undefined) { ex.qs[ex.i].resp = ex.qs[ex.i].orden[k]; pintarPregunta(); }
+      if (e.key === "ArrowRight") ir(ex.i + 1);
+      if (e.key === "ArrowLeft") ir(ex.i - 1);
+    });
+    actualizarDisponibles();
+    pintarHistorial();
+  })();
+  </script>
+</body>
+</html>
