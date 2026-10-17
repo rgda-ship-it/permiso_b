@@ -7,6 +7,7 @@ errores de JS, scroll horizontal, menú ① ② ③ ④ con el paso actual marca
 panel lateral, anterior/siguiente, índice «En esta página», examen tipo,
 modo oscuro guardado tras recargar y botón ☰ en móvil.
 
+Abre también los temas reales marcados «listo» en temario-nav.js.
 Mientras no haya temas listos, prueba las páginas de tema sobre una COPIA del
 sitio en una carpeta temporal: copia la plantilla en T2, T3 y T4 y los marca
 «listo» solo en esa copia. El sitio real no se toca.
@@ -76,6 +77,10 @@ def main():
         ("examen", GUIA / "simulador" / "index.html", "Examen"),
         ("tema_prueba", copia / tema, "Índice"),
     ]
+    # los 18 temas reales
+    nav_js = (GUIA / "js" / "temario-nav.js").read_text(encoding="utf-8")
+    for tid, archivo in re.findall(r'id: "([^"]+)",.*?archivo: "([^"]+)", estado: "listo"', nav_js):
+        paginas.append((tid.lower(), GUIA / archivo, "Índice"))
     with sync_playwright() as p:
         nav = p.chromium.launch()
         for tam, (w, h) in TAMANOS.items():

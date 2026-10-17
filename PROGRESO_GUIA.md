@@ -68,3 +68,26 @@ Estados: `pendiente` · `listo` · `sin fuente` · `lectura completa, generació
 - No dice «apto / no apto»: el libro no da el número de preguntas ni de fallos del examen oficial.
 - Verificado con `scripts/verificar_sitio.py` (examen completo, corrección, repetir, historial tras recargar y fin por tiempo con reloj simulado; 390 px).
 
+## Fase 9 — Verificación y cierre
+
+| Comprobación | Resultado |
+|---|---|
+| Navegador (`verificar_sitio.py`): portada, Guía, Juegos, Examen y los 18 temas, a 1280 y 390 px | 230 comprobaciones, 0 fallos: sin errores de JS ni scroll horizontal |
+| Interacción | buscar, filtrar, marcar y recargar (persiste), tapar, jugar cada juego hasta el final, examen completo, repetir fallos, historial y fin por tiempo |
+| Imprimir a PDF | Guía esencial: 59 páginas con los 18 temas (se abren todos), sin el menú |
+| Enlaces internos (`verificar_enlaces.py`) | 22 páginas, 119 enlaces, 0 rotos |
+| Fichas (`verificar_fichas.py`) | 342 unidades clave, 0 errores |
+| Guía esencial | 136 definiciones (5-8 por tema), 86 conceptos, Mapa del punto cubierto 143/143 |
+| Examen tipo | 324 preguntas, todas con 3 opciones y una correcta; a/b/c 108/108/108; la más larga 79 (24 %) y la más corta 74 (23 %); ningún tema pasa de 7/18 |
+| Autoevaluación | 252 preguntas, todas con respuesta |
+| Mito o realidad | 56 mitos / 56 realidades |
+| Respuestas que citan letras de opción | 0 |
+| Contradicciones entre temas | explicadas en la guía: tiempo de reacción (T3/T10), temperatura (T3/T14/T17), luz de peligro naranja o amarilla (T11/T13), puntos por alcohol (T3/Anexo), AES/AEB (T5) y, nueva, color del chaleco (T11/T16) |
+
+Cambios de esta fase:
+- T12: la correcta era la opción más corta en 10 de 18 preguntas (patrón al revés). Se ajustó la longitud de 6 preguntas, sin cambiar su contenido: ahora 6 de 18. `medir_patrones.py` mide también «la más corta».
+- T16: nota sobre el color del chaleco (el libro dice «amarillos» en p.293 y «amarillo, naranja o rojo» en p.417).
+- Nuevo `scripts/verificar_enlaces.py`; `verificar_sitio.py` abre los 18 temas reales.
+
+Pendiente (opcional): preguntas «estilo examen» extra (no hay exámenes anteriores) y modo «apto / no apto» del Examen (el libro no da el criterio oficial).
+

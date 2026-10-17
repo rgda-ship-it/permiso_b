@@ -40,7 +40,9 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 - [x] Fase 8 — ④ Examen `guia/simulador/index.html` (autocontenido; 324 preguntas de los temas).
       Plantilla `scripts/plantillas/simulador.html`; regenerar: `python scripts/generar_simulador.py`
       (preguntas extra opcionales en `scripts/simulador/preguntas_estilo_examen.json`, con fragmentos «v»)
-- [ ] Fase 9 — verificación y cierre
+- [x] Fase 9 — verificación y cierre. Antes de cada commit:
+      `generar_esencial.py`, `generar_juegos.py`, `generar_simulador.py` (regeneran y comprueban),
+      `verificar_fichas.py`, `medir_patrones.py`, `verificar_enlaces.py` y `verificar_sitio.py` (navegador, 1280 y 390 px)
 
 ## Reglas (resumen; detalle en el método, sección 2)
 
