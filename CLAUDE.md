@@ -37,7 +37,9 @@ PÚBLICO ............... Estudiantes de la prueba teórica del permiso B con mat
 - [x] Fase 7 — ③ Juegos `guia/juegos/` (6 juegos; 112 mito/realidad, 61 situaciones, 17 secuencias).
       Redactado en `scripts/juegos/temaNN.json`; regenerar: `python scripts/generar_juegos.py`
       (Pasapalabra, ¿Quién soy? y Parejas salen solos de las definiciones 🔴 y de las cifras de las fichas)
-- [ ] Fase 8 — ④ Examen
+- [x] Fase 8 — ④ Examen `guia/simulador/index.html` (autocontenido; 324 preguntas de los temas).
+      Plantilla `scripts/plantillas/simulador.html`; regenerar: `python scripts/generar_simulador.py`
+      (preguntas extra opcionales en `scripts/simulador/preguntas_estilo_examen.json`, con fragmentos «v»)
 - [ ] Fase 9 — verificación y cierre
 
 ## Reglas (resumen; detalle en el método, sección 2)
